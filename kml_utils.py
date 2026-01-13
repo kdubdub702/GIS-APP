@@ -11,6 +11,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Optional, Iterable
 from xml.sax.saxutils import escape
+from pathlib import Path
 import zipfile
 import io
 
