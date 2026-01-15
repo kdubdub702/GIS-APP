@@ -82,6 +82,22 @@ def fetch_by_objectids(
     df = pd.DataFrame(rows)
     return (df, geoms) if return_geometry else df
 
+def fetch_with_geometry_by_ids(layer_url: str, object_ids: list[int], out_sr: int | None = None):
+    """
+    Re-fetch a known set of records by OBJECTID and include geometry.
+    This enables spatial join for Henderson SignPlans even when the initial query returnedGeometry=false.
+    """
+    q = layer_query_url(layer_url)
+    df, geoms = fetch_by_objectids(
+        q,
+        object_ids,
+        out_fields="*",
+        chunk_size=200,
+        return_geometry=True,
+        out_sr=out_sr
+    )
+    return df, geoms
+
 
 # ----------------------
 # Generic searches

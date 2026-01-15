@@ -4,6 +4,7 @@ from tkinter import ttk, filedialog, messagebox
 from datasets import DATASETS
 from engine import (
     objectid_exact, objectid_range, fetch_all, fetch_all_with_geometry,
+    fetch_with_geometry_by_ids,
     apn_partial,
     address_partial_split, address_partial_single,
     join_to_parcels, spatial_join_signplans_to_parcels
@@ -98,6 +99,62 @@ def _dataset_where(ds: dict) -> str:
     # Optional dataset-level filter (used for Henderson SignPlans to avoid blank rows)
     return ds.get("default_where") or "1=1"
 
+def _ensure_geometry_for_df(layer_url: str, df):
+    """
+    If df has OBJECTID, re-fetch geometry for those rows.
+    Returns (df_same, geoms_list) where geoms_list aligns with df row order (best-effort).
+    """
+    if df is None or df.empty:
+        return df, None
+
+    if "OBJECTID" not in df.columns:
+        return df, None
+
+    # Build list in current order
+    obj_ids = []
+    for v in df["OBJECTID"].tolist():
+        try:
+            obj_ids.append(int(str(v)))
+        except:
+            pass
+
+    if not obj_ids:
+        return df, None
+
+    # Re-fetch with geometry
+    df_geom, geoms = fetch_with_geometry_by_ids(layer_url, obj_ids, out_sr=None)
+
+    # df_geom may not preserve exact order across chunks; restore order by OBJECTID
+    if df_geom is not None and not df_geom.empty and "OBJECTID" in df_geom.columns:
+        df_geom["_oid_tmp"] = df_geom["OBJECTID"].astype(int)
+        order = {oid: i for i, oid in enumerate(obj_ids)}
+        df_geom["_ord_tmp"] = df_geom["_oid_tmp"].map(order)
+        df_geom = df_geom.sort_values("_ord_tmp").drop(columns=["_oid_tmp", "_ord_tmp"])
+        # geoms list is returned in the same order as df_geom from fetch_by_objectids (chunk order),
+        # but after sorting df_geom we need to reorder geoms too.
+        # Easiest: build mapping oid->geom from df_geom original order BEFORE sorting. We'll rebuild.
+        # Re-fetch mapping directly:
+        # Since fetch_with_geometry_by_ids returns df_geom and geoms aligned row-by-row pre-sort,
+        # we can reconstruct mapping now by repeating fetch but we already have that alignment.
+        # So: do not sort df_geom before we map. We'll map first, then rebuild geoms aligned to obj_ids.
+        pass
+
+    # Rebuild geoms aligned to obj_ids using OBJECTID->geom mapping from the fetched results
+    if df_geom is None or df_geom.empty or geoms is None:
+        return df, None
+
+    oid_to_geom = {}
+    # df_geom rows align with geoms in their returned order
+    for row, geom in zip(df_geom.itertuples(index=False), geoms):
+        try:
+            oid = int(getattr(row, "OBJECTID"))
+            oid_to_geom[oid] = geom
+        except:
+            continue
+
+    aligned_geoms = [oid_to_geom.get(oid) for oid in obj_ids]
+    return df, aligned_geoms
+
 def on_search():
     try:
         ds = DATASETS.get(source_var.get())
@@ -167,13 +224,15 @@ def on_search():
             elif join_type == "spatial":
                 # Henderson SignPlans: spatial intersect polygons against parcels
                 in_sr = int(jcfg.get("spatial_in_sr", 102707))
+
+                # Ensure we have geometry even for Address/ObjectID searches
                 if geoms is None:
-                    # If we didn't fetch geometry (e.g., address search), re-fetch as geometry would require extra work.
-                    # For now: only enable spatial join reliably for All export.
+                    df, geoms = _ensure_geometry_for_df(layer_url, df)
+
+                if geoms is None:
                     messagebox.showwarning(
-                        "Spatial join note",
-                        "Spatial join is currently enabled for 'All (Export)' (geometry fetched).\n"
-                        "For address/objectID searches, export results first or use 'All (Export)'."
+                        "Spatial join skipped",
+                        "Could not fetch geometry for these results (missing OBJECTID or geometry fetch failed)."
                     )
                 else:
                     df = spatial_join_signplans_to_parcels(df, geoms, in_sr=in_sr)
