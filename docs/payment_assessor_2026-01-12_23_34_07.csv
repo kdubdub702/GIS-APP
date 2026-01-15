@@ -1,0 +1,9 @@
+customer_id,email,address_id,subscription_id,status,payment_method_id,processor_name,processor_customer_token,processor_payment_method_token
+222693569.0,demhope06@gmail.com,246894489.0,736490226,ACTIVE,249506184.0,shopify_payments,7867875065953,gid://shopify/CustomerPaymentMethod/896ca6b634df6b4acd5c72e758ad7417
+222693569.0,demhope06@gmail.com,246894489.0,736490227,ACTIVE,249506184.0,shopify_payments,7867875065953,gid://shopify/CustomerPaymentMethod/896ca6b634df6b4acd5c72e758ad7417
+217504061.0,debra.y.walker@gmail.com,240828617.0,718198528,ONETIME,240747402.0,shopify_payments,7768270766177,gid://shopify/CustomerPaymentMethod/f5684ddce1dba2931872e487ffd7cc85
+218311590.0,blewis1906@gmail.com,241845205.0,720934727,ACTIVE,242126081.0,shopify_payments,7799098966113,gid://shopify/CustomerPaymentMethod/890059d8b4a3a54843b28e811402a813
+217504061.0,debra.y.walker@gmail.com,240828617.0,718198523,ACTIVE,240747402.0,shopify_payments,7768270766177,gid://shopify/CustomerPaymentMethod/f5684ddce1dba2931872e487ffd7cc85
+216393356.0,prescott.burden@gmail.com,239509890.0,714206936,ONETIME,238595740.0,shopify_payments,7764777336929,gid://shopify/CustomerPaymentMethod/4118de9103d2d3e69438a270cc5bb00a
+216393356.0,prescott.burden@gmail.com,239509890.0,714206799,ACTIVE,238595740.0,shopify_payments,7764777336929,gid://shopify/CustomerPaymentMethod/4118de9103d2d3e69438a270cc5bb00a
+224199228.0,kevin.dragonmaster66@gmail.com,248497201.0,739715477,ACTIVE,250639068.0,shopify_payments,7877627805793,gid://shopify/CustomerPaymentMethod/e8224736b34fe2c6133bd37ea43fafb4
