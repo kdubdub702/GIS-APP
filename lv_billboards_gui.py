@@ -3,10 +3,10 @@ from tkinter import ttk, filedialog, messagebox
 
 from datasets import DATASETS
 from engine import (
-    objectid_exact, objectid_range, fetch_all,
+    objectid_exact, objectid_range, fetch_all, fetch_all_with_geometry,
     apn_partial,
     address_partial_split, address_partial_single,
-    join_to_parcels
+    join_to_parcels, spatial_join_signplans_to_parcels
 )
 
 # ---------- Grid helpers ----------
@@ -26,6 +26,7 @@ def load_df_into_tree(tree: ttk.Treeview, df):
     DEFAULT_W = 120
     for c in cols:
         tree.heading(c, text=c)
+        # IMPORTANT: fixed width per column (keeps GUI snappy)
         tree.column(c, width=DEFAULT_W, minwidth=DEFAULT_W, stretch=False, anchor="w")
 
     for row in df.itertuples(index=False, name=None):
@@ -44,19 +45,20 @@ def set_mode_ui(*_):
     oid_range_frame.grid_remove()
 
     if mode == "Address (partial)":
-        # show split or single address based on dataset
         ds = DATASETS.get(source_var.get())
         if ds and ds.get("addr_single_field"):
-            addr_single_frame.grid(row=3, column=0, columnspan=2, sticky="ew", pady=(4, 0))
+            addr_single_frame.grid(row=4, column=0, columnspan=2, sticky="ew", pady=(4, 0))
         else:
-            addr_split_frame.grid(row=3, column=0, columnspan=2, sticky="ew", pady=(4, 0))
+            addr_split_frame.grid(row=4, column=0, columnspan=2, sticky="ew", pady=(4, 0))
 
     elif mode == "APN/PARCEL (partial)":
-        apn_frame.grid(row=3, column=0, columnspan=2, sticky="ew", pady=(4, 0))
+        apn_frame.grid(row=4, column=0, columnspan=2, sticky="ew", pady=(4, 0))
+
     elif mode == "ObjectID (exact)":
-        oid_exact_frame.grid(row=3, column=0, columnspan=2, sticky="ew", pady=(4, 0))
+        oid_exact_frame.grid(row=4, column=0, columnspan=2, sticky="ew", pady=(4, 0))
+
     elif mode == "ObjectID (range)":
-        oid_range_frame.grid(row=3, column=0, columnspan=2, sticky="ew", pady=(4, 0))
+        oid_range_frame.grid(row=4, column=0, columnspan=2, sticky="ew", pady=(4, 0))
 
 def set_source_ui(*_):
     ds = DATASETS.get(source_var.get())
@@ -78,7 +80,23 @@ def set_source_ui(*_):
     # keep current mode if still valid, else set first
     if mode_var.get() not in options:
         mode_var.set(options[0] if options else "")
+
+    # Join checkbox defaults per dataset
+    jcfg = ds.get("join") or {}
+    join_enabled_var.set(bool(jcfg.get("enabled_default", False)))
+
+    # If join is not supported at all, disable checkbox
+    join_type = (jcfg.get("type") or "tbd").lower()
+    if join_type in ("tbd", "none") or (not jcfg):
+        join_check.configure(state="disabled")
+    else:
+        join_check.configure(state="normal")
+
     set_mode_ui()
+
+def _dataset_where(ds: dict) -> str:
+    # Optional dataset-level filter (used for Henderson SignPlans to avoid blank rows)
+    return ds.get("default_where") or "1=1"
 
 def on_search():
     try:
@@ -88,8 +106,10 @@ def on_search():
 
         layer_url = ds["layer_url"]
         oid_field = ds.get("oid_field", "OBJECTID")
-
         mode = mode_var.get()
+
+        df = None
+        geoms = None  # only used for spatial join datasets
 
         if mode == "Address (partial)":
             if ds.get("addr_single_field"):
@@ -115,7 +135,14 @@ def on_search():
             df = objectid_range(layer_url, oid_start_var.get(), oid_end_var.get(), oid_field=oid_field)
 
         elif mode == "All (Export)":
-            df = fetch_all(layer_url)
+            where = _dataset_where(ds)
+            # For spatial joins, we need geometry (Henderson SignPlans)
+            jcfg = ds.get("join") or {}
+            join_type = (jcfg.get("type") or "").lower()
+            if join_enabled_var.get() and join_type == "spatial":
+                df, geoms = fetch_all_with_geometry(layer_url, where=where, out_sr=None)
+            else:
+                df = fetch_all(layer_url, where=where)
 
         else:
             raise ValueError("Unknown search type")
@@ -126,9 +153,30 @@ def on_search():
             messagebox.showinfo("No results", "No records found.")
             return
 
-        # Join if enabled
-        if ds.get("join_enabled"):
-            df = join_to_parcels(df, ds["join_left_field"])
+        # Optional join
+        if join_enabled_var.get():
+            jcfg = ds.get("join") or {}
+            join_type = (jcfg.get("type") or "").lower()
+
+            if join_type == "field":
+                left_field = jcfg.get("left_field")
+                if not left_field:
+                    raise ValueError("Join misconfigured: missing left_field")
+                df = join_to_parcels(df, left_field)
+
+            elif join_type == "spatial":
+                # Henderson SignPlans: spatial intersect polygons against parcels
+                in_sr = int(jcfg.get("spatial_in_sr", 102707))
+                if geoms is None:
+                    # If we didn't fetch geometry (e.g., address search), re-fetch as geometry would require extra work.
+                    # For now: only enable spatial join reliably for All export.
+                    messagebox.showwarning(
+                        "Spatial join note",
+                        "Spatial join is currently enabled for 'All (Export)' (geometry fetched).\n"
+                        "For address/objectID searches, export results first or use 'All (Export)'."
+                    )
+                else:
+                    df = spatial_join_signplans_to_parcels(df, geoms, in_sr=in_sr)
 
         app.joined = df
         results_var.set(f"{len(df)} row(s)")
@@ -158,7 +206,7 @@ main.grid(row=0, column=0, sticky="nsew")
 app.columnconfigure(0, weight=1)
 app.rowconfigure(0, weight=1)
 main.columnconfigure(1, weight=1)
-main.rowconfigure(6, weight=1)
+main.rowconfigure(7, weight=1)
 
 # Data Source selector
 source_var = tk.StringVar(value=list(DATASETS.keys())[0])
@@ -175,6 +223,13 @@ ttk.Label(main, text="Search Type").grid(row=1, column=0, sticky="w")
 mode_combo = ttk.Combobox(main, textvariable=mode_var, values=[], state="readonly")
 mode_combo.grid(row=1, column=1, sticky="ew", padx=6)
 mode_combo.bind("<<ComboboxSelected>>", set_mode_ui)
+
+# Join toggle
+join_enabled_var = tk.BooleanVar(value=True)
+join_row = ttk.Frame(main)
+join_row.grid(row=2, column=0, columnspan=2, sticky="ew", pady=(6, 0))
+join_check = ttk.Checkbutton(join_row, text="Join to parcels (owner/tax/sales where available)", variable=join_enabled_var)
+join_check.pack(side="left")
 
 # --- Address (split fields) ---
 street_num_var = tk.StringVar()
@@ -223,14 +278,14 @@ oid_range_frame.columnconfigure(1, weight=1)
 
 # Buttons
 btns = ttk.Frame(main)
-btns.grid(row=4, column=0, columnspan=2, sticky="ew", pady=(10, 6))
+btns.grid(row=5, column=0, columnspan=2, sticky="ew", pady=(10, 6))
 ttk.Button(btns, text="Search / Load", command=on_search).pack(side="left")
 ttk.Button(btns, text="Export CSV", command=on_export_csv).pack(side="left", padx=8)
 ttk.Label(btns, textvariable=results_var).pack(side="right")
 
 # Treeview + scrollbars
 grid_frame = ttk.Frame(main)
-grid_frame.grid(row=6, column=0, columnspan=2, sticky="nsew")
+grid_frame.grid(row=7, column=0, columnspan=2, sticky="nsew")
 grid_frame.columnconfigure(0, weight=1)
 grid_frame.rowconfigure(0, weight=1)
 
@@ -244,6 +299,7 @@ tree.configure(yscrollcommand=vsb.set, xscrollcommand=hsb.set)
 vsb.grid(row=0, column=1, sticky="ns")
 hsb.grid(row=1, column=0, sticky="ew")
 
+# Prevent per-column resizing (keeps performance good)
 def block_resize(event):
     region = tree.identify_region(event.x, event.y)
     if region in ("separator", "heading"):
