@@ -28,9 +28,35 @@ def layer_query_url(layer_url: str) -> str:
     return base + "/query"
 
 def arcgis_get_json(query_url: str, params: dict) -> dict:
-    r = requests.get(query_url, params=params, headers=UA, timeout=90)
+    """
+    ArcGIS REST query helper.
+
+    IMPORTANT:
+    - Large geometries in the query string can trigger IIS 404 errors (query string too long).
+    - To avoid that, use POST when geometry is present or the URL would be long.
+    """
+    use_post = False
+
+    # Geometry almost always explodes URL length -> use POST
+    if "geometry" in params:
+        use_post = True
+    else:
+        # Heuristic: if the encoded URL would be long, use POST
+        try:
+            from urllib.parse import urlencode
+            if len(query_url) + 1 + len(urlencode(params)) > 1800:
+                use_post = True
+        except Exception:
+            pass
+
+    if use_post:
+        r = requests.post(query_url, data=params, headers=UA, timeout=90)
+    else:
+        r = requests.get(query_url, params=params, headers=UA, timeout=90)
+
     if r.status_code != 200:
         raise RuntimeError(f"HTTP {r.status_code}\nURL: {r.url}\nBody: {r.text[:600]}")
+
     j = r.json()
     if "error" in j:
         raise RuntimeError(j["error"])
