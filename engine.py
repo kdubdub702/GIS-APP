@@ -285,3 +285,4 @@ def spatial_join_signplans_to_parcels(signplans_df: pd.DataFrame, signplans_geom
             parcels_df.rename(columns={c: f"{c}_PARCEL"}, inplace=True)
 
     return pd.concat([signplans_df.reset_index(drop=True), parcels_df.reset_index(drop=True)], axis=1)
+

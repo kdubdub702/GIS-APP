@@ -18,6 +18,26 @@ DATASETS = {
         },
     },
 
+    # NDOT statewide billboard inventory (separate from City of Las Vegas layer)
+    # Service: https://gis.dot.nv.gov/arcgis/rest/services/Billboards_ProdMobile/FeatureServer/0
+    "Nevada DOT – Billboards (NDOT)": {
+        "layer_url": "https://gis.dot.nv.gov/arcgis/rest/services/Billboards_ProdMobile/FeatureServer/0",
+        "oid_field": "OBJECTID",
+        "mode_support": ["address", "oid_exact", "oid_range", "all"],
+        "apn_field": None,
+        "addr_fields": None,
+        # NDOT uses a single address field called property_address (per layer metadata)
+        "addr_single_field": "property_address",
+        # Join disabled by default (Clark County parcels won't reliably cover statewide NDOT layer;
+        # also SR differs—NDOT is wkid 26911 in the metadata)
+        "join": {
+            "enabled_default": False,
+            "type": "none",
+            "left_field": None,
+        },
+        "default_where": "property_address IS NOT NULL AND property_address <> ''",
+    },
+
     "Henderson – STVR Licenses": {
         "layer_url": "https://maps.cityofhenderson.com/arcgis/rest/services/public/ComDevServices/MapServer/1",
         "oid_field": "OBJECTID",
@@ -32,7 +52,9 @@ DATASETS = {
         },
     },
 
-    "Henderson – Sign Plans": {
+    # IMPORTANT: This is *not* the same thing as "billboards".
+    # It's permit/plan polygons (SignPlans). Treat it as a separate dataset type.
+    "Henderson – Sign Plans (Permits)": {
         "layer_url": "https://maps.cityofhenderson.com/arcgis/rest/services/public/ComDevServices/MapServer/5",
         "oid_field": "OBJECTID",
         "mode_support": ["address", "oid_exact", "oid_range", "all"],

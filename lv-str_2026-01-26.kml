@@ -1,0 +1,1806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>lv-str</name>
+    
+    <Placemark>
+      <name>1</name>
+      <description><![CDATA[<b>OBJECTID:</b> 1<br/><b>BUS_ADDRESS:</b> 9041 Baysinger Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89129<br/><b>STRNO:</b> 9041<br/><b>STNAME:</b> Baysinger<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 64691<br/><b>PRCLID:</b> 13808216014<br/><b>LICENSENO:</b> G62-08966<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1413391842000<br/><b>ISSDTTM:</b> 1416344350000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> Desert Villa<br/><b>BUS_TYPE:</b> 4 BEDROOMS<br/><b>ADDRESS:</b> 9041 Baysinger Dr]]></description>
+      <Point>
+        <coordinates>-115.2938987591157,36.22639881440318,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>2</name>
+      <description><![CDATA[<b>OBJECTID:</b> 2<br/><b>BUS_ADDRESS:</b> 1509 Kirkland Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 1509<br/><b>STNAME:</b> Kirkland<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 243426<br/><b>PRCLID:</b> 16204312051<br/><b>LICENSENO:</b> G62-09407<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1415100113000<br/><b>ISSDTTM:</b> 1417525665000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> JOYAHS LLC<br/><b>BUS_TYPE:</b> 3 BEDROOMS<br/><b>ADDRESS:</b> 1509 Kirkland Ave]]></description>
+      <Point>
+        <coordinates>-115.17168486734676,36.14962035884019,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>3</name>
+      <description><![CDATA[<b>OBJECTID:</b> 3<br/><b>BUS_ADDRESS:</b> 917 Woodbridge Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 917<br/><b>STNAME:</b> Woodbridge<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 159493<br/><b>PRCLID:</b> 13930617005<br/><b>LICENSENO:</b> G62-10109<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1418048584000<br/><b>ISSDTTM:</b> 1419957356000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> Casa de Baygo<br/><b>BUS_TYPE:</b> 3 BEDROOMS<br/><b>ADDRESS:</b> 917 Woodbridge Dr]]></description>
+      <Point>
+        <coordinates>-115.19108203784317,36.18223594602849,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>4</name>
+      <description><![CDATA[<b>OBJECTID:</b> 4<br/><b>BUS_ADDRESS:</b> 1904 Ardmore St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1904<br/><b>STNAME:</b> Ardmore<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 237731<br/><b>PRCLID:</b> 16201310149<br/><b>LICENSENO:</b> G63-01423<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1424711045000<br/><b>ISSDTTM:</b> 1429214960000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> Theresa Messoloras<br/><b>BUS_TYPE:</b> 3 BEDROOMS<br/><b>ADDRESS:</b> 1904 Ardmore St]]></description>
+      <Point>
+        <coordinates>-115.11820831149241,36.14897444946967,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>5</name>
+      <description><![CDATA[<b>OBJECTID:</b> 5<br/><b>BUS_ADDRESS:</b> 8101 Via Del Cerro Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89117<br/><b>STRNO:</b> 8101<br/><b>STNAME:</b> Via Del Cerro<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 278809<br/><b>PRCLID:</b> 16304719005<br/><b>LICENSENO:</b> G63-01712<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1425564495000<br/><b>ISSDTTM:</b> 1431635956000<br/><b>EXPDTTM:</b> 1682899200000<br/><b>BUS_NAME:</b> JVN Las Vegas LLC<br/><b>BUS_TYPE:</b> 5 BEDROOMS<br/><b>ADDRESS:</b> 8101 Via Del Cerro Ct]]></description>
+      <Point>
+        <coordinates>-115.26853936239999,36.14981244600713,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>6</name>
+      <description><![CDATA[<b>OBJECTID:</b> 6<br/><b>BUS_ADDRESS:</b> 5108 Wapiti Point Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89130<br/><b>STRNO:</b> 5108<br/><b>STNAME:</b> Wapiti Point<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 33289<br/><b>PRCLID:</b> 12525811084<br/><b>LICENSENO:</b> G63-02347<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1427856576000<br/><b>ISSDTTM:</b> 1432116465000<br/><b>EXPDTTM:</b> 1714521600000<br/><b>BUS_NAME:</b> VEGAS LEISURE HOMES<br/><b>BUS_TYPE:</b> 3 BEDROOMS<br/><b>ADDRESS:</b> 5108 Wapiti Point Ct]]></description>
+      <Point>
+        <coordinates>-115.2127199122162,36.26334692390006,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>7</name>
+      <description><![CDATA[<b>OBJECTID:</b> 7<br/><b>BUS_ADDRESS:</b> 1913 Calanda Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 1913<br/><b>STNAME:</b> Calanda<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 245561<br/><b>PRCLID:</b> 16205715011<br/><b>LICENSENO:</b> G63-02851<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1429322847000<br/><b>ISSDTTM:</b> 1433755263000<br/><b>EXPDTTM:</b> 1717200000000<br/><b>BUS_NAME:</b> Vegas Valley Residential LLC<br/><b>BUS_TYPE:</b> 5 BEDROOMS<br/><b>ADDRESS:</b> 1913 Calanda Ct]]></description>
+      <Point>
+        <coordinates>-115.17723258884327,36.14828928406861,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>8</name>
+      <description><![CDATA[<b>OBJECTID:</b> 8<br/><b>BUS_ADDRESS:</b> 1006 Bracken Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1006<br/><b>STNAME:</b> Bracken<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 242361<br/><b>PRCLID:</b> 16203611057<br/><b>LICENSENO:</b> G63-04496<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1434376505000<br/><b>ISSDTTM:</b> 1436812709000<br/><b>EXPDTTM:</b> 1688169600000<br/><b>BUS_NAME:</b> Morena Sales<br/><b>BUS_TYPE:</b> 5 BEDROOMS<br/><b>ADDRESS:</b> 1006 Bracken Ave]]></description>
+      <Point>
+        <coordinates>-115.14103729324637,36.152808418188734,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>9</name>
+      <description><![CDATA[<b>OBJECTID:</b> 9<br/><b>BUS_ADDRESS:</b> 7217 Roe Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 7217<br/><b>STNAME:</b> Roe<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 117858<br/><b>PRCLID:</b> 13834311020<br/><b>LICENSENO:</b> G63-05599<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1438171674000<br/><b>ISSDTTM:</b> 1442914345000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> Cozy Mid-Town Villa<br/><b>BUS_TYPE:</b> 3 BEDROOMS<br/><b>ADDRESS:</b> 7217 Roe Ct]]></description>
+      <Point>
+        <coordinates>-115.25701891086062,36.16556560274817,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>10</name>
+      <description><![CDATA[<b>OBJECTID:</b> 10<br/><b>BUS_ADDRESS:</b> 8913 Valley Of Fire Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89129<br/><b>STRNO:</b> 8913<br/><b>STNAME:</b> Valley Of Fire<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 65749<br/><b>PRCLID:</b> 13808413050<br/><b>LICENSENO:</b> G63-05934<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1439428807000<br/><b>ISSDTTM:</b> 1444142928000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Blackwolf Ventures<br/><b>BUS_TYPE:</b> 3 BEDROOMS<br/><b>ADDRESS:</b> 8913 Valley Of Fire Ave]]></description>
+      <Point>
+        <coordinates>-115.2890930785899,36.221699301710665,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>11</name>
+      <description><![CDATA[<b>OBJECTID:</b> 11<br/><b>BUS_ADDRESS:</b> 545 E St Louis Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 545<br/><b>STDIR:</b> E<br/><b>STNAME:</b> St Louis<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 241539<br/><b>PRCLID:</b> 16203315019<br/><b>LICENSENO:</b> G63-07110<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1442408074000<br/><b>ISSDTTM:</b> 1449556573000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> ASYS, LLC<br/><b>BUS_TYPE:</b> 3 BEDROOMS<br/><b>ADDRESS:</b> 545 E St Louis Ave]]></description>
+      <Point>
+        <coordinates>-115.14967912783399,36.14787288535382,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>12</name>
+      <description><![CDATA[<b>OBJECTID:</b> 12<br/><b>BUS_ADDRESS:</b> 4210 Bossart Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 4210<br/><b>STNAME:</b> Bossart<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 246379<br/><b>PRCLID:</b> 16206601011<br/><b>LICENSENO:</b> G63-07561<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1443755288000<br/><b>ISSDTTM:</b> 1445961867000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Cinnabar Glen LLC<br/><b>BUS_TYPE:</b> 8 BEDROOMS<br/><b>ADDRESS:</b> 4210 Bossart Ct]]></description>
+      <Point>
+        <coordinates>-115.19865789685173,36.152772708308326,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>13</name>
+      <description><![CDATA[<b>OBJECTID:</b> 13<br/><b>BUS_ADDRESS:</b> 4017 El Camino Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 4017<br/><b>STNAME:</b> El Camino<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 246902<br/><b>PRCLID:</b> 16206810106<br/><b>LICENSENO:</b> G63-07576<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1443709694000<br/><b>ISSDTTM:</b> 1444814494000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> JOYAHS LLC<br/><b>BUS_TYPE:</b> 4 BEDROOMS<br/><b>ADDRESS:</b> 4017 El Camino Ave]]></description>
+      <Point>
+        <coordinates>-115.19517044365352,36.146318745867404,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>14</name>
+      <description><![CDATA[<b>OBJECTID:</b> 14<br/><b>BUS_ADDRESS:</b> 1824 Rexford Dr #4<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1824<br/><b>STNAME:</b> Rexford<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 241458<br/><b>PRCLID:</b> 16203314007<br/><b>LICENSENO:</b> G63-07670<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1444134020000<br/><b>ISSDTTM:</b> 1447152975000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> ASYS, LLC<br/><b>BUS_TYPE:</b> 3 BEDROOMS<br/><b>ADDRESS:</b> 1824 Rexford Dr]]></description>
+      <Point>
+        <coordinates>-115.15012394200777,36.14909681356822,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>15</name>
+      <description><![CDATA[<b>OBJECTID:</b> 15<br/><b>BUS_ADDRESS:</b> 1824 Rexford Dr #3<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1824<br/><b>STNAME:</b> Rexford<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 241458<br/><b>PRCLID:</b> 16203314007<br/><b>LICENSENO:</b> G63-07671<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1444134345000<br/><b>ISSDTTM:</b> 1447153003000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> ASYS, LLC<br/><b>BUS_TYPE:</b> 2 BEDROOMS<br/><b>ADDRESS:</b> 1824 Rexford Dr]]></description>
+      <Point>
+        <coordinates>-115.15012394200777,36.14909681356822,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>16</name>
+      <description><![CDATA[<b>OBJECTID:</b> 16<br/><b>BUS_ADDRESS:</b> 1900 Rexford Dr #3<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1900<br/><b>STNAME:</b> Rexford<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 241459<br/><b>PRCLID:</b> 16203314008<br/><b>LICENSENO:</b> G63-07672<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1444134444000<br/><b>ISSDTTM:</b> 1447153023000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> ASYS, LLC<br/><b>BUS_TYPE:</b> 2 BEDROOMS<br/><b>ADDRESS:</b> 1900 Rexford Dr]]></description>
+      <Point>
+        <coordinates>-115.15013733314622,36.14893351785535,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>17</name>
+      <description><![CDATA[<b>OBJECTID:</b> 17<br/><b>BUS_ADDRESS:</b> 1900 Rexford Dr #4<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1900<br/><b>STNAME:</b> Rexford<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 241459<br/><b>PRCLID:</b> 16203314008<br/><b>LICENSENO:</b> G63-07673<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1444134561000<br/><b>ISSDTTM:</b> 1447153044000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> ASYS, LLC<br/><b>BUS_TYPE:</b> 3 BEDROOMS<br/><b>ADDRESS:</b> 1900 Rexford Dr]]></description>
+      <Point>
+        <coordinates>-115.15013733314622,36.14893351785535,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>18</name>
+      <description><![CDATA[<b>OBJECTID:</b> 18<br/><b>BUS_ADDRESS:</b> 8636 Blissville Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 8636<br/><b>STNAME:</b> Blissville<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 113143<br/><b>PRCLID:</b> 13832718013<br/><b>LICENSENO:</b> G63-08409<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1446652812000<br/><b>ISSDTTM:</b> 1450867828000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> Help For Homeowners<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 8636 Blissville Ave]]></description>
+      <Point>
+        <coordinates>-115.28130536582798,36.16530960073535,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>19</name>
+      <description><![CDATA[<b>OBJECTID:</b> 19<br/><b>BUS_ADDRESS:</b> 1765 Montessouri St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89117<br/><b>STRNO:</b> 1765<br/><b>STNAME:</b> Montessouri<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 277575<br/><b>PRCLID:</b> 16303605010<br/><b>LICENSENO:</b> G64-00294<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1452787250000<br/><b>ISSDTTM:</b> 1456253353000<br/><b>EXPDTTM:</b> 1706745600000<br/><b>BUS_NAME:</b> Vacation Hotpads<br/><b>BUS_TYPE:</b> 4 BEDROOMS<br/><b>ADDRESS:</b> 1765 Montessouri St]]></description>
+      <Point>
+        <coordinates>-115.24879232665516,36.1518550047919,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>20</name>
+      <description><![CDATA[<b>OBJECTID:</b> 20<br/><b>BUS_ADDRESS:</b> 2320 S Cimarron Rd<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89117<br/><b>STRNO:</b> 2320<br/><b>STDIR:</b> S<br/><b>STNAME:</b> Cimarron<br/><b>STRTYPE:</b> Rd<br/><b>ADDRKEY:</b> 278818<br/><b>PRCLID:</b> 16304801005<br/><b>LICENSENO:</b> G64-00362<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1453384740000<br/><b>ISSDTTM:</b> 1459178555000<br/><b>EXPDTTM:</b> 1709251200000<br/><b>BUS_NAME:</b> Vacation Hotpads<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 2320 S Cimarron Rd]]></description>
+      <Point>
+        <coordinates>-115.26968440649215,36.14605381735751,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>21</name>
+      <description><![CDATA[<b>OBJECTID:</b> 21<br/><b>BUS_ADDRESS:</b> 7033 Edwin Aldrin Cir<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 7033<br/><b>STNAME:</b> Edwin Aldrin<br/><b>STRTYPE:</b> Cir<br/><b>ADDRKEY:</b> 118305<br/><b>PRCLID:</b> 13834413030<br/><b>LICENSENO:</b> G64-00917<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1454949090000<br/><b>ISSDTTM:</b> 1456300564000<br/><b>EXPDTTM:</b> 1706745600000<br/><b>BUS_NAME:</b> Daniel C Dhondt<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 7033 Edwin Aldrin Cir]]></description>
+      <Point>
+        <coordinates>-115.25321439437872,36.16145922983293,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>22</name>
+      <description><![CDATA[<b>OBJECTID:</b> 22<br/><b>BUS_ADDRESS:</b> 1224 Barnard Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 1224<br/><b>STNAME:</b> Barnard<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 244140<br/><b>PRCLID:</b> 16205114005<br/><b>LICENSENO:</b> G64-00944<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1455022011000<br/><b>ISSDTTM:</b> 1457942617000<br/><b>EXPDTTM:</b> 1709251200000<br/><b>BUS_NAME:</b> EAB Short Term Rental<br/><b>BUS_TYPE:</b> 3 BEDROOMS<br/><b>ADDRESS:</b> 1224 Barnard Dr]]></description>
+      <Point>
+        <coordinates>-115.18749490342333,36.156135287482456,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>23</name>
+      <description><![CDATA[<b>OBJECTID:</b> 23<br/><b>BUS_ADDRESS:</b> 1245 Strong Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 1245<br/><b>STNAME:</b> Strong<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 245139<br/><b>PRCLID:</b> 16205513057<br/><b>LICENSENO:</b> G64-01356<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1456238463000<br/><b>ISSDTTM:</b> 1459958799000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> Strong Holdings, LLC<br/><b>BUS_TYPE:</b> 4 BEDROOMS<br/><b>ADDRESS:</b> 1245 Strong Dr]]></description>
+      <Point>
+        <coordinates>-115.17599641518466,36.155445823637315,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>24</name>
+      <description><![CDATA[<b>OBJECTID:</b> 24<br/><b>BUS_ADDRESS:</b> 1704 Ivanhoe Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 1704<br/><b>STNAME:</b> Ivanhoe<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 243318<br/><b>PRCLID:</b> 16204311002<br/><b>LICENSENO:</b> G64-01574<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1456851933000<br/><b>ISSDTTM:</b> 1458546896000<br/><b>EXPDTTM:</b> 1709251200000<br/><b>BUS_NAME:</b> Brian Griffiths<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 1704 Ivanhoe Way]]></description>
+      <Point>
+        <coordinates>-115.16849165378275,36.151095355874055,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>25</name>
+      <description><![CDATA[<b>OBJECTID:</b> 25<br/><b>BUS_ADDRESS:</b> 1408 Houssels Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1408<br/><b>STNAME:</b> Houssels<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 241287<br/><b>PRCLID:</b> 16203212006<br/><b>LICENSENO:</b> G64-01741<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1457359104000<br/><b>ISSDTTM:</b> 1460441191000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> Rosa de Isais Torres<br/><b>BUS_TYPE:</b> 3 BEDROOMS<br/><b>ADDRESS:</b> 1408 Houssels Ave]]></description>
+      <Point>
+        <coordinates>-115.14857894909773,36.15363445825495,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>26</name>
+      <description><![CDATA[<b>OBJECTID:</b> 26<br/><b>BUS_ADDRESS:</b> 1704 S 16th St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1704<br/><b>STDIR:</b> S<br/><b>STNAME:</b> 16th<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 239410<br/><b>PRCLID:</b> 16202312045<br/><b>LICENSENO:</b> G64-01794<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1457449569000<br/><b>ISSDTTM:</b> 1459958855000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> ATW Properties Nevada, LLC<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 1704 S 16th St]]></description>
+      <Point>
+        <coordinates>-115.13092311423944,36.15123120678129,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>27</name>
+      <description><![CDATA[<b>OBJECTID:</b> 27<br/><b>BUS_ADDRESS:</b> 704 Upland Pl<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 704<br/><b>STNAME:</b> Upland<br/><b>STRTYPE:</b> Pl<br/><b>ADDRKEY:</b> 123061<br/><b>PRCLID:</b> 13836317028<br/><b>LICENSENO:</b> G64-02687<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1460537167000<br/><b>ISSDTTM:</b> 1463565897000<br/><b>EXPDTTM:</b> 1714521600000<br/><b>BUS_NAME:</b> EAB Short Term Rental<br/><b>BUS_TYPE:</b> 3 BEDROOMS<br/><b>ADDRESS:</b> 704 Upland Pl]]></description>
+      <Point>
+        <coordinates>-115.21997266348902,36.16350657388608,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>28</name>
+      <description><![CDATA[<b>OBJECTID:</b> 28<br/><b>BUS_ADDRESS:</b> 2532 Rye St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 2532<br/><b>STNAME:</b> Rye<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 248897<br/><b>PRCLID:</b> 16208111065<br/><b>LICENSENO:</b> G64-02692<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1460540992000<br/><b>ISSDTTM:</b> 1463565951000<br/><b>EXPDTTM:</b> 1714521600000<br/><b>BUS_NAME:</b> Lalena Burns<br/><b>BUS_TYPE:</b> 3 BEDROOMS<br/><b>ADDRESS:</b> 2532 Rye St]]></description>
+      <Point>
+        <coordinates>-115.18577655253911,36.14316115510164,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>29</name>
+      <description><![CDATA[<b>OBJECTID:</b> 29<br/><b>BUS_ADDRESS:</b> 2220 Santa Ynez Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 2220<br/><b>STNAME:</b> Santa Ynez<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 241823<br/><b>PRCLID:</b> 16203417020<br/><b>LICENSENO:</b> G64-02716<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1460557370000<br/><b>ISSDTTM:</b> 1464095146000<br/><b>EXPDTTM:</b> 1714521600000<br/><b>BUS_NAME:</b> Vacation Hotpads<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 2220 Santa Ynez Dr]]></description>
+      <Point>
+        <coordinates>-115.14952757902026,36.145180566057554,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>30</name>
+      <description><![CDATA[<b>OBJECTID:</b> 30<br/><b>BUS_ADDRESS:</b> 2312 San Jose Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 2312<br/><b>STNAME:</b> San Jose<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 240907<br/><b>PRCLID:</b> 16202811121<br/><b>LICENSENO:</b> G64-03216<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1462292999000<br/><b>ISSDTTM:</b> 1464095188000<br/><b>EXPDTTM:</b> 1714521600000<br/><b>BUS_NAME:</b> Vacation Hotpads<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 2312 San Jose Ave]]></description>
+      <Point>
+        <coordinates>-115.12087670517425,36.145492117931234,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>31</name>
+      <description><![CDATA[<b>OBJECTID:</b> 31<br/><b>BUS_ADDRESS:</b> 6124 Chinook Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 6124<br/><b>STNAME:</b> Chinook<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 103307<br/><b>PRCLID:</b> 13826618017<br/><b>LICENSENO:</b> G64-03484<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1462968999000<br/><b>ISSDTTM:</b> 1465405458000<br/><b>EXPDTTM:</b> 1685577600000<br/><b>BUS_NAME:</b> Vacation Hotpads<br/><b>BUS_TYPE:</b> 4 Bedroom<br/><b>ADDRESS:</b> 6124 Chinook Way]]></description>
+      <Point>
+        <coordinates>-115.22657351135044,36.183033500592344,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>32</name>
+      <description><![CDATA[<b>OBJECTID:</b> 32<br/><b>BUS_ADDRESS:</b> 3105 W Oakey Blvd<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 3105<br/><b>STDIR:</b> W<br/><b>STNAME:</b> Oakey<br/><b>STRTYPE:</b> Blvd<br/><b>ADDRKEY:</b> 244556<br/><b>PRCLID:</b> 16205311011<br/><b>LICENSENO:</b> G64-03549<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1463391186000<br/><b>ISSDTTM:</b> 1467709862000<br/><b>EXPDTTM:</b> 1688169600000<br/><b>BUS_NAME:</b> Strong Holdings, LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 3105 W Oakey Blvd]]></description>
+      <Point>
+        <coordinates>-115.18393442459745,36.15140370947361,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>33</name>
+      <description><![CDATA[<b>OBJECTID:</b> 33<br/><b>BUS_ADDRESS:</b> 1709 S 6th St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1709<br/><b>STDIR:</b> S<br/><b>STNAME:</b> 6th<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 242590<br/><b>PRCLID:</b> 16203710003<br/><b>LICENSENO:</b> G64-03819<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1464100941000<br/><b>ISSDTTM:</b> 1465405596000<br/><b>EXPDTTM:</b> 1685577600000<br/><b>BUS_NAME:</b> ARTSVEGAS LLC<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 1709 S 6th St]]></description>
+      <Point>
+        <coordinates>-115.14602806391974,36.150765361958825,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>34</name>
+      <description><![CDATA[<b>OBJECTID:</b> 34<br/><b>BUS_ADDRESS:</b> 209 S Roland Wiley Rd<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 209<br/><b>STDIR:</b> S<br/><b>STNAME:</b> Roland Wiley<br/><b>STRTYPE:</b> Rd<br/><b>ADDRKEY:</b> 113611<br/><b>PRCLID:</b> 13833112025<br/><b>LICENSENO:</b> G64-04069<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1464795475000<br/><b>ISSDTTM:</b> 1470677518000<br/><b>EXPDTTM:</b> 1690848000000<br/><b>BUS_NAME:</b> Go Right<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 209 S Roland Wiley Rd]]></description>
+      <Point>
+        <coordinates>-115.27316161533072,36.171937929082695,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>35</name>
+      <description><![CDATA[<b>OBJECTID:</b> 35<br/><b>BUS_ADDRESS:</b> 1236 Vista Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 1236<br/><b>STNAME:</b> Vista<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 246344<br/><b>PRCLID:</b> 16206510010<br/><b>LICENSENO:</b> G64-04098<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1464867665000<br/><b>ISSDTTM:</b> 1469683845000<br/><b>EXPDTTM:</b> 1688169600000<br/><b>BUS_NAME:</b> Chabad<br/><b>BUS_TYPE:</b> 4 BEDROOMS<br/><b>ADDRESS:</b> 1236 Vista Dr]]></description>
+      <Point>
+        <coordinates>-115.19815718800376,36.15615869893534,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>36</name>
+      <description><![CDATA[<b>OBJECTID:</b> 36<br/><b>BUS_ADDRESS:</b> 8541 Bellaterra Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 8541<br/><b>STNAME:</b> Bellaterra<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 112830<br/><b>PRCLID:</b> 13832610056<br/><b>LICENSENO:</b> G64-04320<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1465485039000<br/><b>ISSDTTM:</b> 1470918837000<br/><b>EXPDTTM:</b> 1690848000000<br/><b>BUS_NAME:</b> Dudley Properties<br/><b>BUS_TYPE:</b> 4 BEDROOMS<br/><b>ADDRESS:</b> 8541 Bellaterra Ct]]></description>
+      <Point>
+        <coordinates>-115.28103980565673,36.16937602857382,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>37</name>
+      <description><![CDATA[<b>OBJECTID:</b> 37<br/><b>BUS_ADDRESS:</b> 312 Antelope Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 312<br/><b>STNAME:</b> Antelope<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 117667<br/><b>PRCLID:</b> 13834214021<br/><b>LICENSENO:</b> G64-04352<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1465571225000<br/><b>ISSDTTM:</b> 1469123667000<br/><b>EXPDTTM:</b> 1688169600000<br/><b>BUS_NAME:</b> The Bird Bath<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 312 Antelope Way]]></description>
+      <Point>
+        <coordinates>-115.2512145723405,36.169416749760764,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>38</name>
+      <description><![CDATA[<b>OBJECTID:</b> 38<br/><b>BUS_ADDRESS:</b> 3612 Briarglen Ln<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 3612<br/><b>STNAME:</b> Briarglen<br/><b>STRTYPE:</b> Ln<br/><b>ADDRKEY:</b> 159255<br/><b>PRCLID:</b> 13930512015<br/><b>LICENSENO:</b> G64-04483<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1466006990000<br/><b>ISSDTTM:</b> 1468996474000<br/><b>EXPDTTM:</b> 1688169600000<br/><b>BUS_NAME:</b> Bungalow de Baygo<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 3612 Briarglen Ln]]></description>
+      <Point>
+        <coordinates>-115.19108984270841,36.18764731667655,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>39</name>
+      <description><![CDATA[<b>OBJECTID:</b> 39<br/><b>BUS_ADDRESS:</b> 2308 La Solana Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 2308<br/><b>STNAME:</b> La Solana<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 245517<br/><b>PRCLID:</b> 16205712045<br/><b>LICENSENO:</b> G64-05231<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1468500687000<br/><b>ISSDTTM:</b> 1471273007000<br/><b>EXPDTTM:</b> 1690848000000<br/><b>BUS_NAME:</b> Adam Singer<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 2308 La Solana Way]]></description>
+      <Point>
+        <coordinates>-115.17401186900071,36.15131669804597,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>40</name>
+      <description><![CDATA[<b>OBJECTID:</b> 40<br/><b>BUS_ADDRESS:</b> 3101 Black Forest Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 3101<br/><b>STNAME:</b> Black Forest<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 247318<br/><b>PRCLID:</b> 16207210134<br/><b>LICENSENO:</b> G64-05388<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1469097688000<br/><b>ISSDTTM:</b> 1471861400000<br/><b>EXPDTTM:</b> 1690848000000<br/><b>BUS_NAME:</b> GO Holdings, LLC<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 3101 Black Forest Dr]]></description>
+      <Point>
+        <coordinates>-115.20605835643751,36.13804483394085,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>41</name>
+      <description><![CDATA[<b>OBJECTID:</b> 41<br/><b>BUS_ADDRESS:</b> 1231 Shadow Ln<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 1231<br/><b>STNAME:</b> Shadow<br/><b>STRTYPE:</b> Ln<br/><b>ADDRKEY:</b> 243078<br/><b>PRCLID:</b> 16204104004<br/><b>LICENSENO:</b> G64-05394<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1469106176000<br/><b>ISSDTTM:</b> 1470762141000<br/><b>EXPDTTM:</b> 1690848000000<br/><b>BUS_NAME:</b> Ziad, LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 1231 Shadow Ln]]></description>
+      <Point>
+        <coordinates>-115.1650850007505,36.156343443524136,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>42</name>
+      <description><![CDATA[<b>OBJECTID:</b> 42<br/><b>BUS_ADDRESS:</b> 1266 Melville Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 1266<br/><b>STNAME:</b> Melville<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 244209<br/><b>PRCLID:</b> 16205210001<br/><b>LICENSENO:</b> G64-05586<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1469689821000<br/><b>ISSDTTM:</b> 1469717720000<br/><b>EXPDTTM:</b> 1688169600000<br/><b>BUS_NAME:</b> Strong Holdings, LLC<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 1266 Melville Dr]]></description>
+      <Point>
+        <coordinates>-115.19042841523624,36.154689121532265,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>43</name>
+      <description><![CDATA[<b>OBJECTID:</b> 43<br/><b>BUS_ADDRESS:</b> 715 Carpenter Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 715<br/><b>STNAME:</b> Carpenter<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 121313<br/><b>PRCLID:</b> 13835711055<br/><b>LICENSENO:</b> G64-05689<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1470126039000<br/><b>ISSDTTM:</b> 1472125827000<br/><b>EXPDTTM:</b> 1690848000000<br/><b>BUS_NAME:</b> Vacation Hotpads<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 715 Carpenter Dr]]></description>
+      <Point>
+        <coordinates>-115.22603644637019,36.16334789757666,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>44</name>
+      <description><![CDATA[<b>OBJECTID:</b> 44<br/><b>BUS_ADDRESS:</b> 2101 S Pioneer Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89117<br/><b>STRNO:</b> 2101<br/><b>STDIR:</b> S<br/><b>STNAME:</b> Pioneer<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 277382<br/><b>PRCLID:</b> 16303402021<br/><b>LICENSENO:</b> G64-05844<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1470657203000<br/><b>ISSDTTM:</b> 1473247420000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> GRAFFITI MANSION, INC.<br/><b>BUS_TYPE:</b> 4 BEDROOMS<br/><b>ADDRESS:</b> 2101 S Pioneer Way]]></description>
+      <Point>
+        <coordinates>-115.25732408614205,36.14729161996637,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>45</name>
+      <description><![CDATA[<b>OBJECTID:</b> 45<br/><b>BUS_ADDRESS:</b> 6720 W Oakey Blvd<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89146<br/><b>STRNO:</b> 6720<br/><b>STDIR:</b> W<br/><b>STNAME:</b> Oakey<br/><b>STRTYPE:</b> Blvd<br/><b>ADDRKEY:</b> 453136<br/><b>PRCLID:</b> 16302202008<br/><b>LICENSENO:</b> G64-06065<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1471363637000<br/><b>ISSDTTM:</b> 1472750428000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> The Monroe Group<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 6720 W Oakey Blvd]]></description>
+      <Point>
+        <coordinates>-115.23921308767407,36.15239368071079,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>46</name>
+      <description><![CDATA[<b>OBJECTID:</b> 46<br/><b>BUS_ADDRESS:</b> 5270 Mustang St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89130<br/><b>STRNO:</b> 5270<br/><b>STNAME:</b> Mustang<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 40855<br/><b>PRCLID:</b> 12535604003<br/><b>LICENSENO:</b> G64-06093<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1471441073000<br/><b>ISSDTTM:</b> 1472750374000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> Teresa Curtis<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 5270 Mustang St]]></description>
+      <Point>
+        <coordinates>-115.23148191079055,36.25572679800094,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>47</name>
+      <description><![CDATA[<b>OBJECTID:</b> 47<br/><b>BUS_ADDRESS:</b> 624 Bloomingfield Ln<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 624<br/><b>STNAME:</b> Bloomingfield<br/><b>STRTYPE:</b> Ln<br/><b>ADDRKEY:</b> 117790<br/><b>PRCLID:</b> 13834310015<br/><b>LICENSENO:</b> G64-06178<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1471864843000<br/><b>ISSDTTM:</b> 1473408109000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> Vacation Hotpads<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 624 Bloomingfield Ln]]></description>
+      <Point>
+        <coordinates>-115.25944089794298,36.16427856220935,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>48</name>
+      <description><![CDATA[<b>OBJECTID:</b> 48<br/><b>BUS_ADDRESS:</b> 1067 Hassett Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1067<br/><b>STNAME:</b> Hassett<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 242813<br/><b>PRCLID:</b> 16203718044<br/><b>LICENSENO:</b> G64-06522<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1473163112000<br/><b>ISSDTTM:</b> 1474295233000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> The House at Hassett<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 1067 Hassett Ave]]></description>
+      <Point>
+        <coordinates>-115.13868894368449,36.15035353720578,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>49</name>
+      <description><![CDATA[<b>OBJECTID:</b> 49<br/><b>BUS_ADDRESS:</b> 205 Shadow Ln<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89106<br/><b>STRNO:</b> 205<br/><b>STNAME:</b> Shadow<br/><b>STRTYPE:</b> Ln<br/><b>ADDRKEY:</b> 162251<br/><b>PRCLID:</b> 13933102012<br/><b>LICENSENO:</b> G64-06717<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1473868709000<br/><b>ISSDTTM:</b> 1477495877000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Awesome Properties LLC<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 205 Shadow Ln]]></description>
+      <Point>
+        <coordinates>-115.16512514176867,36.17146099432345,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>50</name>
+      <description><![CDATA[<b>OBJECTID:</b> 50<br/><b>BUS_ADDRESS:</b> 4109 Las Lomas Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 4109<br/><b>STNAME:</b> Las Lomas<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 246500<br/><b>PRCLID:</b> 16206710033<br/><b>LICENSENO:</b> G64-06803<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1474281096000<br/><b>ISSDTTM:</b> 1476975172000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> NSR Properties LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 4109 Las Lomas Ave]]></description>
+      <Point>
+        <coordinates>-115.19692677866315,36.15063009908442,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>51</name>
+      <description><![CDATA[<b>OBJECTID:</b> 51<br/><b>BUS_ADDRESS:</b> 1385 S Tenaya Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89117<br/><b>STRNO:</b> 1385<br/><b>STDIR:</b> S<br/><b>STNAME:</b> Tenaya<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 277102<br/><b>PRCLID:</b> 16303103012<br/><b>LICENSENO:</b> G64-07296<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1475751497000<br/><b>ISSDTTM:</b> 1477495596000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Vacation Hotpads<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 1385 S Tenaya Way]]></description>
+      <Point>
+        <coordinates>-115.253167969296,36.15599143768773,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>52</name>
+      <description><![CDATA[<b>OBJECTID:</b> 52<br/><b>BUS_ADDRESS:</b> 1320 Date Palm Cir<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 1320<br/><b>STNAME:</b> Date Palm<br/><b>STRTYPE:</b> Cir<br/><b>ADDRKEY:</b> 102924<br/><b>PRCLID:</b> 13826513084<br/><b>LICENSENO:</b> G64-07299<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1475752057000<br/><b>ISSDTTM:</b> 1477566837000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Vacation Hotpads<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 1320 Date Palm Cir]]></description>
+      <Point>
+        <coordinates>-115.22891746122272,36.18518019623587,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>53</name>
+      <description><![CDATA[<b>OBJECTID:</b> 53<br/><b>BUS_ADDRESS:</b> 1112 Coral Isle Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 1112<br/><b>STNAME:</b> Coral Isle<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 101545<br/><b>PRCLID:</b> 13826212012<br/><b>LICENSENO:</b> G64-07492<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1476443706000<br/><b>ISSDTTM:</b> 1478710311000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> Vacation Hotpads<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 1112 Coral Isle Way]]></description>
+      <Point>
+        <coordinates>-115.23389295270218,36.18337000267054,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>54</name>
+      <description><![CDATA[<b>OBJECTID:</b> 54<br/><b>BUS_ADDRESS:</b> 1509 Flag Cir<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 1509<br/><b>STNAME:</b> Flag<br/><b>STRTYPE:</b> Cir<br/><b>ADDRKEY:</b> 245847<br/><b>PRCLID:</b> 16206214007<br/><b>LICENSENO:</b> G64-07502<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1476455760000<br/><b>ISSDTTM:</b> 1480593446000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> Flag Circle Properties<br/><b>BUS_TYPE:</b> 4 BEDROOMS<br/><b>ADDRESS:</b> 1509 Flag Cir]]></description>
+      <Point>
+        <coordinates>-115.2022020070417,36.15402107292669,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>55</name>
+      <description><![CDATA[<b>OBJECTID:</b> 55<br/><b>BUS_ADDRESS:</b> 3408 Casa Grande Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 3408<br/><b>STNAME:</b> Casa Grande<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 244543<br/><b>PRCLID:</b> 16205310068<br/><b>LICENSENO:</b> G64-07541<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1476711803000<br/><b>ISSDTTM:</b> 1476810156000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Casa Grande Investments LLC<br/><b>BUS_TYPE:</b> 4 Bedroom<br/><b>ADDRESS:</b> 3408 Casa Grande Ave]]></description>
+      <Point>
+        <coordinates>-115.1874927155907,36.1513433943386,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>56</name>
+      <description><![CDATA[<b>OBJECTID:</b> 56<br/><b>BUS_ADDRESS:</b> 6532 Ruby Red Cir<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 6532<br/><b>STNAME:</b> Ruby Red<br/><b>STRTYPE:</b> Cir<br/><b>ADDRKEY:</b> 101424<br/><b>PRCLID:</b> 13826210019<br/><b>LICENSENO:</b> G64-07745<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1477396202000<br/><b>ISSDTTM:</b> 1480522306000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> LOUNA AND CO LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 6532 Ruby Red Cir]]></description>
+      <Point>
+        <coordinates>-115.23732745052354,36.184592694019365,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>57</name>
+      <description><![CDATA[<b>OBJECTID:</b> 57<br/><b>BUS_ADDRESS:</b> 2100 Westlund Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 2100<br/><b>STNAME:</b> Westlund<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 245732<br/><b>PRCLID:</b> 16205814009<br/><b>LICENSENO:</b> G64-07893<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1477916800000<br/><b>ISSDTTM:</b> 1479128997000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> Westlund 1<br/><b>BUS_TYPE:</b> 3 Bedroom<br/><b>ADDRESS:</b> 2100 Westlund Dr]]></description>
+      <Point>
+        <coordinates>-115.17405673787825,36.14778663435845,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>58</name>
+      <description><![CDATA[<b>OBJECTID:</b> 58<br/><b>BUS_ADDRESS:</b> 3000 Kings Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 3000<br/><b>STNAME:</b> Kings<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 248968<br/><b>PRCLID:</b> 16208114037<br/><b>LICENSENO:</b> G64-07901<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1477924253000<br/><b>ISSDTTM:</b> 1479224421000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> NSR Properties LLC<br/><b>BUS_TYPE:</b> 3 Bedroom<br/><b>ADDRESS:</b> 3000 Kings Way]]></description>
+      <Point>
+        <coordinates>-115.18222449905717,36.142113352267216,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>59</name>
+      <description><![CDATA[<b>OBJECTID:</b> 59<br/><b>BUS_ADDRESS:</b> 19 Diamond Cir<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89106<br/><b>STRNO:</b> 19<br/><b>STNAME:</b> Diamond<br/><b>STRTYPE:</b> Cir<br/><b>ADDRKEY:</b> 156580<br/><b>PRCLID:</b> 13928410065<br/><b>LICENSENO:</b> G64-08041<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1478510987000<br/><b>ISSDTTM:</b> 1481196431000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> Oat Capital, LLC<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 19 Diamond Cir]]></description>
+      <Point>
+        <coordinates>-115.16634303474356,36.17500418860976,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>60</name>
+      <description><![CDATA[<b>OBJECTID:</b> 60<br/><b>BUS_ADDRESS:</b> 705 Vincent Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 705<br/><b>STNAME:</b> Vincent<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 119031<br/><b>PRCLID:</b> 13834711032<br/><b>LICENSENO:</b> G64-08058<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1478526210000<br/><b>ISSDTTM:</b> 1480581694000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> Vacation Hotpads<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 705 Vincent Way]]></description>
+      <Point>
+        <coordinates>-115.24885402708755,36.16421892067992,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>61</name>
+      <description><![CDATA[<b>OBJECTID:</b> 61<br/><b>BUS_ADDRESS:</b> 6316 Bluejay Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89146<br/><b>STRNO:</b> 6316<br/><b>STNAME:</b> Bluejay<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 276781<br/><b>PRCLID:</b> 16302717005<br/><b>LICENSENO:</b> G64-08102<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1478600128000<br/><b>ISSDTTM:</b> 1481025004000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> LuxuryRentalsVegas.com<br/><b>BUS_TYPE:</b> 3 BEDROOMS<br/><b>ADDRESS:</b> 6316 Bluejay Way]]></description>
+      <Point>
+        <coordinates>-115.23163018177446,36.150271556090736,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>62</name>
+      <description><![CDATA[<b>OBJECTID:</b> 62<br/><b>BUS_ADDRESS:</b> 204 Sam Jonas Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 204<br/><b>STNAME:</b> Sam Jonas<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 115644<br/><b>PRCLID:</b> 13833518012<br/><b>LICENSENO:</b> G64-08124<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1478621882000<br/><b>ISSDTTM:</b> 1481025128000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> Vacation Hotpads<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 204 Sam Jonas Dr]]></description>
+      <Point>
+        <coordinates>-115.26077322485172,36.17154766906304,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>63</name>
+      <description><![CDATA[<b>OBJECTID:</b> 63<br/><b>BUS_ADDRESS:</b> 812 Thrush Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 812<br/><b>STNAME:</b> Thrush<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 116859<br/><b>PRCLID:</b> 13833811005<br/><b>LICENSENO:</b> G64-08127<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1478623128000<br/><b>ISSDTTM:</b> 1481211957000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> Thrush BNB LLC<br/><b>BUS_TYPE:</b> 4 BEDROOMS<br/><b>ADDRESS:</b> 812 Thrush Dr]]></description>
+      <Point>
+        <coordinates>-115.26424210657554,36.161942469023614,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>64</name>
+      <description><![CDATA[<b>OBJECTID:</b> 64<br/><b>BUS_ADDRESS:</b> 341 Tobler Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 341<br/><b>STNAME:</b> Tobler<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 113944<br/><b>PRCLID:</b> 13833216006<br/><b>LICENSENO:</b> G64-08182<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1478773100000<br/><b>ISSDTTM:</b> 1482135899000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> Vacation Hotpads<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 341 Tobler Dr]]></description>
+      <Point>
+        <coordinates>-115.26924970272744,36.1687685964047,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>65</name>
+      <description><![CDATA[<b>OBJECTID:</b> 65<br/><b>BUS_ADDRESS:</b> 441 Elysian Plains Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 441<br/><b>STNAME:</b> Elysian Plains<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 115892<br/><b>PRCLID:</b> 13833617009<br/><b>LICENSENO:</b> G64-08206<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1478884022000<br/><b>ISSDTTM:</b> 1481530110000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> Vacation Hotpads<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 441 Elysian Plains Ct]]></description>
+      <Point>
+        <coordinates>-115.26777268352598,36.16685996012276,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>66</name>
+      <description><![CDATA[<b>OBJECTID:</b> 66<br/><b>BUS_ADDRESS:</b> 2812 Colanthe Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 2812<br/><b>STNAME:</b> Colanthe<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 245266<br/><b>PRCLID:</b> 16205613007<br/><b>LICENSENO:</b> G64-08272<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1479220480000<br/><b>ISSDTTM:</b> 1481716422000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> Strong Holdings, LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 2812 Colanthe Ave]]></description>
+      <Point>
+        <coordinates>-115.18001919080214,36.15351674959224,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>67</name>
+      <description><![CDATA[<b>OBJECTID:</b> 67<br/><b>BUS_ADDRESS:</b> 325 Revere Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 325<br/><b>STNAME:</b> Revere<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 160166<br/><b>PRCLID:</b> 13931216006<br/><b>LICENSENO:</b> G64-08556<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1480434908000<br/><b>ISSDTTM:</b> 1482239301000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> GO Holdings, LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 325 Revere Dr]]></description>
+      <Point>
+        <coordinates>-115.19798370418765,36.16892180550693,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>68</name>
+      <description><![CDATA[<b>OBJECTID:</b> 68<br/><b>BUS_ADDRESS:</b> 2200 Sunland Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89106<br/><b>STRNO:</b> 2200<br/><b>STNAME:</b> Sunland<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 161853<br/><b>PRCLID:</b> 13932514052<br/><b>LICENSENO:</b> G64-08880<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1481557454000<br/><b>ISSDTTM:</b> 1483032082000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> Distinct Dwellings LLC<br/><b>BUS_TYPE:</b> 3 BEDROOMS<br/><b>ADDRESS:</b> 2200 Sunland Ave]]></description>
+      <Point>
+        <coordinates>-115.17095010513687,36.170433077830545,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>69</name>
+      <description><![CDATA[<b>OBJECTID:</b> 69<br/><b>BUS_ADDRESS:</b> 8804 Pesaro Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89117<br/><b>STRNO:</b> 8804<br/><b>STNAME:</b> Pesaro<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 280057<br/><b>PRCLID:</b> 16305618014<br/><b>LICENSENO:</b> G64-08943<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1481813044000<br/><b>ISSDTTM:</b> 1485413038000<br/><b>EXPDTTM:</b> 1704067200000<br/><b>BUS_NAME:</b> Chan Property  Investment, LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 8804 Pesaro Dr]]></description>
+      <Point>
+        <coordinates>-115.28776253948345,36.15194876200555,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>70</name>
+      <description><![CDATA[<b>OBJECTID:</b> 70<br/><b>BUS_ADDRESS:</b> 1940 Mills Cir<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89106<br/><b>STRNO:</b> 1940<br/><b>STNAME:</b> Mills<br/><b>STRTYPE:</b> Cir<br/><b>ADDRKEY:</b> 156149<br/><b>PRCLID:</b> 13928110049<br/><b>LICENSENO:</b> G64-09000<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1482305953000<br/><b>ISSDTTM:</b> 1484743462000<br/><b>EXPDTTM:</b> 1704067200000<br/><b>BUS_NAME:</b> SinCity Holiday<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 1940 Mills Cir]]></description>
+      <Point>
+        <coordinates>-115.16780871831361,36.185072788955296,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>71</name>
+      <description><![CDATA[<b>OBJECTID:</b> 71<br/><b>BUS_ADDRESS:</b> 340 Obsidian St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 340<br/><b>STNAME:</b> Obsidian<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 112837<br/><b>PRCLID:</b> 13832611016<br/><b>LICENSENO:</b> G65-00128<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1483637583000<br/><b>ISSDTTM:</b> 1485247641000<br/><b>EXPDTTM:</b> 1704067200000<br/><b>BUS_NAME:</b> 340 Obsidian<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 340 Obsidian St]]></description>
+      <Point>
+        <coordinates>-115.28366422359639,36.1686223251386,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>72</name>
+      <description><![CDATA[<b>OBJECTID:</b> 72<br/><b>BUS_ADDRESS:</b> 3016 Quiet Breeze Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 3016<br/><b>STNAME:</b> Quiet Breeze<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 75674<br/><b>PRCLID:</b> 13814110068<br/><b>LICENSENO:</b> G65-00675<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1485381589000<br/><b>ISSDTTM:</b> 1486569218000<br/><b>EXPDTTM:</b> 1706745600000<br/><b>BUS_NAME:</b> DLS2009, LLC Quiet Breeze Series<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 3016 Quiet Breeze Ct]]></description>
+      <Point>
+        <coordinates>-115.24056617398311,36.21523892566775,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>73</name>
+      <description><![CDATA[<b>OBJECTID:</b> 73<br/><b>BUS_ADDRESS:</b> 1501 Montessouri St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89117<br/><b>STRNO:</b> 1501<br/><b>STNAME:</b> Montessouri<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 277529<br/><b>PRCLID:</b> 16303602007<br/><b>LICENSENO:</b> G65-00684<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1485437632000<br/><b>ISSDTTM:</b> 1485962258000<br/><b>EXPDTTM:</b> 1706745600000<br/><b>BUS_NAME:</b> MONTESSOURI RENTALS LLC<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 1501 Montessouri St]]></description>
+      <Point>
+        <coordinates>-115.24895835147244,36.15457320195093,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>74</name>
+      <description><![CDATA[<b>OBJECTID:</b> 74<br/><b>BUS_ADDRESS:</b> 1908 Chapman Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1908<br/><b>STNAME:</b> Chapman<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 239378<br/><b>PRCLID:</b> 16202312013<br/><b>LICENSENO:</b> G65-00784<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1485849219000<br/><b>ISSDTTM:</b> 1485969670000<br/><b>EXPDTTM:</b> 1706745600000<br/><b>BUS_NAME:</b> Yonitco LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 1908 Chapman Dr]]></description>
+      <Point>
+        <coordinates>-115.13215288437162,36.14872893723603,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>75</name>
+      <description><![CDATA[<b>OBJECTID:</b> 75<br/><b>BUS_ADDRESS:</b> 1828 Hermitage Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 1828<br/><b>STNAME:</b> Hermitage<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 95892<br/><b>PRCLID:</b> 13823713020<br/><b>LICENSENO:</b> G65-01030<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1486556826000<br/><b>ISSDTTM:</b> 1487770822000<br/><b>EXPDTTM:</b> 1706745600000<br/><b>BUS_NAME:</b> Vacation Hotpads<br/><b>BUS_TYPE:</b> 4 BEDROOMS<br/><b>ADDRESS:</b> 1828 Hermitage Dr]]></description>
+      <Point>
+        <coordinates>-115.22937121593097,36.19270849151696,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>76</name>
+      <description><![CDATA[<b>OBJECTID:</b> 76<br/><b>BUS_ADDRESS:</b> 3131 Garehime St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 3131<br/><b>STNAME:</b> Garehime<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 75717<br/><b>PRCLID:</b> 13814110111<br/><b>LICENSENO:</b> G65-01031<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1486556927000<br/><b>ISSDTTM:</b> 1487770796000<br/><b>EXPDTTM:</b> 1706745600000<br/><b>BUS_NAME:</b> Vacation Hotpads<br/><b>BUS_TYPE:</b> 4 Bedroom<br/><b>ADDRESS:</b> 3131 Garehime St]]></description>
+      <Point>
+        <coordinates>-115.23837656846692,36.21679208498114,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>77</name>
+      <description><![CDATA[<b>OBJECTID:</b> 77<br/><b>BUS_ADDRESS:</b> 363 S Tonopah Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89106<br/><b>STRNO:</b> 363<br/><b>STDIR:</b> S<br/><b>STNAME:</b> Tonopah<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 162459<br/><b>PRCLID:</b> 13933210008<br/><b>LICENSENO:</b> G65-01199<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1487236311000<br/><b>ISSDTTM:</b> 1488457498000<br/><b>EXPDTTM:</b> 1709251200000<br/><b>BUS_NAME:</b> Milstein Project LLC<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 363 S Tonopah Dr]]></description>
+      <Point>
+        <coordinates>-115.16967814409267,36.16762440674446,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>78</name>
+      <description><![CDATA[<b>OBJECTID:</b> 78<br/><b>BUS_ADDRESS:</b> 9349 Deer Lodge Ln<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89129<br/><b>STRNO:</b> 9349<br/><b>STNAME:</b> Deer Lodge<br/><b>STRTYPE:</b> Ln<br/><b>ADDRKEY:</b> 64098<br/><b>PRCLID:</b> 13807816019<br/><b>LICENSENO:</b> G65-01311<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1487696027000<br/><b>ISSDTTM:</b> 1488284844000<br/><b>EXPDTTM:</b> 1706745600000<br/><b>BUS_NAME:</b> ABC Financing Investment & Holding LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 9349 Deer Lodge Ln]]></description>
+      <Point>
+        <coordinates>-115.2994637255509,36.22060681342331,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>79</name>
+      <description><![CDATA[<b>OBJECTID:</b> 79<br/><b>BUS_ADDRESS:</b> 720 Brush St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 720<br/><b>STNAME:</b> Brush<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 123808<br/><b>PRCLID:</b> 13836712030<br/><b>LICENSENO:</b> G65-02084<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1490200419000<br/><b>ISSDTTM:</b> 1490620795000<br/><b>EXPDTTM:</b> 1709251200000<br/><b>BUS_NAME:</b> Yitshak Ashkenazi<br/><b>BUS_TYPE:</b> 3 BEDROOMS<br/><b>ADDRESS:</b> 720 Brush St]]></description>
+      <Point>
+        <coordinates>-115.21003525770134,36.16335511031063,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>80</name>
+      <description><![CDATA[<b>OBJECTID:</b> 80<br/><b>BUS_ADDRESS:</b> 106 Hollyhock Ln<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 106<br/><b>STNAME:</b> Hollyhock<br/><b>STRTYPE:</b> Ln<br/><b>ADDRKEY:</b> 158775<br/><b>PRCLID:</b> 13929812040<br/><b>LICENSENO:</b> G65-02283<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1490887598000<br/><b>ISSDTTM:</b> 1492021000000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> Awesome Properties LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 106 Hollyhock Ln]]></description>
+      <Point>
+        <coordinates>-115.17654443291596,36.17421606494859,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>81</name>
+      <description><![CDATA[<b>OBJECTID:</b> 81<br/><b>BUS_ADDRESS:</b> 2804 Northam St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 2804<br/><b>STNAME:</b> Northam<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 248998<br/><b>PRCLID:</b> 16208210017<br/><b>LICENSENO:</b> G65-02284<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1490887758000<br/><b>ISSDTTM:</b> 1492422841000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> Northam Properties LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 2804 Northam St]]></description>
+      <Point>
+        <coordinates>-115.18394526120895,36.138908028167144,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>82</name>
+      <description><![CDATA[<b>OBJECTID:</b> 82<br/><b>BUS_ADDRESS:</b> 410 S 16th St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89101<br/><b>STRNO:</b> 410<br/><b>STDIR:</b> S<br/><b>STNAME:</b> 16th<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 164868<br/><b>PRCLID:</b> 13935413007<br/><b>LICENSENO:</b> G65-02763<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1492377574000<br/><b>ISSDTTM:</b> 1492534677000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> Vintage Vegas Vacations LLC<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 410 S 16th St]]></description>
+      <Point>
+        <coordinates>-115.13087701511773,36.160586291166666,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>83</name>
+      <description><![CDATA[<b>OBJECTID:</b> 83<br/><b>BUS_ADDRESS:</b> 1633 Palmae Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89128<br/><b>STRNO:</b> 1633<br/><b>STNAME:</b> Palmae<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 93009<br/><b>PRCLID:</b> 13822414032<br/><b>LICENSENO:</b> G65-02802<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1492440966000<br/><b>ISSDTTM:</b> 1492609813000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> DAD Investments<br/><b>BUS_TYPE:</b> 4 BEDROOMS<br/><b>ADDRESS:</b> 1633 Palmae Way]]></description>
+      <Point>
+        <coordinates>-115.25453221744691,36.18994904188796,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>84</name>
+      <description><![CDATA[<b>OBJECTID:</b> 84<br/><b>BUS_ADDRESS:</b> 1920 Cedarview Cir<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89146<br/><b>STRNO:</b> 1920<br/><b>STNAME:</b> Cedarview<br/><b>STRTYPE:</b> Cir<br/><b>ADDRKEY:</b> 276887<br/><b>PRCLID:</b> 16302719037<br/><b>LICENSENO:</b> G65-03074<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1493121457000<br/><b>ISSDTTM:</b> 1493798052000<br/><b>EXPDTTM:</b> 1714521600000<br/><b>BUS_NAME:</b> Premier Nevada Properties, LLC - Series N<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 1920 Cedarview Cir]]></description>
+      <Point>
+        <coordinates>-115.22830025390635,36.14889938245955,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>85</name>
+      <description><![CDATA[<b>OBJECTID:</b> 85<br/><b>BUS_ADDRESS:</b> 4021 San Joaquin Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 4021<br/><b>STNAME:</b> San Joaquin<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 248133<br/><b>PRCLID:</b> 16207515092<br/><b>LICENSENO:</b> G65-03289<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1493731332000<br/><b>ISSDTTM:</b> 1496304179000<br/><b>EXPDTTM:</b> 1685577600000<br/><b>BUS_NAME:</b> JOYAHS LLC<br/><b>BUS_TYPE:</b> 4 BEDROOMS<br/><b>ADDRESS:</b> 4021 San Joaquin Ave]]></description>
+      <Point>
+        <coordinates>-115.19515045858026,36.14103140827504,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>86</name>
+      <description><![CDATA[<b>OBJECTID:</b> 86<br/><b>BUS_ADDRESS:</b> 1913 Peyton Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1913<br/><b>STNAME:</b> Peyton<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 239885<br/><b>PRCLID:</b> 16202513021<br/><b>LICENSENO:</b> G65-03515<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1494412847000<br/><b>ISSDTTM:</b> 1495712496000<br/><b>EXPDTTM:</b> 1682899200000<br/><b>BUS_NAME:</b> Vintage Vegas Vacations LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 1913 Peyton Dr]]></description>
+      <Point>
+        <coordinates>-115.12275608065664,36.15708096980037,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>87</name>
+      <description><![CDATA[<b>OBJECTID:</b> 87<br/><b>BUS_ADDRESS:</b> 34 Onyx Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89106<br/><b>STRNO:</b> 34<br/><b>STNAME:</b> Onyx<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 156533<br/><b>PRCLID:</b> 13928410018<br/><b>LICENSENO:</b> G65-03588<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1494517402000<br/><b>ISSDTTM:</b> 1495012838000<br/><b>EXPDTTM:</b> 1682899200000<br/><b>BUS_NAME:</b> Mistie Falls<br/><b>BUS_TYPE:</b> 3 Bedroom<br/><b>ADDRESS:</b> 34 Onyx Way]]></description>
+      <Point>
+        <coordinates>-115.16920817946183,36.174270886093545,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>88</name>
+      <description><![CDATA[<b>OBJECTID:</b> 88<br/><b>BUS_ADDRESS:</b> 1955 Rosanna St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89117<br/><b>STRNO:</b> 1955<br/><b>STNAME:</b> Rosanna<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 277619<br/><b>PRCLID:</b> 16303702018<br/><b>LICENSENO:</b> G65-03788<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1495104493000<br/><b>ISSDTTM:</b> 1496333464000<br/><b>EXPDTTM:</b> 1685577600000<br/><b>BUS_NAME:</b> GLYSH<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 1955 Rosanna St]]></description>
+      <Point>
+        <coordinates>-115.24596580245006,36.150233683484075,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>89</name>
+      <description><![CDATA[<b>OBJECTID:</b> 89<br/><b>BUS_ADDRESS:</b> 3736 Dorrington Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89129<br/><b>STRNO:</b> 3736<br/><b>STNAME:</b> Dorrington<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 64831<br/><b>PRCLID:</b> 13808222010<br/><b>LICENSENO:</b> G65-04259<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1496654935000<br/><b>ISSDTTM:</b> 1497445452000<br/><b>EXPDTTM:</b> 1685577600000<br/><b>BUS_NAME:</b> USMG LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 3736 Dorrington Dr]]></description>
+      <Point>
+        <coordinates>-115.2935231129355,36.22974783607997,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>90</name>
+      <description><![CDATA[<b>OBJECTID:</b> 90<br/><b>BUS_ADDRESS:</b> 8876 Fort Crestwood Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89129<br/><b>STRNO:</b> 8876<br/><b>STNAME:</b> Fort Crestwood<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 64601<br/><b>PRCLID:</b> 13808213001<br/><b>LICENSENO:</b> G65-04260<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1496655081000<br/><b>ISSDTTM:</b> 1497445533000<br/><b>EXPDTTM:</b> 1685577600000<br/><b>BUS_NAME:</b> USMG LLC<br/><b>BUS_TYPE:</b> 4 bedrooms<br/><b>ADDRESS:</b> 8876 Fort Crestwood Dr]]></description>
+      <Point>
+        <coordinates>-115.29002800550708,36.22759277451732,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>91</name>
+      <description><![CDATA[<b>OBJECTID:</b> 91<br/><b>BUS_ADDRESS:</b> 1701 Charles Lam Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89117<br/><b>STRNO:</b> 1701<br/><b>STNAME:</b> Charles Lam<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 277148<br/><b>PRCLID:</b> 16303202003<br/><b>LICENSENO:</b> G65-04407<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1497267394000<br/><b>ISSDTTM:</b> 1497552684000<br/><b>EXPDTTM:</b> 1685577600000<br/><b>BUS_NAME:</b> MYHOUSE LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 1701 Charles Lam Ct]]></description>
+      <Point>
+        <coordinates>-115.25899997779189,36.15201381226736,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>92</name>
+      <description><![CDATA[<b>OBJECTID:</b> 92<br/><b>BUS_ADDRESS:</b> 2017 Casa Vista Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89146<br/><b>STRNO:</b> 2017<br/><b>STNAME:</b> Casa Vista<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 276180<br/><b>PRCLID:</b> 16302311005<br/><b>LICENSENO:</b> G65-04539<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1497549126000<br/><b>ISSDTTM:</b> 1498121170000<br/><b>EXPDTTM:</b> 1685577600000<br/><b>BUS_NAME:</b> Casa Vista Investments LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 2017 Casa Vista Dr]]></description>
+      <Point>
+        <coordinates>-115.24057366055402,36.149304417482035,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>93</name>
+      <description><![CDATA[<b>OBJECTID:</b> 93<br/><b>BUS_ADDRESS:</b> 6205 Shawnee Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 6205<br/><b>STNAME:</b> Shawnee<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 121136<br/><b>PRCLID:</b> 13835615040<br/><b>LICENSENO:</b> G65-04643<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1497968434000<br/><b>ISSDTTM:</b> 1498122237000<br/><b>EXPDTTM:</b> 1685577600000<br/><b>BUS_NAME:</b> Shawnee<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 6205 Shawnee Ave]]></description>
+      <Point>
+        <coordinates>-115.22837529375656,36.16695597236956,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>94</name>
+      <description><![CDATA[<b>OBJECTID:</b> 94<br/><b>BUS_ADDRESS:</b> 1905 Farnam Pl<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 1905<br/><b>STNAME:</b> Farnam<br/><b>STRTYPE:</b> Pl<br/><b>ADDRKEY:</b> 246259<br/><b>PRCLID:</b> 16206315017<br/><b>LICENSENO:</b> G65-05603<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1501168352000<br/><b>ISSDTTM:</b> 1502174843000<br/><b>EXPDTTM:</b> 1690848000000<br/><b>BUS_NAME:</b> Melanie Chau<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 1905 Farnam Pl]]></description>
+      <Point>
+        <coordinates>-115.20113253703485,36.14988398854831,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>95</name>
+      <description><![CDATA[<b>OBJECTID:</b> 95<br/><b>BUS_ADDRESS:</b> 8204 Misty Island Cir<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 8204<br/><b>STNAME:</b> Misty Island<br/><b>STRTYPE:</b> Cir<br/><b>ADDRKEY:</b> 114868<br/><b>PRCLID:</b> 13833322003<br/><b>LICENSENO:</b> G65-06256<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1503468390000<br/><b>ISSDTTM:</b> 1504690286000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> Lane Investments LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 8204 Misty Island Cir]]></description>
+      <Point>
+        <coordinates>-115.27163841241213,36.16616227469738,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>96</name>
+      <description><![CDATA[<b>OBJECTID:</b> 96<br/><b>BUS_ADDRESS:</b> 1001 E Bridger Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89101<br/><b>STRNO:</b> 1001<br/><b>STDIR:</b> E<br/><b>STNAME:</b> Bridger<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 163824<br/><b>PRCLID:</b> 13934712061<br/><b>LICENSENO:</b> G65-07292<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1507027895000<br/><b>ISSDTTM:</b> 1508343328000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Bridger Bed + Breakfast<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 1 Bedroom<br/><b>ADDRESS:</b> 1001 E Bridger Ave]]></description>
+      <Point>
+        <coordinates>-115.13625167454697,36.164151719623696,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>97</name>
+      <description><![CDATA[<b>OBJECTID:</b> 97<br/><b>BUS_ADDRESS:</b> 8316 Valleybreeze Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89129<br/><b>STRNO:</b> 8316<br/><b>STNAME:</b> Valleybreeze<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 67862<br/><b>PRCLID:</b> 13809221023<br/><b>LICENSENO:</b> G65-09023<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1513688884000<br/><b>ISSDTTM:</b> 1522187025000<br/><b>EXPDTTM:</b> 1709251200000<br/><b>BUS_NAME:</b> Victor Paulo<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 8316 Valleybreeze Ave]]></description>
+      <Point>
+        <coordinates>-115.27565016013867,36.22811088991903,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>98</name>
+      <description><![CDATA[<b>OBJECTID:</b> 98<br/><b>BUS_ADDRESS:</b> 8900 Silk Bonnet Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89143<br/><b>STRNO:</b> 8900<br/><b>STNAME:</b> Silk Bonnet<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 23013<br/><b>PRCLID:</b> 12508116017<br/><b>LICENSENO:</b> G65-09205<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1514478797000<br/><b>ISSDTTM:</b> 1516709898000<br/><b>EXPDTTM:</b> 1704067200000<br/><b>BUS_NAME:</b> Sigrid Marmann<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 8900 Silk Bonnet Ct]]></description>
+      <Point>
+        <coordinates>-115.28808533329759,36.31784066867432,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>99</name>
+      <description><![CDATA[<b>OBJECTID:</b> 99<br/><b>BUS_ADDRESS:</b> 3424 Amethyst Glen Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89106<br/><b>STRNO:</b> 3424<br/><b>STNAME:</b> Amethyst Glen<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 699410<br/><b>PRCLID:</b> 13920420024<br/><b>LICENSENO:</b> G66-00211<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1515590627000<br/><b>ISSDTTM:</b> 1521655822000<br/><b>EXPDTTM:</b> 1709251200000<br/><b>BUS_NAME:</b> Timothy Michael Domalik<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 3424 Amethyst Glen Ct]]></description>
+      <Point>
+        <coordinates>-115.18512892291731,36.19075214495853,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>100</name>
+      <description><![CDATA[<b>OBJECTID:</b> 100<br/><b>BUS_ADDRESS:</b> 821 Mar Jay Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 821<br/><b>STNAME:</b> Mar Jay<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 159700<br/><b>PRCLID:</b> 13930711088<br/><b>LICENSENO:</b> G66-00347<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1516144581000<br/><b>ISSDTTM:</b> 1518501348000<br/><b>EXPDTTM:</b> 1706745600000<br/><b>BUS_NAME:</b> Rachel Hopper<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 821 Mar Jay Ct]]></description>
+      <Point>
+        <coordinates>-115.19434665445242,36.18067700840307,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>101</name>
+      <description><![CDATA[<b>OBJECTID:</b> 101<br/><b>BUS_ADDRESS:</b> 2828 N Jones Blvd<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 2828<br/><b>STDIR:</b> N<br/><b>STNAME:</b> Jones<br/><b>STRTYPE:</b> Blvd<br/><b>ADDRKEY:</b> 74610<br/><b>PRCLID:</b> 13813213001<br/><b>LICENSENO:</b> G66-00572<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1516816207000<br/><b>ISSDTTM:</b> 1519933402000<br/><b>EXPDTTM:</b> 1709251200000<br/><b>BUS_NAME:</b> Simmons Rentals LLC<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 2828 N Jones Blvd]]></description>
+      <Point>
+        <coordinates>-115.22451383758944,36.21143551279621,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>102</name>
+      <description><![CDATA[<b>OBJECTID:</b> 102<br/><b>BUS_ADDRESS:</b> 5512 Cory Pl<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 5512<br/><b>STNAME:</b> Cory<br/><b>STRTYPE:</b> Pl<br/><b>ADDRKEY:</b> 123237<br/><b>PRCLID:</b> 13836412044<br/><b>LICENSENO:</b> G66-01010<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1518366388000<br/><b>ISSDTTM:</b> 1522330847000<br/><b>EXPDTTM:</b> 1709251200000<br/><b>BUS_NAME:</b> Tsao George C & Shuwen Yeh<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 5512 Cory Pl]]></description>
+      <Point>
+        <coordinates>-115.21782725329685,36.161190991309226,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>103</name>
+      <description><![CDATA[<b>OBJECTID:</b> 103<br/><b>BUS_ADDRESS:</b> 6605 Hyde Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 6605<br/><b>STNAME:</b> Hyde<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 119613<br/><b>PRCLID:</b> 13835113023<br/><b>LICENSENO:</b> G66-01314<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1519316112000<br/><b>ISSDTTM:</b> 1524827768000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> Camarena-BNB<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 6605 Hyde Ave]]></description>
+      <Point>
+        <coordinates>-115.23926208294412,36.171510777211,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>104</name>
+      <description><![CDATA[<b>OBJECTID:</b> 104<br/><b>BUS_ADDRESS:</b> 706 Bonita Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 706<br/><b>STNAME:</b> Bonita<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 242728<br/><b>PRCLID:</b> 16203714030<br/><b>LICENSENO:</b> G66-01716<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1520520397000<br/><b>ISSDTTM:</b> 1523279321000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> Maier Investment Properties LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 706 Bonita Ave]]></description>
+      <Point>
+        <coordinates>-115.14486712531253,36.14830366484681,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>105</name>
+      <description><![CDATA[<b>OBJECTID:</b> 105<br/><b>BUS_ADDRESS:</b> 2000 Fontana Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89106<br/><b>STRNO:</b> 2000<br/><b>STNAME:</b> Fontana<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 162304<br/><b>PRCLID:</b> 13933110043<br/><b>LICENSENO:</b> G66-02064<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1521722271000<br/><b>ISSDTTM:</b> 1530120279000<br/><b>EXPDTTM:</b> 1685577600000<br/><b>BUS_NAME:</b> Florida Mark LLC<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 2000 Fontana Ave]]></description>
+      <Point>
+        <coordinates>-115.16842618955599,36.171050852726474,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>106</name>
+      <description><![CDATA[<b>OBJECTID:</b> 106<br/><b>BUS_ADDRESS:</b> 1012 Sproul Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 1012<br/><b>STNAME:</b> Sproul<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 119431<br/><b>PRCLID:</b> 13834812079<br/><b>LICENSENO:</b> G66-03285<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1525719813000<br/><b>ISSDTTM:</b> 1525820398000<br/><b>EXPDTTM:</b> 1682899200000<br/><b>BUS_NAME:</b> Mimi Y Chiang<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 1012 Sproul Ct]]></description>
+      <Point>
+        <coordinates>-115.24759731044834,36.159560603044916,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>107</name>
+      <description><![CDATA[<b>OBJECTID:</b> 107<br/><b>BUS_ADDRESS:</b> 613 Starks Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 613<br/><b>STNAME:</b> Starks<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 159675<br/><b>PRCLID:</b> 13930711063<br/><b>LICENSENO:</b> G66-03559<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1526480644000<br/><b>ISSDTTM:</b> 1526981269000<br/><b>EXPDTTM:</b> 1714521600000<br/><b>BUS_NAME:</b> Crystal Image Property<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 613 Starks Dr]]></description>
+      <Point>
+        <coordinates>-115.19364698657462,36.17811203210467,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>108</name>
+      <description><![CDATA[<b>OBJECTID:</b> 108<br/><b>BUS_ADDRESS:</b> 3812 Budlong Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89110<br/><b>STRNO:</b> 3812<br/><b>STNAME:</b> Budlong<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 191596<br/><b>PRCLID:</b> 14031311055<br/><b>LICENSENO:</b> G66-04230<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1528630284000<br/><b>ISSDTTM:</b> 1531925675000<br/><b>EXPDTTM:</b> 1688169600000<br/><b>BUS_NAME:</b> Aisha Blackwell<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 3812 Budlong Ave]]></description>
+      <Point>
+        <coordinates>-115.0944639727551,36.16300253023429,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>109</name>
+      <description><![CDATA[<b>OBJECTID:</b> 109<br/><b>BUS_ADDRESS:</b> 204 Scherer St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 204<br/><b>STNAME:</b> Scherer<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 115499<br/><b>PRCLID:</b> 13833514012<br/><b>LICENSENO:</b> G66-04592<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1529913871000<br/><b>ISSDTTM:</b> 1531822975000<br/><b>EXPDTTM:</b> 1688169600000<br/><b>BUS_NAME:</b> WestSide Delight<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 204 Scherer St]]></description>
+      <Point>
+        <coordinates>-115.26423537283692,36.17148659769723,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>110</name>
+      <description><![CDATA[<b>OBJECTID:</b> 110<br/><b>BUS_ADDRESS:</b> 356 N 16th St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89101<br/><b>STRNO:</b> 356<br/><b>STDIR:</b> N<br/><b>STNAME:</b> 16th<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 164487<br/><b>PRCLID:</b> 13935212100<br/><b>LICENSENO:</b> G66-04619<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1529938019000<br/><b>ISSDTTM:</b> 1532382587000<br/><b>EXPDTTM:</b> 1688169600000<br/><b>BUS_NAME:</b> You & Me BNB<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 356 N 16th St]]></description>
+      <Point>
+        <coordinates>-115.12574668066549,36.16903256491082,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>111</name>
+      <description><![CDATA[<b>OBJECTID:</b> 111<br/><b>BUS_ADDRESS:</b> 6216 Clarice Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 6216<br/><b>STNAME:</b> Clarice<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 103863<br/><b>PRCLID:</b> 13826811040<br/><b>LICENSENO:</b> G66-05255<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1532343608000<br/><b>ISSDTTM:</b> 1534273170000<br/><b>EXPDTTM:</b> 1690848000000<br/><b>BUS_NAME:</b> 6216 Clarice<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 6216 Clarice Ave]]></description>
+      <Point>
+        <coordinates>-115.22724252220465,36.17527328631458,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>112</name>
+      <description><![CDATA[<b>OBJECTID:</b> 112<br/><b>BUS_ADDRESS:</b> 4045 Woodgreen Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 4045<br/><b>STNAME:</b> Woodgreen<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 60797<br/><b>PRCLID:</b> 13803817019<br/><b>LICENSENO:</b> G66-05972<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1534783778000<br/><b>ISSDTTM:</b> 1536824293000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> Ramiro Cerda<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 4045 Woodgreen Dr]]></description>
+      <Point>
+        <coordinates>-115.24428414371165,36.23433872405604,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>113</name>
+      <description><![CDATA[<b>OBJECTID:</b> 113<br/><b>BUS_ADDRESS:</b> 1055 Bonita Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1055<br/><b>STNAME:</b> Bonita<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 242877<br/><b>PRCLID:</b> 16203722010<br/><b>LICENSENO:</b> G66-06155<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1535454164000<br/><b>ISSDTTM:</b> 1538682423000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Turley's Digs & Rides<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 1055 Bonita Ave]]></description>
+      <Point>
+        <coordinates>-115.13912335042454,36.14888327001786,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>114</name>
+      <description><![CDATA[<b>OBJECTID:</b> 114<br/><b>BUS_ADDRESS:</b> 3221 Shoreheight St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89117<br/><b>STRNO:</b> 3221<br/><b>STNAME:</b> Shoreheight<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 286409<br/><b>PRCLID:</b> 16308413013<br/><b>LICENSENO:</b> G66-06156<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1535456386000<br/><b>ISSDTTM:</b> 1536825202000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> Diverse Property Management<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 1 Bedroom<br/><b>ADDRESS:</b> 3221 Shoreheight St]]></description>
+      <Point>
+        <coordinates>-115.29327789216971,36.132042280883205,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>115</name>
+      <description><![CDATA[<b>OBJECTID:</b> 115<br/><b>BUS_ADDRESS:</b> 8441 Cavaricci Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89129<br/><b>STRNO:</b> 8441<br/><b>STNAME:</b> Cavaricci<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 520934<br/><b>PRCLID:</b> 13809325009<br/><b>LICENSENO:</b> G66-06299<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1536058701000<br/><b>ISSDTTM:</b> 1537389319000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> Kendrick Khoe LLC<br/><b>BUS_TYPE:</b> 6 Bedrooms<br/><b>ADDRESS:</b> 8441 Cavaricci Ave]]></description>
+      <Point>
+        <coordinates>-115.27677107959647,36.225325277665156,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>116</name>
+      <description><![CDATA[<b>OBJECTID:</b> 116<br/><b>BUS_ADDRESS:</b> 1804 Crownhaven Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 1804<br/><b>STNAME:</b> Crownhaven<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 95945<br/><b>PRCLID:</b> 13823715002<br/><b>LICENSENO:</b> G66-06403<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1536240517000<br/><b>ISSDTTM:</b> 1537808123000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> 702 Corchado LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 1804 Crownhaven Ct]]></description>
+      <Point>
+        <coordinates>-115.2266024024278,36.19250743378592,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>117</name>
+      <description><![CDATA[<b>OBJECTID:</b> 117<br/><b>BUS_ADDRESS:</b> 5305 Padua Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 5305<br/><b>STNAME:</b> Padua<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 124015<br/><b>PRCLID:</b> 13836813010<br/><b>LICENSENO:</b> G66-06839<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1537839435000<br/><b>ISSDTTM:</b> 1540896586000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Lis A Magrini<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 5305 Padua Way]]></description>
+      <Point>
+        <coordinates>-115.2139860310138,36.16205290354519,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>118</name>
+      <description><![CDATA[<b>OBJECTID:</b> 118<br/><b>BUS_ADDRESS:</b> 2117 Alhambra Cir<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 2117<br/><b>STNAME:</b> Alhambra<br/><b>STRTYPE:</b> Cir<br/><b>ADDRKEY:</b> 243011<br/><b>PRCLID:</b> 16203810009<br/><b>LICENSENO:</b> G66-06926<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1538054759000<br/><b>ISSDTTM:</b> 1542651364000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> Las Vegas R&R<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 2117 Alhambra Cir]]></description>
+      <Point>
+        <coordinates>-115.14438096265116,36.14658155129479,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>119</name>
+      <description><![CDATA[<b>OBJECTID:</b> 119<br/><b>BUS_ADDRESS:</b> 7921 Evident Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89131<br/><b>STRNO:</b> 7921<br/><b>STNAME:</b> Evident<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 30619<br/><b>PRCLID:</b> 12521511038<br/><b>LICENSENO:</b> G66-06968<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1538255035000<br/><b>ISSDTTM:</b> 1539800533000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> 7921Evidentct<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 7921 Evident Ct]]></description>
+      <Point>
+        <coordinates>-115.26833848036378,36.28873553590843,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>120</name>
+      <description><![CDATA[<b>OBJECTID:</b> 120<br/><b>BUS_ADDRESS:</b> 308 S 10th St BLDG 1<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89101<br/><b>STRNO:</b> 308<br/><b>STDIR:</b> S<br/><b>STNAME:</b> 10th<br/><b>STRTYPE:</b> St<br/><b>SUITE_NUM:</b> BLDG 1<br/><b>ADDRKEY:</b> 712831<br/><b>PRCLID:</b> 13934712045<br/><b>LICENSENO:</b> G66-07028<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1538482534000<br/><b>ISSDTTM:</b> 1540236072000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> 10th Vacations<br/><b>BUS_TYPE:</b> 1 Bedroom<br/><b>ADDRESS:</b> 308 S 10th St]]></description>
+      <Point>
+        <coordinates>-115.13698196693181,36.16432530642374,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>121</name>
+      <description><![CDATA[<b>OBJECTID:</b> 121<br/><b>BUS_ADDRESS:</b> 7609 Advantage Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89129<br/><b>STRNO:</b> 7609<br/><b>STNAME:</b> Advantage<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 69391<br/><b>PRCLID:</b> 13809713038<br/><b>LICENSENO:</b> G66-07039<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1538491344000<br/><b>ISSDTTM:</b> 1539790297000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Tyler Enterprise<br/><b>BUS_TYPE:</b> 5 Bedrooms<br/><b>ADDRESS:</b> 7609 Advantage Ct]]></description>
+      <Point>
+        <coordinates>-115.26161546468914,36.224343462662375,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>122</name>
+      <description><![CDATA[<b>OBJECTID:</b> 122<br/><b>BUS_ADDRESS:</b> 7445 Wandering St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89131<br/><b>STRNO:</b> 7445<br/><b>STNAME:</b> Wandering<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 27236<br/><b>PRCLID:</b> 12516313034<br/><b>LICENSENO:</b> G66-07091<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1538650975000<br/><b>ISSDTTM:</b> 1539789205000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Welcome House Las Vegas<br/><b>BUS_TYPE:</b> 5 Bedrooms<br/><b>ADDRESS:</b> 7445 Wandering St]]></description>
+      <Point>
+        <coordinates>-115.27467463863802,36.296689639552504,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>123</name>
+      <description><![CDATA[<b>OBJECTID:</b> 123<br/><b>BUS_ADDRESS:</b> 721 Campbell Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 721<br/><b>STNAME:</b> Campbell<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 161572<br/><b>PRCLID:</b> 13932405007<br/><b>LICENSENO:</b> G66-07139<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1538923193000<br/><b>ISSDTTM:</b> 1541442664000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> SY INVESTORS LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 721 Campbell Dr]]></description>
+      <Point>
+        <coordinates>-115.18296275993079,36.16152948187936,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>124</name>
+      <description><![CDATA[<b>OBJECTID:</b> 124<br/><b>BUS_ADDRESS:</b> 308 S 10th St BLDG 2<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89101<br/><b>STRNO:</b> 308<br/><b>STDIR:</b> S<br/><b>STNAME:</b> 10th<br/><b>STRTYPE:</b> St<br/><b>SUITE_NUM:</b> BLDG 2<br/><b>ADDRKEY:</b> 712830<br/><b>PRCLID:</b> 13934712045<br/><b>LICENSENO:</b> G66-07371<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1539760081000<br/><b>ISSDTTM:</b> 1542226988000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> 10th Vacations<br/><b>BUS_TYPE:</b> 1 Bedroom<br/><b>ADDRESS:</b> 308 S 10th St]]></description>
+      <Point>
+        <coordinates>-115.13698196693181,36.16432530642374,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>125</name>
+      <description><![CDATA[<b>OBJECTID:</b> 125<br/><b>BUS_ADDRESS:</b> 308 S 10th St BLDG 3<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89101<br/><b>STRNO:</b> 308<br/><b>STDIR:</b> S<br/><b>STNAME:</b> 10th<br/><b>STRTYPE:</b> St<br/><b>SUITE_NUM:</b> BLDG 3<br/><b>ADDRKEY:</b> 712829<br/><b>PRCLID:</b> 13934712045<br/><b>LICENSENO:</b> G66-07372<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1539761534000<br/><b>ISSDTTM:</b> 1542221490000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> 10th Vacations<br/><b>BUS_TYPE:</b> 2 Bedrooms<br/><b>ADDRESS:</b> 308 S 10th St]]></description>
+      <Point>
+        <coordinates>-115.13698196693181,36.16432530642374,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>126</name>
+      <description><![CDATA[<b>OBJECTID:</b> 126<br/><b>BUS_ADDRESS:</b> 2725 Grafton Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89117<br/><b>STRNO:</b> 2725<br/><b>STNAME:</b> Grafton<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 283027<br/><b>PRCLID:</b> 16307112003<br/><b>LICENSENO:</b> G66-07675<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1540901414000<br/><b>ISSDTTM:</b> 1542650483000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> Theresa Gonsalves<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 2725 Grafton Ct]]></description>
+      <Point>
+        <coordinates>-115.30867869412272,36.14167211163667,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>127</name>
+      <description><![CDATA[<b>OBJECTID:</b> 127<br/><b>BUS_ADDRESS:</b> 1709 Kassabian Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1709<br/><b>STNAME:</b> Kassabian<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 240786<br/><b>PRCLID:</b> 16202810053<br/><b>LICENSENO:</b> G66-08076<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1542368457000<br/><b>ISSDTTM:</b> 1547584244000<br/><b>EXPDTTM:</b> 1704067200000<br/><b>BUS_NAME:</b> The Vegas Escape<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 1709 Kassabian Ave]]></description>
+      <Point>
+        <coordinates>-115.1269045420635,36.146819429163315,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>128</name>
+      <description><![CDATA[<b>OBJECTID:</b> 128<br/><b>BUS_ADDRESS:</b> 1709 E Oakey Blvd<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1709<br/><b>STDIR:</b> E<br/><b>STNAME:</b> Oakey<br/><b>STRTYPE:</b> Blvd<br/><b>ADDRKEY:</b> 240208<br/><b>PRCLID:</b> 16202614070<br/><b>LICENSENO:</b> G66-08101<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1542621296000<br/><b>ISSDTTM:</b> 1543864444000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> Oat Capital, LLC<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 1709 E Oakey Blvd]]></description>
+      <Point>
+        <coordinates>-115.12703475890308,36.15189900197657,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>129</name>
+      <description><![CDATA[<b>OBJECTID:</b> 129<br/><b>BUS_ADDRESS:</b> 1313 Barnard Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 1313<br/><b>STNAME:</b> Barnard<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 244371<br/><b>PRCLID:</b> 16205215083<br/><b>LICENSENO:</b> G66-08117<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1542640726000<br/><b>ISSDTTM:</b> 1543945557000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> Marissia's House<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 1313 Barnard Dr]]></description>
+      <Point>
+        <coordinates>-115.1869775304259,36.15393031148581,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>130</name>
+      <description><![CDATA[<b>OBJECTID:</b> 130<br/><b>BUS_ADDRESS:</b> 1404 Francis Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1404<br/><b>STNAME:</b> Francis<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 238917<br/><b>PRCLID:</b> 16202115124<br/><b>LICENSENO:</b> G66-08203<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1543233715000<br/><b>ISSDTTM:</b> 1544801602000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> Rebecca L Dolman<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 1404 Francis Ave]]></description>
+      <Point>
+        <coordinates>-115.13422996471151,36.15701351170399,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>131</name>
+      <description><![CDATA[<b>OBJECTID:</b> 131<br/><b>BUS_ADDRESS:</b> 408 Greenfield Ln<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 408<br/><b>STNAME:</b> Greenfield<br/><b>STRTYPE:</b> Ln<br/><b>ADDRKEY:</b> 119862<br/><b>PRCLID:</b> 13835216026<br/><b>LICENSENO:</b> G66-08230<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1543277159000<br/><b>ISSDTTM:</b> 1544199161000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> Joseph Everett Phillips<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 408 Greenfield Ln]]></description>
+      <Point>
+        <coordinates>-115.24150026669489,36.167975709538474,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>132</name>
+      <description><![CDATA[<b>OBJECTID:</b> 132<br/><b>BUS_ADDRESS:</b> 241 Moose Ln<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 241<br/><b>STNAME:</b> Moose<br/><b>STRTYPE:</b> Ln<br/><b>ADDRKEY:</b> 113368<br/><b>PRCLID:</b> 13833110051<br/><b>LICENSENO:</b> G66-08740<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1545058967000<br/><b>ISSDTTM:</b> 1547293547000<br/><b>EXPDTTM:</b> 1704067200000<br/><b>BUS_NAME:</b> Vanus Vacation Homes LLC<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 241 Moose Ln]]></description>
+      <Point>
+        <coordinates>-115.27709061066851,36.170952222163045,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>133</name>
+      <description><![CDATA[<b>OBJECTID:</b> 133<br/><b>BUS_ADDRESS:</b> 1124 Olvera Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89128<br/><b>STRNO:</b> 1124<br/><b>STNAME:</b> Olvera<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 104621<br/><b>PRCLID:</b> 13827214024<br/><b>LICENSENO:</b> G67-00279<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1547226775000<br/><b>ISSDTTM:</b> 1552487956000<br/><b>EXPDTTM:</b> 1709251200000<br/><b>BUS_NAME:</b> Best RE Investments L.L.C.<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 1124 Olvera Way]]></description>
+      <Point>
+        <coordinates>-115.2525387565281,36.18391874754076,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>134</name>
+      <description><![CDATA[<b>OBJECTID:</b> 134<br/><b>BUS_ADDRESS:</b> 1536 Valley Crest St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 1536<br/><b>STNAME:</b> Valley Crest<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 102778<br/><b>PRCLID:</b> 13826512006<br/><b>LICENSENO:</b> G67-00419<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1547656904000<br/><b>ISSDTTM:</b> 1548879872000<br/><b>EXPDTTM:</b> 1704067200000<br/><b>BUS_NAME:</b> Benjamin & Jennifer Gunn<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 1536 Valley Crest St]]></description>
+      <Point>
+        <coordinates>-115.22837072555913,36.18812232749974,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>135</name>
+      <description><![CDATA[<b>OBJECTID:</b> 135<br/><b>BUS_ADDRESS:</b> 1901 E St Louis Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1901<br/><b>STDIR:</b> E<br/><b>STNAME:</b> St Louis<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 240725<br/><b>PRCLID:</b> 16202714025<br/><b>LICENSENO:</b> G67-01018<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1549633716000<br/><b>ISSDTTM:</b> 1551986488000<br/><b>EXPDTTM:</b> 1709251200000<br/><b>BUS_NAME:</b> Grace Vacation Rentals<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 1901 E St Louis Ave]]></description>
+      <Point>
+        <coordinates>-115.12306745417985,36.148507840272636,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>136</name>
+      <description><![CDATA[<b>OBJECTID:</b> 136<br/><b>BUS_ADDRESS:</b> 383 N 14th St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89101<br/><b>STRNO:</b> 383<br/><b>STDIR:</b> N<br/><b>STNAME:</b> 14th<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 164148<br/><b>PRCLID:</b> 13935111045<br/><b>LICENSENO:</b> G67-01052<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1549885954000<br/><b>ISSDTTM:</b> 1550931800000<br/><b>EXPDTTM:</b> 1706745600000<br/><b>BUS_NAME:</b> Ashley Saba<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 1 Bedroom<br/><b>ADDRESS:</b> 383 N 14th St]]></description>
+      <Point>
+        <coordinates>-115.12846013140694,36.17036501446335,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>137</name>
+      <description><![CDATA[<b>OBJECTID:</b> 137<br/><b>BUS_ADDRESS:</b> 2010 S Buffalo Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89117<br/><b>STRNO:</b> 2010<br/><b>STDIR:</b> S<br/><b>STNAME:</b> Buffalo<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 277295<br/><b>PRCLID:</b> 16303305002<br/><b>LICENSENO:</b> G67-01317<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1550790853000<br/><b>ISSDTTM:</b> 1553876467000<br/><b>EXPDTTM:</b> 1709251200000<br/><b>BUS_NAME:</b> Luk Property<br/><b>BUS_TYPE:</b> 5 Bedrooms<br/><b>ADDRESS:</b> 2010 S Buffalo Dr]]></description>
+      <Point>
+        <coordinates>-115.2609351409495,36.14920333196568,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>138</name>
+      <description><![CDATA[<b>OBJECTID:</b> 138<br/><b>BUS_ADDRESS:</b> 3340 Ascona Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89129<br/><b>STRNO:</b> 3340<br/><b>STNAME:</b> Ascona<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 65810<br/><b>PRCLID:</b> 13808414046<br/><b>LICENSENO:</b> G67-01372<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1551096806000<br/><b>ISSDTTM:</b> 1551896532000<br/><b>EXPDTTM:</b> 1709251200000<br/><b>BUS_NAME:</b> Comfort Homes<br/><b>BUS_TYPE:</b> 5 Bedrooms<br/><b>ADDRESS:</b> 3340 Ascona Ct]]></description>
+      <Point>
+        <coordinates>-115.29337260284979,36.22189185233952,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>139</name>
+      <description><![CDATA[<b>OBJECTID:</b> 139<br/><b>BUS_ADDRESS:</b> 718 Lacy Ln<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 718<br/><b>STNAME:</b> Lacy<br/><b>STRTYPE:</b> Ln<br/><b>ADDRKEY:</b> 161436<br/><b>PRCLID:</b> 13932301013<br/><b>LICENSENO:</b> G67-02319<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1553697456000<br/><b>ISSDTTM:</b> 1554141196000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> Sky Earth Bottle<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 718 Lacy Ln]]></description>
+      <Point>
+        <coordinates>-115.18750881707892,36.16283316731682,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>140</name>
+      <description><![CDATA[<b>OBJECTID:</b> 140<br/><b>BUS_ADDRESS:</b> 1304 E Oakey Blvd<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1304<br/><b>STDIR:</b> E<br/><b>STNAME:</b> Oakey<br/><b>STRTYPE:</b> Blvd<br/><b>ADDRKEY:</b> 239286<br/><b>PRCLID:</b> 16202310004<br/><b>LICENSENO:</b> G67-02627<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1554707012000<br/><b>ISSDTTM:</b> 1555426393000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> Views Vegas LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 6 Bedrooms<br/><b>ADDRESS:</b> 1304 E Oakey Blvd]]></description>
+      <Point>
+        <coordinates>-115.13562903513099,36.151356925009736,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>141</name>
+      <description><![CDATA[<b>OBJECTID:</b> 141<br/><b>BUS_ADDRESS:</b> 5409 Banjo St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 5409<br/><b>STNAME:</b> Banjo<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 122318<br/><b>PRCLID:</b> 13836120022<br/><b>LICENSENO:</b> G67-02744<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1554969094000<br/><b>ISSDTTM:</b> 1555941918000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> Thao Phuong Cong Thai<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 5409 Banjo St]]></description>
+      <Point>
+        <coordinates>-115.21565728918459,36.17140496765599,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>142</name>
+      <description><![CDATA[<b>OBJECTID:</b> 142<br/><b>BUS_ADDRESS:</b> 4612 Lilliput Ln<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 4612<br/><b>STNAME:</b> Lilliput<br/><b>STRTYPE:</b> Ln<br/><b>ADDRKEY:</b> 247364<br/><b>PRCLID:</b> 16207212012<br/><b>LICENSENO:</b> G67-02767<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1555330495000<br/><b>ISSDTTM:</b> 1555425371000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> Patrick S Coppinger<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 4612 Lilliput Ln]]></description>
+      <Point>
+        <coordinates>-115.2030103315925,36.138285613156555,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>143</name>
+      <description><![CDATA[<b>OBJECTID:</b> 143<br/><b>BUS_ADDRESS:</b> 1114 Cashman Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 1114<br/><b>STNAME:</b> Cashman<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 244060<br/><b>PRCLID:</b> 16205111003<br/><b>LICENSENO:</b> G67-03046<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1556100968000<br/><b>ISSDTTM:</b> 1564425598000<br/><b>EXPDTTM:</b> 1688169600000<br/><b>BUS_NAME:</b> Incredible Paradise Resort<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 1114 Cashman Dr]]></description>
+      <Point>
+        <coordinates>-115.1865007867138,36.158103325745905,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>144</name>
+      <description><![CDATA[<b>OBJECTID:</b> 144<br/><b>BUS_ADDRESS:</b> 1709 Mora Ln<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 1709<br/><b>STNAME:</b> Mora<br/><b>STRTYPE:</b> Ln<br/><b>ADDRKEY:</b> 245462<br/><b>PRCLID:</b> 16205711026<br/><b>LICENSENO:</b> G67-04367<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1559829293000<br/><b>ISSDTTM:</b> 1560788066000<br/><b>EXPDTTM:</b> 1685577600000<br/><b>BUS_NAME:</b> MiamoraLV<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 1709 Mora Ln]]></description>
+      <Point>
+        <coordinates>-115.17813729587638,36.150914813738176,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>145</name>
+      <description><![CDATA[<b>OBJECTID:</b> 145<br/><b>BUS_ADDRESS:</b> 1330 S 13th St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1330<br/><b>STDIR:</b> S<br/><b>STNAME:</b> 13th<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 239075<br/><b>PRCLID:</b> 16202210033<br/><b>LICENSENO:</b> G67-04857<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1561465451000<br/><b>ISSDTTM:</b> 1568558517000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> Antigua Properties LLC<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 1330 S 13th St]]></description>
+      <Point>
+        <coordinates>-115.13632673955001,36.153899289197874,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>146</name>
+      <description><![CDATA[<b>OBJECTID:</b> 146<br/><b>BUS_ADDRESS:</b> 8105 Heavenly Star Cir<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89128<br/><b>STRNO:</b> 8105<br/><b>STNAME:</b> Heavenly Star<br/><b>STRTYPE:</b> Cir<br/><b>ADDRKEY:</b> 106917<br/><b>PRCLID:</b> 13828116006<br/><b>LICENSENO:</b> G67-04872<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1561636247000<br/><b>ISSDTTM:</b> 1563798543000<br/><b>EXPDTTM:</b> 1688169600000<br/><b>BUS_NAME:</b> JADE STAR<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 8105 Heavenly Star Cir]]></description>
+      <Point>
+        <coordinates>-115.27176655119342,36.18518559463336,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>147</name>
+      <description><![CDATA[<b>OBJECTID:</b> 147<br/><b>BUS_ADDRESS:</b> 309 Arnold St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89106<br/><b>STRNO:</b> 309<br/><b>STNAME:</b> Arnold<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 162483<br/><b>PRCLID:</b> 13933201009<br/><b>LICENSENO:</b> G67-05412<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1563365663000<br/><b>ISSDTTM:</b> 1564923525000<br/><b>EXPDTTM:</b> 1690848000000<br/><b>BUS_NAME:</b> The Phoenix House<br/><b>BUS_TYPE:</b> 6 Bedrooms<br/><b>ADDRESS:</b> 309 Arnold St]]></description>
+      <Point>
+        <coordinates>-115.16804727745891,36.168452923646846,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>148</name>
+      <description><![CDATA[<b>OBJECTID:</b> 148<br/><b>BUS_ADDRESS:</b> 2321 Santa Clara Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 2321<br/><b>STNAME:</b> Santa Clara<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 241702<br/><b>PRCLID:</b> 16203414017<br/><b>LICENSENO:</b> G67-05688<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1564579871000<br/><b>ISSDTTM:</b> 1565206679000<br/><b>EXPDTTM:</b> 1690848000000<br/><b>BUS_NAME:</b> Timothy Ng<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 2321 Santa Clara Dr]]></description>
+      <Point>
+        <coordinates>-115.15287770010607,36.14493506415475,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>149</name>
+      <description><![CDATA[<b>OBJECTID:</b> 149<br/><b>BUS_ADDRESS:</b> 1408 Jimmy Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89106<br/><b>STRNO:</b> 1408<br/><b>STNAME:</b> Jimmy<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 146847<br/><b>PRCLID:</b> 13921710003<br/><b>LICENSENO:</b> G67-06402<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1567523264000<br/><b>ISSDTTM:</b> 1568740415000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> Suniya's Place<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 1408 Jimmy Ave]]></description>
+      <Point>
+        <coordinates>-115.16008958475015,36.19373868389366,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>150</name>
+      <description><![CDATA[<b>OBJECTID:</b> 150<br/><b>BUS_ADDRESS:</b> 9121 Dolente Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89129<br/><b>STRNO:</b> 9121<br/><b>STNAME:</b> Dolente<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 65659<br/><b>PRCLID:</b> 13808412024<br/><b>LICENSENO:</b> G67-06609<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1568198180000<br/><b>ISSDTTM:</b> 1571260725000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Tulips1 LLC<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 9121 Dolente Ave]]></description>
+      <Point>
+        <coordinates>-115.29134028640489,36.2189030341507,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>151</name>
+      <description><![CDATA[<b>OBJECTID:</b> 151<br/><b>BUS_ADDRESS:</b> 520 Sportsman Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 520<br/><b>STNAME:</b> Sportsman<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 101851<br/><b>PRCLID:</b> 13826311015<br/><b>LICENSENO:</b> G67-06707<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1568625558000<br/><b>ISSDTTM:</b> 1570034961000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Madhouse LLC<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 520 Sportsman Dr]]></description>
+      <Point>
+        <coordinates>-115.2401212971482,36.17897199614714,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>152</name>
+      <description><![CDATA[<b>OBJECTID:</b> 152<br/><b>BUS_ADDRESS:</b> 7628 Desert Largo Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89128<br/><b>STRNO:</b> 7628<br/><b>STNAME:</b> Desert Largo<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 80271<br/><b>PRCLID:</b> 13816715024<br/><b>LICENSENO:</b> G67-06961<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1569338895000<br/><b>ISSDTTM:</b> 1572293039000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Jimin<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 7628 Desert Largo Ave]]></description>
+      <Point>
+        <coordinates>-115.26300055409816,36.20816424294099,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>153</name>
+      <description><![CDATA[<b>OBJECTID:</b> 153<br/><b>BUS_ADDRESS:</b> 4313 Via Vaquero Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 4313<br/><b>STNAME:</b> Via Vaquero<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 247042<br/><b>PRCLID:</b> 16206812060<br/><b>LICENSENO:</b> G67-07268<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1570446796000<br/><b>ISSDTTM:</b> 1573675907000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> 4313 VIA VAQUERO LLC<br/><b>BUS_TYPE:</b> 4 bedrooms<br/><b>ADDRESS:</b> 4313 Via Vaquero Ave]]></description>
+      <Point>
+        <coordinates>-115.19865212093761,36.144855227333785,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>154</name>
+      <description><![CDATA[<b>OBJECTID:</b> 154<br/><b>BUS_ADDRESS:</b> 6440 Brandywine Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 6440<br/><b>STNAME:</b> Brandywine<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 120208<br/><b>PRCLID:</b> 13835313039<br/><b>LICENSENO:</b> G67-08392<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1574432617000<br/><b>ISSDTTM:</b> 1576157675000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> Jessica Liu<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 6440 Brandywine Way]]></description>
+      <Point>
+        <coordinates>-115.23535403677427,36.165192947733075,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>155</name>
+      <description><![CDATA[<b>OBJECTID:</b> 155<br/><b>BUS_ADDRESS:</b> 120 Antelope Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 120<br/><b>STNAME:</b> Antelope<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 117340<br/><b>PRCLID:</b> 13834115029<br/><b>LICENSENO:</b> G67-08840<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1576581289000<br/><b>ISSDTTM:</b> 1580305610000<br/><b>EXPDTTM:</b> 1704067200000<br/><b>BUS_NAME:</b> Unlisted Investments LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 120 Antelope Way]]></description>
+      <Point>
+        <coordinates>-115.25117999024924,36.172683031969946,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>156</name>
+      <description><![CDATA[<b>OBJECTID:</b> 156<br/><b>BUS_ADDRESS:</b> 5116 Del Monte Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89146<br/><b>STRNO:</b> 5116<br/><b>STNAME:</b> Del Monte<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 275186<br/><b>PRCLID:</b> 16301614006<br/><b>LICENSENO:</b> G68-05454<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1596733108000<br/><b>ISSDTTM:</b> 1601051106000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> Sergey Vols<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 5116 Del Monte Ave]]></description>
+      <Point>
+        <coordinates>-115.20914687107356,36.154375956535716,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>157</name>
+      <description><![CDATA[<b>OBJECTID:</b> 157<br/><b>BUS_ADDRESS:</b> 2223 E Ogden Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89101<br/><b>STRNO:</b> 2223<br/><b>STDIR:</b> E<br/><b>STNAME:</b> Ogden<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 165891<br/><b>PRCLID:</b> 13935713036<br/><b>LICENSENO:</b> G68-05639<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1597404644000<br/><b>ISSDTTM:</b> 1600178257000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> Precision Assets<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 2223 E Ogden Ave]]></description>
+      <Point>
+        <coordinates>-115.11826718058443,36.16482806163513,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>158</name>
+      <description><![CDATA[<b>OBJECTID:</b> 158<br/><b>BUS_ADDRESS:</b> 5305 Del Monte Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89146<br/><b>STRNO:</b> 5305<br/><b>STNAME:</b> Del Monte<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 275135<br/><b>PRCLID:</b> 16301613017<br/><b>LICENSENO:</b> G68-05650<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1597447285000<br/><b>ISSDTTM:</b> 1598992827000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> Tina Cao<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 5305 Del Monte Ave]]></description>
+      <Point>
+        <coordinates>-115.21288016224081,36.15397740968927,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>159</name>
+      <description><![CDATA[<b>OBJECTID:</b> 159<br/><b>BUS_ADDRESS:</b> 9824 Tehama Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89117<br/><b>STRNO:</b> 9824<br/><b>STNAME:</b> Tehama<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 283874<br/><b>PRCLID:</b> 16307411020<br/><b>LICENSENO:</b> G69-04941<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1626186967000<br/><b>ISSDTTM:</b> 1630923291000<br/><b>EXPDTTM:</b> 1693526400000<br/><b>BUS_NAME:</b> Natalya Grozovskaya<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 9824 Tehama Ct]]></description>
+      <Point>
+        <coordinates>-115.30966832303801,36.133298667779954,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>160</name>
+      <description><![CDATA[<b>OBJECTID:</b> 160<br/><b>BUS_ADDRESS:</b> 6648 Lucky Strike Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 6648<br/><b>STNAME:</b> Lucky Strike<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 101341<br/><b>PRCLID:</b> 13826117014<br/><b>LICENSENO:</b> G69-05424<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1628092467000<br/><b>ISSDTTM:</b> 1628623436000<br/><b>EXPDTTM:</b> 1690848000000<br/><b>BUS_NAME:</b> Luz E. Rodriguez Velandia, LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 6648 Lucky Strike Way]]></description>
+      <Point>
+        <coordinates>-115.2401300714076,36.18663533086735,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>161</name>
+      <description><![CDATA[<b>OBJECTID:</b> 161<br/><b>BUS_ADDRESS:</b> 2212 Frontier Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89106<br/><b>STRNO:</b> 2212<br/><b>STNAME:</b> Frontier<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 161809<br/><b>PRCLID:</b> 13932514008<br/><b>LICENSENO:</b> G69-07892<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1637692393000<br/><b>ISSDTTM:</b> 1640278036000<br/><b>EXPDTTM:</b> 1701388800000<br/><b>BUS_NAME:</b> My Humble Abode<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 2212 Frontier Ave]]></description>
+      <Point>
+        <coordinates>-115.1719462703647,36.17248476893458,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>162</name>
+      <description><![CDATA[<b>OBJECTID:</b> 162<br/><b>BUS_ADDRESS:</b> 3913 Crema Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89129<br/><b>STRNO:</b> 3913<br/><b>STNAME:</b> Crema<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 69006<br/><b>PRCLID:</b> 13809515004<br/><b>LICENSENO:</b> G69-08084<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1638800914000<br/><b>ISSDTTM:</b> 1642852618000<br/><b>EXPDTTM:</b> 1704067200000<br/><b>BUS_NAME:</b> LEE W LANTERMAN<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 3913 Crema Ct]]></description>
+      <Point>
+        <coordinates>-115.26632124606317,36.2320473864506,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>163</name>
+      <description><![CDATA[<b>OBJECTID:</b> 163<br/><b>BUS_ADDRESS:</b> 909 Artesia Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 909<br/><b>STNAME:</b> Artesia<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 157687<br/><b>PRCLID:</b> 13929213015<br/><b>LICENSENO:</b> G70-00117<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1641476387000<br/><b>ISSDTTM:</b> 1648220863000<br/><b>EXPDTTM:</b> 1709251200000<br/><b>BUS_NAME:</b> Double Rainbow<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 909 Artesia Way]]></description>
+      <Point>
+        <coordinates>-115.18181381525996,36.18170600380514,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>164</name>
+      <description><![CDATA[<b>OBJECTID:</b> 164<br/><b>BUS_ADDRESS:</b> 1917 S 17th St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1917<br/><b>STDIR:</b> S<br/><b>STNAME:</b> 17th<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 239488<br/><b>PRCLID:</b> 16202314038<br/><b>LICENSENO:</b> G70-00134<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1641554182000<br/><b>ISSDTTM:</b> 1642180901000<br/><b>EXPDTTM:</b> 1704067200000<br/><b>BUS_NAME:</b> Las Vegas Urban Getaways<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 1917 S 17th St]]></description>
+      <Point>
+        <coordinates>-115.12829467487738,36.14866006902624,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>165</name>
+      <description><![CDATA[<b>OBJECTID:</b> 165<br/><b>BUS_ADDRESS:</b> 2609 Castlewood Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 2609<br/><b>STNAME:</b> Castlewood<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 247140<br/><b>PRCLID:</b> 16207111008<br/><b>LICENSENO:</b> G70-00762<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1643724256000<br/><b>ISSDTTM:</b> 1643980725000<br/><b>EXPDTTM:</b> 1706745600000<br/><b>BUS_NAME:</b> The Hoang Vu<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 2609 Castlewood Dr]]></description>
+      <Point>
+        <coordinates>-115.20218851260611,36.14222507086358,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>166</name>
+      <description><![CDATA[<b>OBJECTID:</b> 166<br/><b>BUS_ADDRESS:</b> 3612 Riviera Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 3612<br/><b>STNAME:</b> Riviera<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 159845<br/><b>PRCLID:</b> 13930714016<br/><b>LICENSENO:</b> G70-01409<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1646057971000<br/><b>ISSDTTM:</b> 1646333960000<br/><b>EXPDTTM:</b> 1709251200000<br/><b>BUS_NAME:</b> The Little Casita<br/><b>BUS_TYPE:</b> 4 Bedrooms<br/><b>ADDRESS:</b> 3612 Riviera Ave]]></description>
+      <Point>
+        <coordinates>-115.19004663279239,36.17944467070283,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>167</name>
+      <description><![CDATA[<b>OBJECTID:</b> 167<br/><b>BUS_ADDRESS:</b> 1334 Eastwood Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1334<br/><b>STNAME:</b> Eastwood<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 237466<br/><b>PRCLID:</b> 16201210086<br/><b>LICENSENO:</b> G70-01968<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1647954270000<br/><b>ISSDTTM:</b> 1648916717000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> Baker STRR<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 1334 Eastwood Dr]]></description>
+      <Point>
+        <coordinates>-115.11735352032122,36.153585243502626,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>168</name>
+      <description><![CDATA[<b>OBJECTID:</b> 168<br/><b>BUS_ADDRESS:</b> 5129 Dancer Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 5129<br/><b>STNAME:</b> Dancer<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 101002<br/><b>PRCLID:</b> 13825813010<br/><b>LICENSENO:</b> G70-02586<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1649945336000<br/><b>ISSDTTM:</b> 1651002557000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> Puza<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 5129 Dancer Way]]></description>
+      <Point>
+        <coordinates>-115.21213076879208,36.175284340363845,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>169</name>
+      <description><![CDATA[<b>OBJECTID:</b> 169<br/><b>BUS_ADDRESS:</b> 201 N 17th St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89101<br/><b>STRNO:</b> 201<br/><b>STDIR:</b> N<br/><b>STNAME:</b> 17th<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 164655<br/><b>PRCLID:</b> 13935312064<br/><b>LICENSENO:</b> G70-02656<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1650307756000<br/><b>ISSDTTM:</b> 1650739309000<br/><b>EXPDTTM:</b> 1711929600000<br/><b>BUS_NAME:</b> Moon Mami LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 201 N 17th St]]></description>
+      <Point>
+        <coordinates>-115.12630652042834,36.16510358150883,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>170</name>
+      <description><![CDATA[<b>OBJECTID:</b> 170<br/><b>BUS_ADDRESS:</b> 9720 Meadowville Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89129<br/><b>STRNO:</b> 9720<br/><b>STNAME:</b> Meadowville<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 62287<br/><b>PRCLID:</b> 13807110014<br/><b>LICENSENO:</b> G70-02813<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1650977821000<br/><b>ISSDTTM:</b> 1654772856000<br/><b>EXPDTTM:</b> 1685577600000<br/><b>BUS_NAME:</b> Esperanza Rios<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 9720 Meadowville Ave]]></description>
+      <Point>
+        <coordinates>-115.3079874411275,36.23262343801049,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>171</name>
+      <description><![CDATA[<b>OBJECTID:</b> 171<br/><b>BUS_ADDRESS:</b> 225 Coconut Grove Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 225<br/><b>STNAME:</b> Coconut Grove<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 105047<br/><b>PRCLID:</b> 13827411003<br/><b>LICENSENO:</b> G70-03138<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1652085202000<br/><b>ISSDTTM:</b> 1655157059000<br/><b>EXPDTTM:</b> 1685577600000<br/><b>BUS_NAME:</b> 225 coconut short term rental<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 225 Coconut Grove Ct]]></description>
+      <Point>
+        <coordinates>-115.25939972993692,36.175475328104824,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>172</name>
+      <description><![CDATA[<b>OBJECTID:</b> 172<br/><b>BUS_ADDRESS:</b> 4529 Nolan Ln<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 4529<br/><b>STNAME:</b> Nolan<br/><b>STRTYPE:</b> Ln<br/><b>ADDRKEY:</b> 160108<br/><b>PRCLID:</b> 13931213024<br/><b>LICENSENO:</b> G70-03680<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1653840622000<br/><b>ISSDTTM:</b> 1654866824000<br/><b>EXPDTTM:</b> 1685577600000<br/><b>BUS_NAME:</b> P & K INVESTMENT LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 4529 Nolan Ln]]></description>
+      <Point>
+        <coordinates>-115.20250298148055,36.16732054331615,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>173</name>
+      <description><![CDATA[<b>OBJECTID:</b> 173<br/><b>BUS_ADDRESS:</b> 7304 Blizzard Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 7304<br/><b>STNAME:</b> Blizzard<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 117205<br/><b>PRCLID:</b> 13834112001<br/><b>LICENSENO:</b> G70-03751<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1654020676000<br/><b>ISSDTTM:</b> 1657892490000<br/><b>EXPDTTM:</b> 1688169600000<br/><b>BUS_NAME:</b> House of Berners LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 7304 Blizzard Ct]]></description>
+      <Point>
+        <coordinates>-115.25716756830822,36.17295583385742,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>174</name>
+      <description><![CDATA[<b>OBJECTID:</b> 174<br/><b>BUS_ADDRESS:</b> 1916 S Torrey Pines Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89146<br/><b>STRNO:</b> 1916<br/><b>STDIR:</b> S<br/><b>STNAME:</b> Torrey Pines<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 276759<br/><b>PRCLID:</b> 16302715001<br/><b>LICENSENO:</b> G70-03858<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1654271691000<br/><b>ISSDTTM:</b> 1654941423000<br/><b>EXPDTTM:</b> 1685577600000<br/><b>BUS_NAME:</b> Arree LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 1916 S Torrey Pines Dr]]></description>
+      <Point>
+        <coordinates>-115.23388206691945,36.14910382771539,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>175</name>
+      <description><![CDATA[<b>OBJECTID:</b> 175<br/><b>BUS_ADDRESS:</b> 1509 Rainbow Meadows Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89128<br/><b>STRNO:</b> 1509<br/><b>STNAME:</b> Rainbow Meadows<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 104228<br/><b>PRCLID:</b> 13827113038<br/><b>LICENSENO:</b> G70-03949<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1654635736000<br/><b>ISSDTTM:</b> 1654944269000<br/><b>EXPDTTM:</b> 1685577600000<br/><b>BUS_NAME:</b> Perla Aparicio<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 1509 Rainbow Meadows Dr]]></description>
+      <Point>
+        <coordinates>-115.25144503915998,36.18804923989827,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>176</name>
+      <description><![CDATA[<b>OBJECTID:</b> 176<br/><b>BUS_ADDRESS:</b> 224 Prince Ln<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89110<br/><b>STRNO:</b> 224<br/><b>STNAME:</b> Prince<br/><b>STRTYPE:</b> Ln<br/><b>ADDRKEY:</b> 192368<br/><b>PRCLID:</b> 14031712037<br/><b>LICENSENO:</b> G70-05822<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1661185139000<br/><b>BUS_NAME:</b> LV ROOMS LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 224 Prince Ln]]></description>
+      <Point>
+        <coordinates>-115.08509296185927,36.16577012201348,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>177</name>
+      <description><![CDATA[<b>OBJECTID:</b> 177<br/><b>BUS_ADDRESS:</b> 5613 Deodar Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 5613<br/><b>STNAME:</b> Deodar<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 74925<br/><b>PRCLID:</b> 13813414015<br/><b>LICENSENO:</b> G70-05950<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1661609485000<br/><b>ISSDTTM:</b> 1664913588000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Vegas Villa LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 5613 Deodar Dr]]></description>
+      <Point>
+        <coordinates>-115.21817866544484,36.20380320695861,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>178</name>
+      <description><![CDATA[<b>OBJECTID:</b> 178<br/><b>BUS_ADDRESS:</b> 1817 Bunny Run Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89128<br/><b>STRNO:</b> 1817<br/><b>STNAME:</b> Bunny Run<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 92568<br/><b>PRCLID:</b> 13822313029<br/><b>LICENSENO:</b> G70-06129<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1662279199000<br/><b>ISSDTTM:</b> 1664998513000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Home In Las Vegas LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 1817 Bunny Run Dr]]></description>
+      <Point>
+        <coordinates>-115.25791952683653,36.192722350464095,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>179</name>
+      <description><![CDATA[<b>OBJECTID:</b> 179<br/><b>BUS_ADDRESS:</b> 600 Palmhurst Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 600<br/><b>STNAME:</b> Palmhurst<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 118050<br/><b>PRCLID:</b> 13834314016<br/><b>LICENSENO:</b> G70-06142<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1662456512000<br/><b>ISSDTTM:</b> 1666212147000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Neriber Rojas García<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 600 Palmhurst Dr]]></description>
+      <Point>
+        <coordinates>-115.25211636315917,36.16573690782437,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>180</name>
+      <description><![CDATA[<b>OBJECTID:</b> 180<br/><b>BUS_ADDRESS:</b> 413 Warmside Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 413<br/><b>STNAME:</b> Warmside<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 118859<br/><b>PRCLID:</b> 13834615084<br/><b>LICENSENO:</b> G70-06225<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1662641634000<br/><b>ISSDTTM:</b> 1664823217000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Luz E. Rodriguez Velandia, LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 413 Warmside Dr]]></description>
+      <Point>
+        <coordinates>-115.24473375734604,36.167718933660844,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>181</name>
+      <description><![CDATA[<b>OBJECTID:</b> 181<br/><b>BUS_ADDRESS:</b> 910 Melrose Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89101<br/><b>STRNO:</b> 910<br/><b>STNAME:</b> Melrose<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 155885<br/><b>PRCLID:</b> 13927711029<br/><b>LICENSENO:</b> G70-06867<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1664894543000<br/><b>ISSDTTM:</b> 1666210840000<br/><b>EXPDTTM:</b> 1696118400000<br/><b>BUS_NAME:</b> Lady Luck Stay LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 910 Melrose Dr]]></description>
+      <Point>
+        <coordinates>-115.13849216215242,36.17988963575437,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>182</name>
+      <description><![CDATA[<b>OBJECTID:</b> 182<br/><b>BUS_ADDRESS:</b> 7129 Yacht Landing Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89129<br/><b>STRNO:</b> 7129<br/><b>STNAME:</b> Yacht Landing<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 70254<br/><b>PRCLID:</b> 13810510031<br/><b>LICENSENO:</b> G70-07254<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1666359644000<br/><b>ISSDTTM:</b> 1668490248000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> Matthew Cecil<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 7129 Yacht Landing Dr]]></description>
+      <Point>
+        <coordinates>-115.25098955461485,36.2299858478697,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>183</name>
+      <description><![CDATA[<b>OBJECTID:</b> 183<br/><b>BUS_ADDRESS:</b> 2420 Sherman Pl<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 2420<br/><b>STNAME:</b> Sherman<br/><b>STRTYPE:</b> Pl<br/><b>ADDRKEY:</b> 245064<br/><b>PRCLID:</b> 16205511023<br/><b>LICENSENO:</b> G70-07753<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1668155630000<br/><b>ISSDTTM:</b> 1672939367000<br/><b>EXPDTTM:</b> 1704067200000<br/><b>BUS_NAME:</b> Fred Van Horn<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 2420 Sherman Pl]]></description>
+      <Point>
+        <coordinates>-115.17487564969409,36.158150778325826,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>184</name>
+      <description><![CDATA[<b>OBJECTID:</b> 184<br/><b>BUS_ADDRESS:</b> 2317 Palomino Ln<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 2317<br/><b>STNAME:</b> Palomino<br/><b>STRTYPE:</b> Ln<br/><b>ADDRKEY:</b> 162142<br/><b>PRCLID:</b> 13932802006<br/><b>LICENSENO:</b> G70-07863<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1668626364000<br/><b>ISSDTTM:</b> 1671136147000<br/><b>EXPDTTM:</b> 1686860947000<br/><b>BUS_NAME:</b> Palomino Lane LLC<br/><b>BUS_TYPE:</b> STR: 4 Bedrooms<br/><b>ADDRESS:</b> 2317 Palomino Ln]]></description>
+      <Point>
+        <coordinates>-115.17377805215699,36.16217270870771,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>185</name>
+      <description><![CDATA[<b>OBJECTID:</b> 185<br/><b>BUS_ADDRESS:</b> 9605 Pacific View Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89117<br/><b>STRNO:</b> 9605<br/><b>STNAME:</b> Pacific View<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 284976<br/><b>PRCLID:</b> 16307810055<br/><b>LICENSENO:</b> G70-07926<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1669027112000<br/><b>ISSDTTM:</b> 1672162573000<br/><b>EXPDTTM:</b> 1687887373000<br/><b>BUS_NAME:</b> Manner LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 9605 Pacific View Dr]]></description>
+      <Point>
+        <coordinates>-115.30467374169554,36.1320616779653,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>186</name>
+      <description><![CDATA[<b>OBJECTID:</b> 186<br/><b>BUS_ADDRESS:</b> 421 Sam Jonas Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 421<br/><b>STNAME:</b> Sam Jonas<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 115783<br/><b>PRCLID:</b> 13833613024<br/><b>LICENSENO:</b> G70-08023<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1669412064000<br/><b>ISSDTTM:</b> 1672745683000<br/><b>EXPDTTM:</b> 1688384083000<br/><b>BUS_NAME:</b> SAA<br/><b>BUS_TYPE:</b> STR: 3 Bedrooms<br/><b>ADDRESS:</b> 421 Sam Jonas Dr]]></description>
+      <Point>
+        <coordinates>-115.26029924593966,36.167546430030384,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>187</name>
+      <description><![CDATA[<b>OBJECTID:</b> 187<br/><b>BUS_ADDRESS:</b> 3284 Mustang St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 3284<br/><b>STNAME:</b> Mustang<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 73054<br/><b>PRCLID:</b> 13811802008<br/><b>LICENSENO:</b> G70-08024<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1669420001000<br/><b>ISSDTTM:</b> 1671543276000<br/><b>EXPDTTM:</b> 1687268076000<br/><b>BUS_NAME:</b> Infinity One Investments<br/><b>BUS_TYPE:</b> STR: 4 Bedrooms<br/><b>ADDRESS:</b> 3284 Mustang St]]></description>
+      <Point>
+        <coordinates>-115.23163047625164,36.21896493671656,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>188</name>
+      <description><![CDATA[<b>OBJECTID:</b> 188<br/><b>BUS_ADDRESS:</b> 1200 Gallery Shores Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89128<br/><b>STRNO:</b> 1200<br/><b>STNAME:</b> Gallery Shores<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 107494<br/><b>PRCLID:</b> 13828214001<br/><b>LICENSENO:</b> G70-08140<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1669901455000<br/><b>ISSDTTM:</b> 1670530677000<br/><b>EXPDTTM:</b> 1686255477000<br/><b>BUS_NAME:</b> The Avatar Holdings Trust<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2- Bedrooms<br/><b>ADDRESS:</b> 1200 Gallery Shores Dr]]></description>
+      <Point>
+        <coordinates>-115.27537388132558,36.18387191401726,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>189</name>
+      <description><![CDATA[<b>OBJECTID:</b> 189<br/><b>BUS_ADDRESS:</b> 6325 Rassler Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 6325<br/><b>STNAME:</b> Rassler<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 103668<br/><b>PRCLID:</b> 13826712113<br/><b>LICENSENO:</b> G70-08328<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1670623221000<br/><b>ISSDTTM:</b> 1672742553000<br/><b>EXPDTTM:</b> 1688380953000<br/><b>BUS_NAME:</b> Cactus Housing LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 6325 Rassler Ave]]></description>
+      <Point>
+        <coordinates>-115.23086285730936,36.17837495296572,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>190</name>
+      <description><![CDATA[<b>OBJECTID:</b> 190<br/><b>BUS_ADDRESS:</b> 6317 Barkstone Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 6317<br/><b>STNAME:</b> Barkstone<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 77004<br/><b>PRCLID:</b> 13814510040<br/><b>LICENSENO:</b> G71-00242<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1673440603000<br/><b>ISSDTTM:</b> 1674494035000<br/><b>EXPDTTM:</b> 1690132435000<br/><b>BUS_NAME:</b> Marinas Dream LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 6317 Barkstone Ave]]></description>
+      <Point>
+        <coordinates>-115.23291209457315,36.21673510067522,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>191</name>
+      <description><![CDATA[<b>OBJECTID:</b> 191<br/><b>BUS_ADDRESS:</b> 1609 Wildwood Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 1609<br/><b>STNAME:</b> Wildwood<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 97540<br/><b>PRCLID:</b> 13824416009<br/><b>LICENSENO:</b> G71-00273<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1673523353000<br/><b>ISSDTTM:</b> 1673859790000<br/><b>EXPDTTM:</b> 1689498190000<br/><b>BUS_NAME:</b> Vegas Home Rental LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 BEDROOMS<br/><b>ADDRESS:</b> 1609 Wildwood Dr]]></description>
+      <Point>
+        <coordinates>-115.2177252934743,36.188927594886664,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>192</name>
+      <description><![CDATA[<b>OBJECTID:</b> 192<br/><b>BUS_ADDRESS:</b> 524 Eden Cir<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 524<br/><b>STNAME:</b> Eden<br/><b>STRTYPE:</b> Cir<br/><b>ADDRKEY:</b> 121341<br/><b>PRCLID:</b> 13835712011<br/><b>LICENSENO:</b> G71-00507<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1674495505000<br/><b>ISSDTTM:</b> 1678915614000<br/><b>EXPDTTM:</b> 1694813214000<br/><b>BUS_NAME:</b> TIGER LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 524 Eden Cir]]></description>
+      <Point>
+        <coordinates>-115.22450747006823,36.16570574715601,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>193</name>
+      <description><![CDATA[<b>OBJECTID:</b> 193<br/><b>BUS_ADDRESS:</b> 1305 S 16th St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1305<br/><b>STDIR:</b> S<br/><b>STNAME:</b> 16th<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 239184<br/><b>PRCLID:</b> 16202213027<br/><b>LICENSENO:</b> G71-00760<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1675279906000<br/><b>ISSDTTM:</b> 1676291617000<br/><b>EXPDTTM:</b> 1691930017000<br/><b>BUS_NAME:</b> ii Property Group LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 1305 S 16th St]]></description>
+      <Point>
+        <coordinates>-115.13032197406058,36.154627746402625,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>194</name>
+      <description><![CDATA[<b>OBJECTID:</b> 194<br/><b>BUS_ADDRESS:</b> 2816 Sing Song Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89106<br/><b>STRNO:</b> 2816<br/><b>STNAME:</b> Sing Song<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 143841<br/><b>PRCLID:</b> 13920417001<br/><b>LICENSENO:</b> G71-00787<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1675343649000<br/><b>ISSDTTM:</b> 1682777957000<br/><b>EXPDTTM:</b> 1698589157000<br/><b>BUS_NAME:</b> Fantastic Family Rentals LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 2816 Sing Song Way]]></description>
+      <Point>
+        <coordinates>-115.18019840071686,36.19132532923381,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>195</name>
+      <description><![CDATA[<b>OBJECTID:</b> 195<br/><b>BUS_ADDRESS:</b> 413 Estella Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 413<br/><b>STNAME:</b> Estella<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 159190<br/><b>PRCLID:</b> 13930412001<br/><b>LICENSENO:</b> G71-00950<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1675952037000<br/><b>ISSDTTM:</b> 1678270178000<br/><b>EXPDTTM:</b> 1694167778000<br/><b>BUS_NAME:</b> Valentina Grand Retreats LLC<br/><b>BUS_TYPE:</b> STR Owner Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 413 Estella Ave]]></description>
+      <Point>
+        <coordinates>-115.19804891666537,36.176296532405914,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>196</name>
+      <description><![CDATA[<b>OBJECTID:</b> 196<br/><b>BUS_ADDRESS:</b> 7701 Leavorite Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89128<br/><b>STRNO:</b> 7701<br/><b>STNAME:</b> Leavorite<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 109559<br/><b>PRCLID:</b> 13828614035<br/><b>LICENSENO:</b> G71-01281<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1677571106000<br/><b>ISSDTTM:</b> 1680118309000<br/><b>EXPDTTM:</b> 1696015909000<br/><b>BUS_NAME:</b> StayHereLV LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 7701 Leavorite Dr]]></description>
+      <Point>
+        <coordinates>-115.26172666616849,36.18365996124638,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>197</name>
+      <description><![CDATA[<b>OBJECTID:</b> 197<br/><b>BUS_ADDRESS:</b> 3801 El Portal Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 3801<br/><b>STNAME:</b> El Portal<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 246956<br/><b>PRCLID:</b> 16206811030<br/><b>LICENSENO:</b> G71-01382<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1677763888000<br/><b>ISSDTTM:</b> 1679518452000<br/><b>EXPDTTM:</b> 1695416052000<br/><b>BUS_NAME:</b> Jose P. Orozco Mena<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 3801 El Portal Ave]]></description>
+      <Point>
+        <coordinates>-115.19209376912659,36.146996581480984,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>198</name>
+      <description><![CDATA[<b>OBJECTID:</b> 198<br/><b>BUS_ADDRESS:</b> 8208 Ogee Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 8208<br/><b>STNAME:</b> Ogee<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 115187<br/><b>PRCLID:</b> 13833413026<br/><b>LICENSENO:</b> G71-01561<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1678391863000<br/><b>ISSDTTM:</b> 1680437312000<br/><b>EXPDTTM:</b> 1696248512000<br/><b>BUS_NAME:</b> TATA'S HOUSE<br/><b>BUS_TYPE:</b> STR Owner Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 8208 Ogee Dr]]></description>
+      <Point>
+        <coordinates>-115.27157193866375,36.16148659472231,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>199</name>
+      <description><![CDATA[<b>OBJECTID:</b> 199<br/><b>BUS_ADDRESS:</b> 1215 S 16th St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 1215<br/><b>STDIR:</b> S<br/><b>STNAME:</b> 16th<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 238725<br/><b>PRCLID:</b> 16202111024<br/><b>LICENSENO:</b> G71-01571<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1678444606000<br/><b>ISSDTTM:</b> 1679048782000<br/><b>EXPDTTM:</b> 1694946382000<br/><b>BUS_NAME:</b> BE MY GUEST LV<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 1215 S 16th St]]></description>
+      <Point>
+        <coordinates>-115.13075610062621,36.15614172610622,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>200</name>
+      <description><![CDATA[<b>OBJECTID:</b> 200<br/><b>BUS_ADDRESS:</b> 1021 Nassau Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 1021<br/><b>STNAME:</b> Nassau<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 100136<br/><b>PRCLID:</b> 13825615012<br/><b>LICENSENO:</b> G71-01943<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1679935643000<br/><b>ISSDTTM:</b> 1682784523000<br/><b>EXPDTTM:</b> 1698595723000<br/><b>BUS_NAME:</b> Richard Bailey jr<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 1 Bedroom<br/><b>ADDRESS:</b> 1021 Nassau Dr]]></description>
+      <Point>
+        <coordinates>-115.21271557944837,36.18216607555577,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>201</name>
+      <description><![CDATA[<b>OBJECTID:</b> 201<br/><b>BUS_ADDRESS:</b> 6528 Wild River Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 6528<br/><b>STNAME:</b> Wild River<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 101640<br/><b>PRCLID:</b> 13826214064<br/><b>LICENSENO:</b> G71-02048<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1680249405000<br/><b>BUS_NAME:</b> Yoanys Perez<br/><b>ADDRESS:</b> 6528 Wild River Dr]]></description>
+      <Point>
+        <coordinates>-115.23626634428575,36.18176289958103,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>202</name>
+      <description><![CDATA[<b>OBJECTID:</b> 202<br/><b>BUS_ADDRESS:</b> 2101 Autumn Lull Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89146<br/><b>STRNO:</b> 2101<br/><b>STNAME:</b> Autumn Lull<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 276504<br/><b>PRCLID:</b> 16302412001<br/><b>LICENSENO:</b> G71-02052<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1680262969000<br/><b>BUS_NAME:</b> The Victory Autumn<br/><b>ADDRESS:</b> 2101 Autumn Lull Dr]]></description>
+      <Point>
+        <coordinates>-115.23842889036109,36.147703258488534,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>203</name>
+      <description><![CDATA[<b>OBJECTID:</b> 203<br/><b>BUS_ADDRESS:</b> 6325 Lawton Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 6325<br/><b>STNAME:</b> Lawton<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 103837<br/><b>PRCLID:</b> 13826811014<br/><b>LICENSENO:</b> G71-02057<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1680610049000<br/><b>BUS_NAME:</b> Sandra Gonzalez-Fahimnia<br/><b>ADDRESS:</b> 6325 Lawton Ave]]></description>
+      <Point>
+        <coordinates>-115.2305639921009,36.17628752027442,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>204</name>
+      <description><![CDATA[<b>OBJECTID:</b> 204<br/><b>BUS_ADDRESS:</b> 3504 Navajo Way<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 3504<br/><b>STNAME:</b> Navajo<br/><b>STRTYPE:</b> Way<br/><b>ADDRKEY:</b> 159536<br/><b>PRCLID:</b> 13930619022<br/><b>LICENSENO:</b> G71-02124<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1680537337000<br/><b>BUS_NAME:</b> Maritza's Airbnb<br/><b>BUS_TYPE:</b> 2 Bedrooms<br/><b>ADDRESS:</b> 3504 Navajo Way]]></description>
+      <Point>
+        <coordinates>-115.18879966863447,36.184420920008115,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>205</name>
+      <description><![CDATA[<b>OBJECTID:</b> 205<br/><b>BUS_ADDRESS:</b> 4308 Esmeralda Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89102<br/><b>STRNO:</b> 4308<br/><b>STNAME:</b> Esmeralda<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 247028<br/><b>PRCLID:</b> 16206812046<br/><b>LICENSENO:</b> G71-02126<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1680538316000<br/><b>BUS_NAME:</b> Madai's Place<br/><b>ADDRESS:</b> 4308 Esmeralda Ave]]></description>
+      <Point>
+        <coordinates>-115.19844676365626,36.146034692796874,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>206</name>
+      <description><![CDATA[<b>OBJECTID:</b> 206<br/><b>BUS_ADDRESS:</b> 245 N 20th St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89101<br/><b>STRNO:</b> 245<br/><b>STDIR:</b> N<br/><b>STNAME:</b> 20th<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 165789<br/><b>PRCLID:</b> 13935711103<br/><b>LICENSENO:</b> G71-02227<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1680860336000<br/><b>BUS_NAME:</b> TripleCprops<br/><b>ADDRESS:</b> 245 N 20th St]]></description>
+      <Point>
+        <coordinates>-115.1222913932505,36.16621058952978,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>207</name>
+      <description><![CDATA[<b>OBJECTID:</b> 207<br/><b>BUS_ADDRESS:</b> 1316 Teton St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89101<br/><b>STRNO:</b> 1316<br/><b>STNAME:</b> Teton<br/><b>STRTYPE:</b> St<br/><b>ADDRKEY:</b> 153397<br/><b>PRCLID:</b> 13925512046<br/><b>LICENSENO:</b> G71-02315<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1681238703000<br/><b>ISSDTTM:</b> 1682787281000<br/><b>EXPDTTM:</b> 1698598481000<br/><b>BUS_NAME:</b> JeanVic House<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 1316 Teton St]]></description>
+      <Point>
+        <coordinates>-115.10349395704911,36.18539102637052,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>208</name>
+      <description><![CDATA[<b>OBJECTID:</b> 208<br/><b>BUS_ADDRESS:</b> 7444 Braswell Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89128<br/><b>STRNO:</b> 7444<br/><b>STNAME:</b> Braswell<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 104190<br/><b>PRCLID:</b> 13827112070<br/><b>LICENSENO:</b> G71-02333<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1681293819000<br/><b>BUS_NAME:</b> Divinity LLC<br/><b>ADDRESS:</b> 7444 Braswell Dr]]></description>
+      <Point>
+        <coordinates>-115.2553171966895,36.18710016031223,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>209</name>
+      <description><![CDATA[<b>OBJECTID:</b> 209<br/><b>BUS_ADDRESS:</b> 9520 Glengarry Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89129<br/><b>STRNO:</b> 9520<br/><b>STNAME:</b> Glengarry<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 63725<br/><b>PRCLID:</b> 13807714045<br/><b>LICENSENO:</b> G71-02349<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1681313818000<br/><b>BUS_NAME:</b> Black Wolf<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 9520 Glengarry Dr]]></description>
+      <Point>
+        <coordinates>-115.30203550347854,36.22378189718134,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>210</name>
+      <description><![CDATA[<b>OBJECTID:</b> 210<br/><b>BUS_ADDRESS:</b> 6324 Peppermill Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89146<br/><b>STRNO:</b> 6324<br/><b>STNAME:</b> Peppermill<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 276988<br/><b>PRCLID:</b> 16302812008<br/><b>LICENSENO:</b> G71-02360<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1681375182000<br/><b>BUS_NAME:</b> PRESTIGE WW VEGAS VENTURES LLC<br/><b>BUS_TYPE:</b> 2 Bedrooms<br/><b>ADDRESS:</b> 6324 Peppermill Dr]]></description>
+      <Point>
+        <coordinates>-115.23202886520299,36.14668853081204,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>211</name>
+      <description><![CDATA[<b>OBJECTID:</b> 211<br/><b>BUS_ADDRESS:</b> 5509 Bromley Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 5509<br/><b>STNAME:</b> Bromley<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 99342<br/><b>PRCLID:</b> 13825402005<br/><b>LICENSENO:</b> G71-02399<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1681496993000<br/><b>BUS_NAME:</b> Alba S Rebollar<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 5509 Bromley Ave]]></description>
+      <Point>
+        <coordinates>-115.2166692857854,36.176839811787126,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>212</name>
+      <description><![CDATA[<b>OBJECTID:</b> 212<br/><b>BUS_ADDRESS:</b> 1321 Sharon Rd<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89106<br/><b>STRNO:</b> 1321<br/><b>STNAME:</b> Sharon<br/><b>STRTYPE:</b> Rd<br/><b>ADDRKEY:</b> 156125<br/><b>PRCLID:</b> 13928110025<br/><b>LICENSENO:</b> G71-02516<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1682009362000<br/><b>ISSDTTM:</b> 1682541625000<br/><b>EXPDTTM:</b> 1698352825000<br/><b>BUS_NAME:</b> EVERY SUNDAY<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 1321 Sharon Rd]]></description>
+      <Point>
+        <coordinates>-115.16231414251445,36.18566284916035,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>213</name>
+      <description><![CDATA[<b>OBJECTID:</b> 213<br/><b>BUS_ADDRESS:</b> 5521 Seattle Slew Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 5521<br/><b>STNAME:</b> Seattle Slew<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 74964<br/><b>PRCLID:</b> 13813414054<br/><b>LICENSENO:</b> G71-02540<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1682081094000<br/><b>EXPDTTM:</b> 1683808373000<br/><b>BUS_NAME:</b> Roberto Lopez<br/><b>ADDRESS:</b> 5521 Seattle Slew Dr]]></description>
+      <Point>
+        <coordinates>-115.2171863918123,36.20447702896168,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>214</name>
+      <description><![CDATA[<b>OBJECTID:</b> 214<br/><b>BUS_ADDRESS:</b> 1824 Stewart Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89101<br/><b>STRNO:</b> 1824<br/><b>STNAME:</b> Stewart<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 165738<br/><b>PRCLID:</b> 13935711052<br/><b>LICENSENO:</b> G71-02683<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1682599612000<br/><b>EXPDTTM:</b> 1684220993000<br/><b>BUS_NAME:</b> Martha porras<br/><b>ADDRESS:</b> 1824 Stewart Ave]]></description>
+      <Point>
+        <coordinates>-115.12315629009782,36.166337795438,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>215</name>
+      <description><![CDATA[<b>OBJECTID:</b> 215<br/><b>BUS_ADDRESS:</b> 2217 Santa Paula Dr<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89104<br/><b>STRNO:</b> 2217<br/><b>STNAME:</b> Santa Paula<br/><b>STRTYPE:</b> Dr<br/><b>ADDRKEY:</b> 241745<br/><b>PRCLID:</b> 16203415014<br/><b>LICENSENO:</b> G71-02721<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1682702830000<br/><b>EXPDTTM:</b> 1684154111000<br/><b>BUS_NAME:</b> Sin City Suites LLC<br/><b>BUS_TYPE:</b> Short Term Rental: 2 Bedrooms<br/><b>ADDRESS:</b> 2217 Santa Paula Dr]]></description>
+      <Point>
+        <coordinates>-115.1516566912461,36.14535005328591,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>216</name>
+      <description><![CDATA[<b>OBJECTID:</b> 216<br/><b>BUS_ADDRESS:</b> 7009 Debutante Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89130<br/><b>STRNO:</b> 7009<br/><b>STNAME:</b> Debutante<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 34939<br/><b>PRCLID:</b> 12527810030<br/><b>LICENSENO:</b> G71-02749<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1682947727000<br/><b>EXPDTTM:</b> 1684223858000<br/><b>BUS_NAME:</b> Victor Castilho<br/><b>ADDRESS:</b> 7009 Debutante Ct]]></description>
+      <Point>
+        <coordinates>-115.24802687025618,36.26518906913399,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>217</name>
+      <description><![CDATA[<b>OBJECTID:</b> 217<br/><b>BUS_ADDRESS:</b> 7908 Fanciful Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89145<br/><b>STRNO:</b> 7908<br/><b>STNAME:</b> Fanciful<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 110051<br/><b>PRCLID:</b> 13828814023<br/><b>LICENSENO:</b> G71-02841<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1683140967000<br/><b>BUS_NAME:</b> Abhishek Jahagirdar<br/><b>ADDRESS:</b> 7908 Fanciful Ave]]></description>
+      <Point>
+        <coordinates>-115.26660979198621,36.1756202793251,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>218</name>
+      <description><![CDATA[<b>OBJECTID:</b> 218<br/><b>BUS_ADDRESS:</b> 3405 Bonn Ct<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89130<br/><b>STRNO:</b> 3405<br/><b>STNAME:</b> Bonn<br/><b>STRTYPE:</b> Ct<br/><b>ADDRKEY:</b> 74233<br/><b>PRCLID:</b> 13812711002<br/><b>LICENSENO:</b> G71-02883<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1683223752000<br/><b>BUS_NAME:</b> Infinite Possibilities Group LLC<br/><b>ADDRESS:</b> 3405 Bonn Ct]]></description>
+      <Point>
+        <coordinates>-115.21301303558792,36.22195320200486,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>219</name>
+      <description><![CDATA[<b>OBJECTID:</b> 219<br/><b>BUS_ADDRESS:</b> 224  Wilson Ridge St<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89138-<br/><b>STRNO:</b> 224<br/><b>STNAME:</b> Wilson Ridge St<br/><b>ADDRKEY:</b> 1<br/><b>LICENSENO:</b> G71-02917<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1683482344000<br/><b>BUS_NAME:</b> JODU LLC<br/><b>ADDRESS:</b> 224 Wilson Ridge St]]></description>
+      <Point>
+        <coordinates>-115.36471684020667,36.18604716533503,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>220</name>
+      <description><![CDATA[<b>OBJECTID:</b> 220<br/><b>BUS_ADDRESS:</b> 7933 Terrace Rock Way 201<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89128<br/><b>STRNO:</b> 7933<br/><b>STNAME:</b> Terrace Rock<br/><b>STRTYPE:</b> Way<br/><b>SUITE_NUM:</b> 201<br/><b>ADDRKEY:</b> 108556<br/><b>PRCLID:</b> 13828510183<br/><b>LICENSENO:</b> G64-01907<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1457949622000<br/><b>ISSDTTM:</b> 1459452761000<br/><b>EXPDTTM:</b> 1709251200000<br/><b>BUS_NAME:</b> EAB Short Term Rental<br/><b>BUS_TYPE:</b> 2 Bedrooms<br/><b>ADDRESS:</b> 7933 Terrace Rock Way]]></description>
+      <Point>
+        <coordinates>-115.26779549302827,36.18790188387184,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>221</name>
+      <description><![CDATA[<b>OBJECTID:</b> 221<br/><b>BUS_ADDRESS:</b> 150 N Las Vegas Blvd 2105<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89101<br/><b>STRNO:</b> 150<br/><b>STDIR:</b> N<br/><b>STNAME:</b> Las Vegas<br/><b>STRTYPE:</b> Blvd<br/><b>SUITE_NUM:</b> 2105<br/><b>ADDRKEY:</b> 881507<br/><b>PRCLID:</b> 13934613216<br/><b>LICENSENO:</b> G65-08470<br/><b>CATEGORY:</b> S01<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (PM)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1511630290000<br/><b>ISSDTTM:</b> 1512060330000<br/><b>EXPDTTM:</b> 1698796800000<br/><b>BUS_NAME:</b> The Valle Family Trust<br/><b>BUS_TYPE:</b> 3 Bedrooms<br/><b>ADDRESS:</b> 150 N Las Vegas Blvd]]></description>
+      <Point>
+        <coordinates>-115.14025082909723,36.1698183981763,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>222</name>
+      <description><![CDATA[<b>OBJECTID:</b> 222<br/><b>BUS_ADDRESS:</b> 5915 Bromley Ave<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89107<br/><b>STRNO:</b> 5915<br/><b>STNAME:</b> Bromley<br/><b>STRTYPE:</b> Ave<br/><b>ADDRKEY:</b> 99394<br/><b>PRCLID:</b> 13825411028<br/><b>LICENSENO:</b> G68-04313<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1593434563000<br/><b>ISSDTTM:</b> 1594237875000<br/><b>EXPDTTM:</b> 1688169600000<br/><b>BUS_NAME:</b> AnDon Bui<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 2 Bedrooms<br/><b>ADDRESS:</b> 5915 Bromley Ave]]></description>
+      <Point>
+        <coordinates>-115.22163258125651,36.176801244134296,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>223</name>
+      <description><![CDATA[<b>OBJECTID:</b> 223<br/><b>BUS_ADDRESS:</b> 6500 W Lake Mead Blvd 103 Building A-2Unit 103<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 6500<br/><b>STDIR:</b> W<br/><b>STNAME:</b> Lake Mead<br/><b>STRTYPE:</b> Blvd<br/><b>SUITE_NUM:</b> 103<br/><b>ADDRKEY:</b> 900497<br/><b>PRCLID:</b> 13823214072<br/><b>LICENSENO:</b> G69-07801<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Active<br/><b>LICENSEDTTM:</b> 1637319581000<br/><b>ISSDTTM:</b> 1642592788000<br/><b>EXPDTTM:</b> 1704067200000<br/><b>BUS_NAME:</b> A-1 Home Stays LLC<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 1 Bedroom<br/><b>ADDRESS:</b> 6500 W Lake Mead Blvd]]></description>
+      <Point>
+        <coordinates>-115.23620026673203,36.19593919455855,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>224</name>
+      <description><![CDATA[<b>OBJECTID:</b> 224<br/><b>BUS_ADDRESS:</b> 4512 W Lake Mead Blvd 201<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89108<br/><b>STRNO:</b> 4512<br/><b>STDIR:</b> W<br/><b>STNAME:</b> Lake Mead<br/><b>STRTYPE:</b> Blvd<br/><b>SUITE_NUM:</b> 201<br/><b>ADDRKEY:</b> 142398<br/><b>PRCLID:</b> 13919214068<br/><b>LICENSENO:</b> G71-02020<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> TempActive<br/><b>LICENSEDTTM:</b> 1680142295000<br/><b>ISSDTTM:</b> 1680809364000<br/><b>EXPDTTM:</b> 1696620564000<br/><b>BUS_NAME:</b> Las Vegas Oasis<br/><b>BUS_TYPE:</b> STR Owner-Occupied: 1 Bedroom<br/><b>ADDRESS:</b> 4512 W Lake Mead Blvd]]></description>
+      <Point>
+        <coordinates>-115.20236149333874,36.1972136100636,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>225</name>
+      <description><![CDATA[<b>OBJECTID:</b> 225<br/><b>BUS_ADDRESS:</b> 2500 Adelante Ave 104<br/><b>BUS_CITY_ST_ZIP:</b> Las Vegas, NV  89106<br/><b>STRNO:</b> 2500<br/><b>STNAME:</b> Adelante<br/><b>STRTYPE:</b> Ave<br/><b>SUITE_NUM:</b> 104<br/><b>ADDRKEY:</b> 144902<br/><b>PRCLID:</b> 13920716063<br/><b>LICENSENO:</b> G71-02220<br/><b>CATEGORY:</b> S03<br/><b>LICENSECATDESC:</b> Short Term Residential Rental (Owner)<br/><b>LICSTATUS:</b> Pending<br/><b>LICENSEDTTM:</b> 1680803596000<br/><b>BUS_NAME:</b> Auria Dalaygon<br/><b>ADDRESS:</b> 2500 Adelante Ave]]></description>
+      <Point>
+        <coordinates>-115.1755852693746,36.19281754017061,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
