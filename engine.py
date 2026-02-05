@@ -286,3 +286,184 @@ def spatial_join_signplans_to_parcels(signplans_df: pd.DataFrame, signplans_geom
 
     return pd.concat([signplans_df.reset_index(drop=True), parcels_df.reset_index(drop=True)], axis=1)
 
+
+# ----------------------
+# Tiered owner enrichment (Billboards)
+# ----------------------
+
+OWNER_OUTFIELDS = "PARCEL,OWNER,ADDRESS,STRNO,STRNAME,STRTYPE,STRDIR,ZIP,SALEDATE,SALEPRICE,TAXDIST,LANDUSE,LANDVAL1,IMPVAL"
+
+def _is_blank(v) -> bool:
+    if v is None:
+        return True
+    s = str(v).strip()
+    return (s == "" or s.lower() == "nan" or s.lower() == "none")
+
+def _init_owner_meta(df: pd.DataFrame) -> None:
+    for c in ("OWNER_MATCH_TYPE", "OWNER_MATCH_CONFIDENCE", "OWNER_MATCH_NOTES"):
+        if c not in df.columns:
+            df[c] = ""
+
+def _mark_owner_meta(df: pd.DataFrame, mask, match_type: str, confidence: str, notes: str):
+    if mask is None:
+        return
+    df.loc[mask, "OWNER_MATCH_TYPE"] = match_type
+    df.loc[mask, "OWNER_MATCH_CONFIDENCE"] = confidence
+    df.loc[mask, "OWNER_MATCH_NOTES"] = notes
+
+def _parcel_intersect_point(point_geom: dict, in_sr: int, distance_ft: int = 15) -> dict:
+    """Intersect a point against Clark County parcels with a small buffer distance."""
+    if not point_geom or "x" not in point_geom or "y" not in point_geom:
+        return {}
+
+    j = arcgis_get_json(PARCELS_QUERY, {
+        "f": "pjson",
+        "geometry": json.dumps(point_geom),
+        "geometryType": "esriGeometryPoint",
+        "inSR": str(in_sr),
+        "spatialRel": "esriSpatialRelIntersects",
+        "distance": str(distance_ft),
+        "units": "esriSRUnit_Foot",
+        "outFields": OWNER_OUTFIELDS,
+        "returnGeometry": "false",
+        "resultRecordCount": "1",
+    })
+    feats = j.get("features") or []
+    if not feats:
+        return {}
+    return (feats[0].get("attributes") or {})
+
+def _parcel_intersect_polygon(poly_geom: dict, in_sr: int) -> dict:
+    """Intersect a polygon against Clark County parcels."""
+    if not poly_geom:
+        return {}
+    j = arcgis_get_json(PARCELS_QUERY, {
+        "f": "pjson",
+        "geometry": json.dumps(poly_geom),
+        "geometryType": "esriGeometryPolygon",
+        "inSR": str(in_sr),
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": OWNER_OUTFIELDS,
+        "returnGeometry": "false",
+        "resultRecordCount": "1",
+    })
+    feats = j.get("features") or []
+    if not feats:
+        return {}
+    return (feats[0].get("attributes") or {})
+
+def _parcel_by_address(street_num: str, street_dir: str, street_name: str) -> dict:
+    """Best-effort address lookup in Clark County parcels."""
+    n = digits_only(street_num)
+    d = (street_dir or "").strip().upper()
+    nm = safe_sql(street_name).upper()
+
+    if not (n and nm):
+        return {}
+
+    parts = [f"(STRNO={n} OR STRNO='{n}')", f"UPPER(STRNAME) LIKE '%{nm}%'"]
+    if d:
+        parts.append(f"UPPER(STRDIR)='{safe_sql(d)}'")
+    where = " AND ".join(parts)
+
+    ids = fetch_ids_where(PARCELS_QUERY, where)
+    if not ids:
+        return {}
+
+    # Fetch first match only to keep it fast
+    df = fetch_by_objectids(PARCELS_QUERY, [ids[0]], out_fields=OWNER_OUTFIELDS, chunk_size=200)
+    if df is None or df.empty:
+        return {}
+    return (df.iloc[0].to_dict() if hasattr(df, "iloc") else {})
+
+def enrich_billboards_with_owner(
+    billboards_df: pd.DataFrame,
+    billboards_geoms: list[dict] | None,
+    *,
+    parcel_field: str = "PARCEL",
+    in_sr: int = 3421,
+    use_spatial_fallback: bool = True,
+    use_address_fallback: bool = True,
+) -> pd.DataFrame:
+    """Tiered owner enrichment:
+    1) APN/PARCEL field join (HIGH)
+    2) Spatial intersect fallback (MEDIUM)
+    3) Address fallback (LOW)
+    """
+    if billboards_df is None or billboards_df.empty:
+        return billboards_df
+
+    df = billboards_df.copy()
+    _init_owner_meta(df)
+
+    # --- Tier 1: APN exact join (field join) ---
+    df = join_to_parcels(df, left_field=parcel_field)
+
+    if "OWNER" in df.columns:
+        has_owner = ~df["OWNER"].apply(_is_blank)
+    else:
+        df["OWNER"] = ""
+        has_owner = pd.Series([False] * len(df))
+
+    _mark_owner_meta(df, has_owner, "APN", "HIGH", "Matched via APN/PARCEL exact join")
+
+    # --- Tier 2: Spatial fallback for missing owners ---
+    if use_spatial_fallback and billboards_geoms:
+        missing_mask = df["OWNER"].apply(_is_blank).reset_index(drop=True)
+        if missing_mask.any():
+            spatial_rows = []
+            for i, is_missing in enumerate(missing_mask.tolist()):
+                if not is_missing:
+                    spatial_rows.append({})
+                    continue
+                g = billboards_geoms[i] if i < len(billboards_geoms) else None
+                if not g:
+                    spatial_rows.append({})
+                    continue
+                if isinstance(g, dict) and ("x" in g and "y" in g):
+                    spatial_rows.append(_parcel_intersect_point(g, in_sr=in_sr, distance_ft=15))
+                else:
+                    spatial_rows.append(_parcel_intersect_polygon(g, in_sr=in_sr))
+            spatial_df = pd.DataFrame(spatial_rows)
+
+            # Fill missing columns from spatial results (do not clobber existing non-blank values)
+            for col in ["PARCEL", "OWNER", "ADDRESS", "STRNO", "STRNAME", "STRTYPE", "STRDIR", "ZIP",
+                        "SALEDATE", "SALEPRICE", "TAXDIST", "LANDUSE", "LANDVAL1", "IMPVAL"]:
+                if col in spatial_df.columns:
+                    if col not in df.columns:
+                        df[col] = None
+                    fill_mask = missing_mask & spatial_df[col].apply(lambda v: not _is_blank(v))
+                    df.loc[fill_mask, col] = spatial_df.loc[fill_mask, col].values
+
+            updated = missing_mask & (~df["OWNER"].apply(_is_blank)).reset_index(drop=True)
+            _mark_owner_meta(df, updated, "SPATIAL", "MEDIUM", "Matched via spatial intersect (buffered point)")
+
+    # --- Tier 3: Address fallback for still-missing owners ---
+    if use_address_fallback:
+        still_missing = df["OWNER"].apply(_is_blank)
+        needed = {"STREET_NUM", "STREET_DIR", "STREET_NAM"}
+        if still_missing.any() and needed.issubset(set(df.columns)):
+            addr_rows = []
+            for _, row in df.iterrows():
+                if still_missing.loc[row.name]:
+                    addr_rows.append(_parcel_by_address(row.get("STREET_NUM", ""), row.get("STREET_DIR", ""), row.get("STREET_NAM", "")))
+                else:
+                    addr_rows.append({})
+            addr_df = pd.DataFrame(addr_rows)
+
+            for col in ["PARCEL", "OWNER", "ADDRESS", "STRNO", "STRNAME", "STRTYPE", "STRDIR", "ZIP",
+                        "SALEDATE", "SALEPRICE", "TAXDIST", "LANDUSE", "LANDVAL1", "IMPVAL"]:
+                if col in addr_df.columns:
+                    if col not in df.columns:
+                        df[col] = None
+                    fill_mask = still_missing.reset_index(drop=True) & addr_df[col].apply(lambda v: not _is_blank(v))
+                    df.loc[fill_mask, col] = addr_df.loc[fill_mask, col].values
+
+            updated = still_missing & (~df["OWNER"].apply(_is_blank))
+            _mark_owner_meta(df, updated, "ADDRESS", "LOW", "Matched via address best-effort (may be approximate)")
+
+    # --- Final: label remaining as NONE ---
+    final_missing = df["OWNER"].apply(_is_blank)
+    _mark_owner_meta(df, final_missing, "NONE", "NONE", "No parcel match (ROW/easement/geometry mismatch or missing APN/address)")
+
+    return df

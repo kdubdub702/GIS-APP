@@ -7,7 +7,8 @@ from engine import (
     fetch_with_geometry_by_ids,
     apn_partial,
     address_partial_split, address_partial_single,
-    join_to_parcels, spatial_join_signplans_to_parcels
+    join_to_parcels, spatial_join_signplans_to_parcels,
+    enrich_billboards_with_owner
 )
 
 # ---------- Grid helpers ----------
@@ -150,7 +151,7 @@ def on_search():
         mode = mode_var.get()
 
         df = None
-        geoms = None  # only used for spatial join datasets
+        geoms = None  # used for spatial join datasets & tiered owner join
 
         if mode == "Address (partial)":
             if ds.get("addr_single_field"):
@@ -177,11 +178,17 @@ def on_search():
 
         elif mode == "All (Export)":
             where = _dataset_where(ds)
-            # For spatial joins, we need geometry (Henderson SignPlans)
             jcfg = ds.get("join") or {}
             join_type = (jcfg.get("type") or "").lower()
+
+            # For spatial joins, we need geometry (Henderson SignPlans)
             if join_enabled_var.get() and join_type == "spatial":
                 df, geoms = fetch_all_with_geometry(layer_url, where=where, out_sr=None)
+
+            # For Las Vegas billboards tiered owner join, we also need geometry for spatial fallback
+            elif join_enabled_var.get() and source_var.get() == "Las Vegas – Billboards" and join_type == "field":
+                df, geoms = fetch_all_with_geometry(layer_url, where=where, out_sr=None)
+
             else:
                 df = fetch_all(layer_url, where=where)
 
@@ -203,7 +210,21 @@ def on_search():
                 left_field = jcfg.get("left_field")
                 if not left_field:
                     raise ValueError("Join misconfigured: missing left_field")
-                df = join_to_parcels(df, left_field)
+
+                # Las Vegas billboards: tiered join (APN -> spatial -> address) with confidence flags
+                if source_var.get() == "Las Vegas – Billboards":
+                    if geoms is None:
+                        df, geoms = _ensure_geometry_for_df(layer_url, df)
+                    df = enrich_billboards_with_owner(
+                        df,
+                        geoms,
+                        parcel_field=left_field,
+                        in_sr=3421,
+                        use_spatial_fallback=True,
+                        use_address_fallback=True
+                    )
+                else:
+                    df = join_to_parcels(df, left_field)
 
             elif join_type == "spatial":
                 # Henderson SignPlans: spatial intersect polygons against parcels

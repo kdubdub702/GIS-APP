@@ -16,6 +16,7 @@ DATASETS = {
             "type": "field",
             "left_field": "PARCEL",   # in city layer
         },
+        "join_owner_strategy": "tiered",  # APN -> spatial -> address fallback
     },
 
     # NDOT statewide billboard inventory (separate from City of Las Vegas layer)
