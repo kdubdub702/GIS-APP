@@ -28,7 +28,7 @@ def load_df_into_tree(tree: ttk.Treeview, df):
     DEFAULT_W = 120
     for c in cols:
         tree.heading(c, text=c)
-        # IMPORTANT: fixed width per column (keeps GUI snappy)
+        # fixed width per column (keeps GUI snappy)
         tree.column(c, width=DEFAULT_W, minwidth=DEFAULT_W, stretch=False, anchor="w")
 
     for row in df.itertuples(index=False, name=None):
@@ -49,57 +49,23 @@ def set_mode_ui(*_):
     if mode == "Address (partial)":
         ds = DATASETS.get(source_var.get())
         if ds and ds.get("addr_single_field"):
-            addr_single_frame.grid(row=4, column=0, columnspan=2, sticky="ew", pady=(4, 0))
+            addr_single_frame.grid(row=5, column=0, columnspan=2, sticky="ew", pady=(4, 0))
         else:
-            addr_split_frame.grid(row=4, column=0, columnspan=2, sticky="ew", pady=(4, 0))
+            addr_split_frame.grid(row=5, column=0, columnspan=2, sticky="ew", pady=(4, 0))
 
     elif mode == "APN/PARCEL (partial)":
-        apn_frame.grid(row=4, column=0, columnspan=2, sticky="ew", pady=(4, 0))
+        apn_frame.grid(row=5, column=0, columnspan=2, sticky="ew", pady=(4, 0))
 
     elif mode == "ObjectID (exact)":
-        oid_exact_frame.grid(row=4, column=0, columnspan=2, sticky="ew", pady=(4, 0))
+        oid_exact_frame.grid(row=5, column=0, columnspan=2, sticky="ew", pady=(4, 0))
 
     elif mode == "ObjectID (range)":
-        oid_range_frame.grid(row=4, column=0, columnspan=2, sticky="ew", pady=(4, 0))
+        oid_range_frame.grid(row=5, column=0, columnspan=2, sticky="ew", pady=(4, 0))
 
-def set_source_ui(*_):
-    ds = DATASETS.get(source_var.get())
-    if not ds or not ds.get("layer_url"):
-        messagebox.showinfo("Not wired yet", "This data source is staged but not wired yet.")
-        return
-
-    # Update search-type options based on dataset support
-    supported = ds.get("mode_support", [])
-    options = []
-    if "address" in supported: options.append("Address (partial)")
-    if "apn" in supported: options.append("APN/PARCEL (partial)")
-    if "oid_exact" in supported: options.append("ObjectID (exact)")
-    if "oid_range" in supported: options.append("ObjectID (range)")
-    if "all" in supported: options.append("All (Export)")
-
-    mode_combo["values"] = options
-
-    # keep current mode if still valid, else set first
-    if mode_var.get() not in options:
-        mode_var.set(options[0] if options else "")
-
-    # Join checkbox defaults per dataset
-    jcfg = ds.get("join") or {}
-    join_enabled_var.set(bool(jcfg.get("enabled_default", False)))
-
-    # If join is not supported at all, disable checkbox
-    join_type = (jcfg.get("type") or "tbd").lower()
-    if join_type in ("tbd", "none") or (not jcfg):
-        join_check.configure(state="disabled")
-    else:
-        join_check.configure(state="normal")
-
-    set_mode_ui()
 
 def _dataset_where(ds: dict) -> str:
-    # Optional dataset-level filter (used for Henderson SignPlans to avoid blank rows,
-    # and NDOT to avoid null/blank addresses)
     return ds.get("default_where") or "1=1"
+
 
 def _ensure_geometry_for_df(layer_url: str, df):
     """
@@ -112,7 +78,6 @@ def _ensure_geometry_for_df(layer_url: str, df):
     if "OBJECTID" not in df.columns:
         return df, None
 
-    # Build list in current order
     obj_ids = []
     for v in df["OBJECTID"].tolist():
         try:
@@ -123,9 +88,7 @@ def _ensure_geometry_for_df(layer_url: str, df):
     if not obj_ids:
         return df, None
 
-    # Re-fetch with geometry
     df_geom, geoms = fetch_with_geometry_by_ids(layer_url, obj_ids, out_sr=None)
-
     if df_geom is None or df_geom.empty or geoms is None:
         return df, None
 
@@ -139,6 +102,52 @@ def _ensure_geometry_for_df(layer_url: str, df):
 
     aligned_geoms = [oid_to_geom.get(oid) for oid in obj_ids]
     return df, aligned_geoms
+
+
+def _update_join_options_for_dataset(ds: dict):
+    """Enable/disable join controls based on dataset join type."""
+    jcfg = ds.get("join") or {}
+    join_type = (jcfg.get("type") or "none").lower()
+
+    # Join checkbox
+    if join_type in ("none", "tbd") or not jcfg:
+        join_check.configure(state="disabled")
+        join_enabled_var.set(False)
+    else:
+        join_check.configure(state="normal")
+        join_enabled_var.set(bool(jcfg.get("enabled_default", False)))
+
+    # Address fallback checkbox is ONLY relevant for Las Vegas billboards tiered join.
+    is_lv_billboards = (source_var.get() == "Las Vegas – Billboards")
+    if is_lv_billboards and join_type == "field":
+        addr_fallback_check.configure(state="normal")
+    else:
+        addr_fallback_check.configure(state="disabled")
+        address_fallback_var.set(False)
+
+
+def set_source_ui(*_):
+    ds = DATASETS.get(source_var.get())
+    if not ds or not ds.get("layer_url"):
+        messagebox.showinfo("Not wired yet", "This data source is staged but not wired yet.")
+        return
+
+    # Search-type options based on dataset support
+    supported = ds.get("mode_support", [])
+    options = []
+    if "address" in supported: options.append("Address (partial)")
+    if "apn" in supported: options.append("APN/PARCEL (partial)")
+    if "oid_exact" in supported: options.append("ObjectID (exact)")
+    if "oid_range" in supported: options.append("ObjectID (range)")
+    if "all" in supported: options.append("All (Export)")
+
+    mode_combo["values"] = options
+    if mode_var.get() not in options:
+        mode_var.set(options[0] if options else "")
+
+    _update_join_options_for_dataset(ds)
+    set_mode_ui()
+
 
 def on_search():
     try:
@@ -181,11 +190,11 @@ def on_search():
             jcfg = ds.get("join") or {}
             join_type = (jcfg.get("type") or "").lower()
 
-            # For spatial joins, we need geometry (Henderson SignPlans)
+            # Spatial joins need geometry (Henderson SignPlans)
             if join_enabled_var.get() and join_type == "spatial":
                 df, geoms = fetch_all_with_geometry(layer_url, where=where, out_sr=None)
 
-            # For Las Vegas billboards tiered owner join, we also need geometry for spatial fallback
+            # LV billboards tiered owner join also benefits from geometry (spatial fallback)
             elif join_enabled_var.get() and source_var.get() == "Las Vegas – Billboards" and join_type == "field":
                 df, geoms = fetch_all_with_geometry(layer_url, where=where, out_sr=None)
 
@@ -211,23 +220,23 @@ def on_search():
                 if not left_field:
                     raise ValueError("Join misconfigured: missing left_field")
 
-                # Las Vegas billboards: tiered join (APN -> spatial -> address) with confidence flags
+                # Las Vegas billboards: tiered join (APN -> spatial -> optional address)
                 if source_var.get() == "Las Vegas – Billboards":
                     if geoms is None:
                         df, geoms = _ensure_geometry_for_df(layer_url, df)
+
                     df = enrich_billboards_with_owner(
                         df,
                         geoms,
                         parcel_field=left_field,
                         in_sr=3421,
                         use_spatial_fallback=True,
-                        use_address_fallback=True
+                        use_address_fallback=bool(address_fallback_var.get()),
                     )
                 else:
                     df = join_to_parcels(df, left_field)
 
             elif join_type == "spatial":
-                # Henderson SignPlans: spatial intersect polygons against parcels
                 in_sr = int(jcfg.get("spatial_in_sr", 102707))
 
                 # Ensure we have geometry even for Address/ObjectID searches
@@ -249,6 +258,7 @@ def on_search():
     except Exception as e:
         messagebox.showerror("Error", str(e))
 
+
 def on_export_csv():
     joined = getattr(app, "joined", None)
     if joined is None or joined.empty:
@@ -261,6 +271,7 @@ def on_export_csv():
     joined.to_csv(path, index=False)
     messagebox.showinfo("Saved", f"Saved:\n{path}")
 
+
 # ---------------- UI ----------------
 app = tk.Tk()
 app.title("SNV GIS Tool – Multi-City / Multi-Agency (Billboards / Permits / Parcels)")
@@ -270,7 +281,7 @@ main.grid(row=0, column=0, sticky="nsew")
 app.columnconfigure(0, weight=1)
 app.rowconfigure(0, weight=1)
 main.columnconfigure(1, weight=1)
-main.rowconfigure(7, weight=1)
+main.rowconfigure(8, weight=1)
 
 # Data Source selector
 source_var = tk.StringVar(value=list(DATASETS.keys())[0])
@@ -288,12 +299,26 @@ mode_combo = ttk.Combobox(main, textvariable=mode_var, values=[], state="readonl
 mode_combo.grid(row=1, column=1, sticky="ew", padx=6)
 mode_combo.bind("<<ComboboxSelected>>", set_mode_ui)
 
-# Join toggle
+# Join + fallback toggles
 join_enabled_var = tk.BooleanVar(value=True)
+address_fallback_var = tk.BooleanVar(value=False)
+
 join_row = ttk.Frame(main)
 join_row.grid(row=2, column=0, columnspan=2, sticky="ew", pady=(6, 0))
-join_check = ttk.Checkbutton(join_row, text="Join to parcels (owner/tax/sales where available)", variable=join_enabled_var)
+
+join_check = ttk.Checkbutton(
+    join_row,
+    text="Join to parcels (owner/tax/sales where available)",
+    variable=join_enabled_var
+)
 join_check.pack(side="left")
+
+addr_fallback_check = ttk.Checkbutton(
+    join_row,
+    text="Use address fallback (approximate)",
+    variable=address_fallback_var
+)
+addr_fallback_check.pack(side="left", padx=14)
 
 # --- Address (split fields) ---
 street_num_var = tk.StringVar()
@@ -342,14 +367,14 @@ oid_range_frame.columnconfigure(1, weight=1)
 
 # Buttons
 btns = ttk.Frame(main)
-btns.grid(row=5, column=0, columnspan=2, sticky="ew", pady=(10, 6))
+btns.grid(row=6, column=0, columnspan=2, sticky="ew", pady=(10, 6))
 ttk.Button(btns, text="Search / Load", command=on_search).pack(side="left")
 ttk.Button(btns, text="Export CSV", command=on_export_csv).pack(side="left", padx=8)
 ttk.Label(btns, textvariable=results_var).pack(side="right")
 
 # Treeview + scrollbars
 grid_frame = ttk.Frame(main)
-grid_frame.grid(row=7, column=0, columnspan=2, sticky="nsew")
+grid_frame.grid(row=8, column=0, columnspan=2, sticky="nsew")
 grid_frame.columnconfigure(0, weight=1)
 grid_frame.rowconfigure(0, weight=1)
 
