@@ -13,11 +13,33 @@ PARCELS_QUERY = "https://services1.arcgis.com/F1v0ufATbBQScMtY/arcgis/rest/servi
 # Small utilities
 # ----------------------
 
-def digits_only(s: str) -> str:
-    return re.sub(r"\D+", "", s or "")
+def digits_only(s) -> str:
+    """
+    Return digits from any input type (str / int / float / None).
+    Prevents regex crashes when pandas columns are numeric.
+    """
+    if s is None:
+        return ""
 
-def safe_sql(s: str) -> str:
-    return (s or "").replace("'", "''").strip()
+    if isinstance(s, int):
+        return str(s)
+
+    if isinstance(s, float):
+        if s.is_integer():
+            return str(int(s))
+        return re.sub(r"\D+", "", str(s))
+
+    return re.sub(r"\D+", "", str(s))
+
+
+def safe_sql(s) -> str:
+    """
+    SQL-safe string conversion tolerant of non-string inputs.
+    """
+    if s is None:
+        return ""
+    return str(s).replace("'", "''").strip()
+
 
 def layer_query_url(layer_url: str) -> str:
     base = (layer_url or "").rstrip("/")
