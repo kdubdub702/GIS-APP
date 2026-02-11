@@ -2,7 +2,6 @@ import re
 import json
 import requests
 import pandas as pd
-import xml.sax.saxutils as saxutils
 
 UA = {"User-Agent": "Mozilla/5.0"}
 
@@ -14,33 +13,11 @@ PARCELS_QUERY = "https://services1.arcgis.com/F1v0ufATbBQScMtY/arcgis/rest/servi
 # Small utilities
 # ----------------------
 
-def digits_only(s) -> str:
-    """
-    Return digits from any input type (str / int / float / None).
-    Prevents regex crashes when pandas columns are numeric.
-    """
-    if s is None:
-        return ""
+def digits_only(s: str) -> str:
+    return re.sub(r"\D+", "", s or "")
 
-    if isinstance(s, int):
-        return str(s)
-
-    if isinstance(s, float):
-        if s.is_integer():
-            return str(int(s))
-        return re.sub(r"\D+", "", str(s))
-
-    return re.sub(r"\D+", "", str(s))
-
-
-def safe_sql(s) -> str:
-    """
-    SQL-safe string conversion tolerant of non-string inputs.
-    """
-    if s is None:
-        return ""
-    return str(s).replace("'", "''").strip()
-
+def safe_sql(s: str) -> str:
+    return (s or "").replace("'", "''").strip()
 
 def layer_query_url(layer_url: str) -> str:
     base = (layer_url or "").rstrip("/")
@@ -49,7 +26,6 @@ def layer_query_url(layer_url: str) -> str:
     if base.lower().endswith("/query"):
         return base
     return base + "/query"
-
 
 def arcgis_get_json(query_url: str, params: dict) -> dict:
     """
@@ -83,55 +59,56 @@ def arcgis_get_json(query_url: str, params: dict) -> dict:
 
     j = r.json()
     if "error" in j:
-        raise RuntimeError(j["error"])
+        msg = j["error"].get("message") or "ArcGIS error"
+        raise RuntimeError(msg)
     return j
 
 
-# ----------------------
-# Core ArcGIS fetchers
-# ----------------------
-
 def fetch_ids_where(query_url: str, where: str) -> list[int]:
+    """
+    Gets OBJECTIDs for a where-clause (supports pagination by using returnIdsOnly).
+    """
     j = arcgis_get_json(query_url, {
         "f": "pjson",
         "where": where,
-        "returnIdsOnly": "true",
-        "returnGeometry": "false",
+        "returnIdsOnly": "true"
     })
-    return j.get("objectIds") or []
+    oids = j.get("objectIds") or []
+    return [int(x) for x in oids]
 
 
-def fetch_by_objectids(
-    query_url: str,
-    object_ids: list[int],
-    out_fields="*",
-    chunk_size=200,
-    return_geometry: bool = False,
-    out_sr: int | None = None,
-):
+def fetch_by_objectids(query_url: str, object_ids: list[int], out_fields="*", chunk_size=200,
+                       return_geometry: bool = False, out_sr: int | None = None):
+    """
+    Fetch records by OBJECTID list in chunks. Returns (df, geoms?)
+    """
+    if not object_ids:
+        return pd.DataFrame(), ([] if return_geometry else None)
+
     rows = []
     geoms = [] if return_geometry else None
 
     for i in range(0, len(object_ids), chunk_size):
-        chunk = object_ids[i:i + chunk_size]
+        chunk = object_ids[i:i+chunk_size]
         params = {
             "f": "pjson",
             "objectIds": ",".join(str(x) for x in chunk),
             "outFields": out_fields,
             "returnGeometry": "true" if return_geometry else "false",
         }
-        if out_sr is not None:
+        if out_sr:
             params["outSR"] = str(out_sr)
 
         j = arcgis_get_json(query_url, params)
-        feats = j.get("features", [])
+        feats = j.get("features") or []
         for f in feats:
-            rows.append(f.get("attributes", {}) or {})
+            attrs = f.get("attributes") or {}
+            rows.append(attrs)
             if return_geometry:
-                geoms.append(f.get("geometry"))
+                geoms.append(f.get("geometry") or {})
 
     df = pd.DataFrame(rows)
-    return (df, geoms) if return_geometry else df
+    return df, geoms
 
 
 def fetch_with_geometry_by_ids(layer_url: str, object_ids: list[int], out_sr: int | None = None):
@@ -160,8 +137,7 @@ def objectid_exact(layer_url: str, object_id: str):
     if not oid:
         raise ValueError("Enter an ObjectID (digits).")
     q = layer_query_url(layer_url)
-    return fetch_by_objectids(q, [int(oid)], out_fields="*", chunk_size=200)
-
+    return fetch_by_objectids(q, [int(oid)], out_fields="*", chunk_size=200)[0]
 
 def objectid_range(layer_url: str, start_id: str, end_id: str, oid_field: str = "OBJECTID"):
     s = digits_only(start_id)
@@ -173,102 +149,97 @@ def objectid_range(layer_url: str, start_id: str, end_id: str, oid_field: str = 
         s_i, e_i = e_i, s_i
 
     q = layer_query_url(layer_url)
-    ids = fetch_ids_where(q, f"{oid_field} >= {s_i} AND {oid_field} <= {e_i}")
-    if not ids and oid_field != "OID":
-        ids = fetch_ids_where(q, f"OID >= {s_i} AND OID <= {e_i}")
-    if not ids:
-        return pd.DataFrame()
-    return fetch_by_objectids(q, ids, out_fields="*", chunk_size=200)
 
+    where = f"{oid_field} >= {s_i} AND {oid_field} <= {e_i}"
+    oids = fetch_ids_where(q, where)
+    df, _ = fetch_by_objectids(q, oids, out_fields="*", chunk_size=200)
+    return df
 
 def fetch_all(layer_url: str, where: str = "1=1"):
     q = layer_query_url(layer_url)
-    ids = fetch_ids_where(q, where)
-    if not ids:
-        return pd.DataFrame()
-    return fetch_by_objectids(q, ids, out_fields="*", chunk_size=200)
-
+    oids = fetch_ids_where(q, where)
+    df, _ = fetch_by_objectids(q, oids, out_fields="*", chunk_size=200)
+    return df
 
 def fetch_all_with_geometry(layer_url: str, where: str = "1=1", out_sr: int | None = None):
     q = layer_query_url(layer_url)
-    ids = fetch_ids_where(q, where)
-    if not ids:
-        return pd.DataFrame(), []
-    return fetch_by_objectids(q, ids, out_fields="*", chunk_size=200, return_geometry=True, out_sr=out_sr)
+    oids = fetch_ids_where(q, where)
+    df, geoms = fetch_by_objectids(q, oids, out_fields="*", chunk_size=200, return_geometry=True, out_sr=out_sr)
+    return df, geoms
 
-
-def apn_partial(layer_url: str, apn_field: str, apn_prefix: str):
-    apn = digits_only(apn_prefix)
-    if not apn:
-        raise ValueError("Enter an APN/PARCEL prefix (digits).")
+def apn_partial(layer_url: str, apn_field: str, apn: str):
+    apn_digits = digits_only(apn)
+    if not apn_digits:
+        raise ValueError("Enter an APN/PARCEL (digits).")
     q = layer_query_url(layer_url)
-    ids = fetch_ids_where(q, f"{apn_field} LIKE '{apn}%'")
-    if not ids:
-        return pd.DataFrame()
-    return fetch_by_objectids(q, ids, out_fields="*", chunk_size=200)
+    where = f"{apn_field} LIKE '%{safe_sql(apn_digits)}%'"
+    oids = fetch_ids_where(q, where)
+    df, _ = fetch_by_objectids(q, oids, out_fields="*", chunk_size=200)
+    return df
 
-
-def address_partial_split(
-    layer_url: str,
-    street_num: str,
-    street_dir: str,
-    street_name: str,
-    field_num: str,
-    field_dir: str,
-    field_name: str,
-):
-    n = digits_only(street_num)
-    d = (street_dir or "").strip().upper()
-    nm = safe_sql(street_name)
-
-    if not (n or nm):
-        raise ValueError("Enter street name (partial) and/or street number.")
-
-    parts = []
-    if n:
-        parts.append(f"({field_num}={n} OR {field_num}='{n}')")
-    if d:
-        parts.append(f"{field_dir}='{safe_sql(d)}'")
-    if nm:
-        parts.append(f"{field_name} LIKE '%{nm}%'")
-
-    where = " AND ".join(parts)
+def address_partial_split(layer_url: str, street_num: str, street_dir: str, street_name: str,
+                          field_num: str, field_dir: str, field_name: str):
     q = layer_query_url(layer_url)
-    ids = fetch_ids_where(q, where)
-    if not ids:
-        return pd.DataFrame()
-    return fetch_by_objectids(q, ids, out_fields="*", chunk_size=200)
 
+    clauses = []
+    if street_num and str(street_num).strip():
+        num = safe_sql(str(street_num).strip())
+        clauses.append(f"{field_num} LIKE '%{num}%'")
 
-def address_partial_single(layer_url: str, address_field: str, address_text: str):
-    txt = safe_sql(address_text)
-    if not txt:
-        raise ValueError("Enter an address (partial).")
+    if street_dir and str(street_dir).strip():
+        d = safe_sql(str(street_dir).strip().upper())
+        clauses.append(f"UPPER({field_dir}) LIKE '%{d}%'")
+
+    if street_name and str(street_name).strip():
+        nm = safe_sql(str(street_name).strip().upper())
+        clauses.append(f"UPPER({field_name}) LIKE '%{nm}%'")
+
+    if not clauses:
+        raise ValueError("Enter at least one address part (num/dir/name).")
+
+    where = " AND ".join(clauses)
+    oids = fetch_ids_where(q, where)
+    df, _ = fetch_by_objectids(q, oids, out_fields="*", chunk_size=200)
+    return df
+
+def address_partial_single(layer_url: str, addr_field: str, addr: str):
     q = layer_query_url(layer_url)
-    ids = fetch_ids_where(q, f"{address_field} LIKE '%{txt}%'")
-    if not ids:
-        return pd.DataFrame()
-    return fetch_by_objectids(q, ids, out_fields="*", chunk_size=200)
+    a = safe_sql(addr)
+    if not a:
+        raise ValueError("Enter an address string.")
+    where = f"UPPER({addr_field}) LIKE '%{a.upper()}%'"
+    oids = fetch_ids_where(q, where)
+    df, _ = fetch_by_objectids(q, oids, out_fields="*", chunk_size=200)
+    return df
 
 
 # ----------------------
-# Parcel join helpers (field join)
+# Parcel join (field-based)
 # ----------------------
 
 def parcels_by_parcel_ids(parcel_ids: list[str]) -> pd.DataFrame:
-    vals = sorted(set(digits_only(x) for x in parcel_ids if digits_only(x)))
-    if not vals:
+    if not parcel_ids:
         return pd.DataFrame()
 
-    CHUNK = 200
-    dfs = []
-    for i in range(0, len(vals), CHUNK):
-        chunk = vals[i:i + CHUNK]
-        in_list = ",".join(f"'{c}'" for c in chunk)
-        ids = fetch_ids_where(PARCELS_QUERY, f"PARCEL IN ({in_list})")
-        if ids:
-            dfs.append(fetch_by_objectids(PARCELS_QUERY, ids, out_fields="*", chunk_size=200))
-    return pd.concat(dfs, ignore_index=True) if dfs else pd.DataFrame()
+    uniq = sorted({digits_only(str(x)) for x in parcel_ids if digits_only(str(x))})
+    if not uniq:
+        return pd.DataFrame()
+
+    # ArcGIS max WHERE length is limited; chunk into OR groups
+    out = []
+    for i in range(0, len(uniq), 150):
+        chunk = uniq[i:i+150]
+        or_list = " OR ".join([f"PARCEL='{safe_sql(x)}'" for x in chunk])
+        j = arcgis_get_json(PARCELS_QUERY, {
+            "f": "pjson",
+            "where": or_list,
+            "outFields": "PARCEL,OWNER,ADDRESS,STRNO,STRNAME,STRTYPE,STRDIR,ZIP,SALEDATE,SALEPRICE,TAXDIST,LANDUSE,LANDVAL1,IMPVAL",
+            "returnGeometry": "false",
+        })
+        feats = j.get("features") or []
+        out.extend([(f.get("attributes") or {}) for f in feats])
+
+    return pd.DataFrame(out)
 
 
 def join_to_parcels(df: pd.DataFrame, left_field: str) -> pd.DataFrame:
@@ -303,246 +274,119 @@ def _parcel_intersect_first(sign_geom: dict, in_sr: int) -> dict:
         return {}
     return (feats[0].get("attributes") or {})
 
-
 def spatial_join_signplans_to_parcels(signplans_df: pd.DataFrame, signplans_geoms: list[dict], in_sr: int) -> pd.DataFrame:
     if signplans_df is None or signplans_df.empty or not signplans_geoms:
         return signplans_df
 
-    parcel_rows = []
-    for g in signplans_geoms:
-        parcel_rows.append(_parcel_intersect_first(g, in_sr=in_sr))
-    parcels_df = pd.DataFrame(parcel_rows)
+    joined_rows = []
+    for geom in signplans_geoms:
+        joined_rows.append(_parcel_intersect_first(geom, in_sr=in_sr))
 
-    # Avoid column collisions by suffixing parcel fields if needed
-    for c in list(parcels_df.columns):
-        if c in signplans_df.columns:
-            parcels_df.rename(columns={c: f"{c}_PARCEL"}, inplace=True)
+    parcels_df = pd.DataFrame(joined_rows)
+    # Align row counts; if mismatch, just return original
+    if len(parcels_df) != len(signplans_df):
+        return signplans_df
 
-    return pd.concat([signplans_df.reset_index(drop=True), parcels_df.reset_index(drop=True)], axis=1)
-
-
-# ----------------------
-# Tiered owner enrichment (Billboards)
-# ----------------------
-
-OWNER_OUTFIELDS = "PARCEL,OWNER,ADDRESS,STRNO,STRNAME,STRTYPE,STRDIR,ZIP,SALEDATE,SALEPRICE,TAXDIST,LANDUSE,LANDVAL1,IMPVAL"
-
-
-def _is_blank(v) -> bool:
-    if v is None:
-        return True
-    s = str(v).strip()
-    return (s == "" or s.lower() == "nan" or s.lower() == "none")
-
-
-def _init_owner_meta(df: pd.DataFrame) -> None:
-    for c in ("OWNER_MATCH_TYPE", "OWNER_MATCH_CONFIDENCE", "OWNER_MATCH_NOTES"):
-        if c not in df.columns:
-            df[c] = ""
-
-
-def _mark_owner_meta(df: pd.DataFrame, mask, match_type: str, confidence: str, notes: str):
-    if mask is None:
-        return
-    df.loc[mask, "OWNER_MATCH_TYPE"] = match_type
-    df.loc[mask, "OWNER_MATCH_CONFIDENCE"] = confidence
-    df.loc[mask, "OWNER_MATCH_NOTES"] = notes
-
-
-def _parcel_intersect_point(point_geom: dict, in_sr: int, distance_ft: int = 15) -> dict:
-    """Intersect a point against Clark County parcels with a small buffer distance."""
-    if not point_geom or "x" not in point_geom or "y" not in point_geom:
-        return {}
-
-    j = arcgis_get_json(PARCELS_QUERY, {
-        "f": "pjson",
-        "geometry": json.dumps(point_geom),
-        "geometryType": "esriGeometryPoint",
-        "inSR": str(in_sr),
-        "spatialRel": "esriSpatialRelIntersects",
-        "distance": str(distance_ft),
-        "units": "esriSRUnit_Foot",
-        "outFields": OWNER_OUTFIELDS,
-        "returnGeometry": "false",
-        "resultRecordCount": "1",
-    })
-    feats = j.get("features") or []
-    if not feats:
-        return {}
-    return (feats[0].get("attributes") or {})
-
-
-def _parcel_intersect_polygon(poly_geom: dict, in_sr: int) -> dict:
-    """Intersect a polygon against Clark County parcels."""
-    if not poly_geom:
-        return {}
-    j = arcgis_get_json(PARCELS_QUERY, {
-        "f": "pjson",
-        "geometry": json.dumps(poly_geom),
-        "geometryType": "esriGeometryPolygon",
-        "inSR": str(in_sr),
-        "spatialRel": "esriSpatialRelIntersects",
-        "outFields": OWNER_OUTFIELDS,
-        "returnGeometry": "false",
-        "resultRecordCount": "1",
-    })
-    feats = j.get("features") or []
-    if not feats:
-        return {}
-    return (feats[0].get("attributes") or {})
-
-
-def _parcel_by_address(street_num: str, street_dir: str, street_name: str) -> dict:
-    """Best-effort address lookup in Clark County parcels."""
-    n = digits_only(street_num)
-    d = (street_dir or "").strip().upper()
-    nm = safe_sql(street_name).upper()
-
-    if not (n and nm):
-        return {}
-
-    parts = [f"(STRNO={n} OR STRNO='{n}')", f"UPPER(STRNAME) LIKE '%{nm}%'"]
-    if d:
-        parts.append(f"UPPER(STRDIR)='{safe_sql(d)}'")
-    where = " AND ".join(parts)
-
-    ids = fetch_ids_where(PARCELS_QUERY, where)
-    if not ids:
-        return {}
-
-    # Fetch first match only to keep it fast
-    df = fetch_by_objectids(PARCELS_QUERY, [ids[0]], out_fields=OWNER_OUTFIELDS, chunk_size=200)
-    if df is None or df.empty:
-        return {}
-    return (df.iloc[0].to_dict() if hasattr(df, "iloc") else {})
-
-
-def enrich_billboards_with_owner(
-    billboards_df: pd.DataFrame,
-    billboards_geoms: list[dict] | None,
-    *,
-    parcel_field: str = "PARCEL",
-    in_sr: int = 3421,
-    use_spatial_fallback: bool = True,
-    use_address_fallback: bool = True,
-) -> pd.DataFrame:
-    """Tiered owner enrichment:
-    1) APN/PARCEL field join (HIGH)
-    2) Spatial intersect fallback (MEDIUM)
-    3) Address fallback (LOW)
-    """
-    if billboards_df is None or billboards_df.empty:
-        return billboards_df
-
-    df = billboards_df.copy()
-    _init_owner_meta(df)
-
-    # --- Tier 1: APN exact join (field join) ---
-    df = join_to_parcels(df, left_field=parcel_field)
-
-    if "OWNER" in df.columns:
-        has_owner = ~df["OWNER"].apply(_is_blank)
-    else:
-        df["OWNER"] = ""
-        has_owner = pd.Series([False] * len(df))
-
-    _mark_owner_meta(df, has_owner, "APN", "HIGH", "Matched via APN/PARCEL exact join")
-
-    # --- Tier 2: Spatial fallback for missing owners ---
-    if use_spatial_fallback and billboards_geoms:
-        missing_mask = df["OWNER"].apply(_is_blank).reset_index(drop=True)
-        if missing_mask.any():
-            spatial_rows = []
-            for i, is_missing in enumerate(missing_mask.tolist()):
-                if not is_missing:
-                    spatial_rows.append({})
-                    continue
-                g = billboards_geoms[i] if i < len(billboards_geoms) else None
-                if not g:
-                    spatial_rows.append({})
-                    continue
-                if isinstance(g, dict) and ("x" in g and "y" in g):
-                    spatial_rows.append(_parcel_intersect_point(g, in_sr=in_sr, distance_ft=15))
-                else:
-                    spatial_rows.append(_parcel_intersect_polygon(g, in_sr=in_sr))
-            spatial_df = pd.DataFrame(spatial_rows)
-
-            # Fill missing columns from spatial results (do not clobber existing non-blank values)
-            for col in ["PARCEL", "OWNER", "ADDRESS", "STRNO", "STRNAME", "STRTYPE", "STRDIR", "ZIP",
-                        "SALEDATE", "SALEPRICE", "TAXDIST", "LANDUSE", "LANDVAL1", "IMPVAL"]:
-                if col in spatial_df.columns:
-                    if col not in df.columns:
-                        df[col] = None
-                    fill_mask = missing_mask & spatial_df[col].apply(lambda v: not _is_blank(v))
-                    df.loc[fill_mask, col] = spatial_df.loc[fill_mask, col].values
-
-            updated = missing_mask & (~df["OWNER"].apply(_is_blank)).reset_index(drop=True)
-            _mark_owner_meta(df, updated, "SPATIAL", "MEDIUM", "Matched via spatial intersect (buffered point)")
-
-    # --- Tier 3: Address fallback for still-missing owners ---
-    if use_address_fallback:
-        still_missing = df["OWNER"].apply(_is_blank)
-        needed = {"STREET_NUM", "STREET_DIR", "STREET_NAM"}
-        if still_missing.any() and needed.issubset(set(df.columns)):
-            addr_rows = []
-            for _, row in df.iterrows():
-                if still_missing.loc[row.name]:
-                    addr_rows.append(_parcel_by_address(row.get("STREET_NUM", ""), row.get("STREET_DIR", ""), row.get("STREET_NAM", "")))
-                else:
-                    addr_rows.append({})
-            addr_df = pd.DataFrame(addr_rows)
-
-            for col in ["PARCEL", "OWNER", "ADDRESS", "STRNO", "STRNAME", "STRTYPE", "STRDIR", "ZIP",
-                        "SALEDATE", "SALEPRICE", "TAXDIST", "LANDUSE", "LANDVAL1", "IMPVAL"]:
-                if col in addr_df.columns:
-                    if col not in df.columns:
-                        df[col] = None
-                    fill_mask = still_missing.reset_index(drop=True) & addr_df[col].apply(lambda v: not _is_blank(v))
-                    df.loc[fill_mask, col] = addr_df.loc[fill_mask, col].values
-
-            updated = still_missing & (~df["OWNER"].apply(_is_blank))
-            _mark_owner_meta(df, updated, "ADDRESS", "LOW", "Matched via address best-effort (may be approximate)")
-
-    # --- Final: label remaining as NONE ---
-    final_missing = df["OWNER"].apply(_is_blank)
-    _mark_owner_meta(df, final_missing, "NONE", "NONE", "No parcel match (ROW/easement/geometry mismatch or missing APN/address)")
-
-    return df
-
-
-# ----------------------
-# Export helpers (LAT/LON + KML)
-# ----------------------
-
-def add_lat_lon_from_geoms(df: pd.DataFrame, geoms: list[dict] | None) -> pd.DataFrame:
-    """Add LON/LAT columns from ESRI point geometries (expects outSR=4326)."""
-    if df is None or df.empty:
-        return df
-
-    out = df.copy()
-    if "LON" not in out.columns:
-        out["LON"] = ""
-    if "LAT" not in out.columns:
-        out["LAT"] = ""
-
-    if not geoms:
-        return out
-
-    for i in range(min(len(out), len(geoms))):
-        g = geoms[i]
-        if isinstance(g, dict) and ("x" in g and "y" in g):
-            out.at[i, "LON"] = g.get("x", "")
-            out.at[i, "LAT"] = g.get("y", "")
+    out = pd.concat([signplans_df.reset_index(drop=True), parcels_df.reset_index(drop=True)], axis=1)
     return out
 
 
-def _kml_color_from_code(code: str) -> str:
-    """Convert #RRGGBB (or color name) -> KML aabbggrr."""
-    if not code:
+# ----------------------
+# Lat/Lon + KML export helpers
+# ----------------------
+
+def _geom_to_lonlat(geom: dict):
+    """
+    Convert an ArcGIS geometry dict (already in outSR=4326) into (lon, lat).
+    Supports points, polygons, and polylines (uses a simple centroid/average).
+    """
+    if not geom or not isinstance(geom, dict):
+        return None, None
+
+    # point
+    if "x" in geom and "y" in geom:
+        return float(geom["x"]), float(geom["y"])
+
+    # polygon
+    if "rings" in geom and geom["rings"]:
+        ring = geom["rings"][0] or []
+        if not ring:
+            return None, None
+        xs = [p[0] for p in ring if isinstance(p, (list, tuple)) and len(p) >= 2]
+        ys = [p[1] for p in ring if isinstance(p, (list, tuple)) and len(p) >= 2]
+        if not xs or not ys:
+            return None, None
+        return float(sum(xs) / len(xs)), float(sum(ys) / len(ys))
+
+    # polyline
+    if "paths" in geom and geom["paths"]:
+        path = geom["paths"][0] or []
+        xs = [p[0] for p in path if isinstance(p, (list, tuple)) and len(p) >= 2]
+        ys = [p[1] for p in path if isinstance(p, (list, tuple)) and len(p) >= 2]
+        if not xs or not ys:
+            return None, None
+        return float(sum(xs) / len(xs)), float(sum(ys) / len(ys))
+
+    return None, None
+
+
+def add_latlon_from_geometry(layer_url: str, df: pd.DataFrame, oid_field: str = "OBJECTID") -> pd.DataFrame:
+    """
+    Ensures df has LON/LAT columns by re-fetching geometry (outSR=4326) by OBJECTID.
+    This is crucial because some layers don't expose LON/LAT as attributes, and joins/export
+    must keep coordinates no matter how the records were found.
+    """
+    if df is None or df.empty:
+        return df
+
+    # If LON/LAT already exist and have at least some non-null values, keep them.
+    if "LON" in df.columns and "LAT" in df.columns:
+        try:
+            if pd.to_numeric(df["LON"], errors="coerce").notna().any() and pd.to_numeric(df["LAT"], errors="coerce").notna().any():
+                return df
+        except Exception:
+            pass
+
+    if oid_field not in df.columns:
+        return df
+
+    # Pull OBJECTIDs
+    oids = []
+    for v in df[oid_field].tolist():
+        s = digits_only(str(v))
+        if s:
+            oids.append(int(s))
+    if not oids:
+        return df
+
+    # Re-fetch geometry in WGS84
+    _, geoms = fetch_with_geometry_by_ids(layer_url, oids, out_sr=4326)
+
+    # Build mapping oid -> (lon,lat)
+    lon_map = {}
+    lat_map = {}
+    for oid, g in zip(oids, geoms or []):
+        lon, lat = _geom_to_lonlat(g)
+        if lon is not None and lat is not None:
+            lon_map[oid] = lon
+            lat_map[oid] = lat
+
+    out = df.copy()
+    out["_OID_TMP_"] = pd.to_numeric(out[oid_field], errors="coerce").astype("Int64")
+    out["LON"] = out["_OID_TMP_"].map(lon_map)
+    out["LAT"] = out["_OID_TMP_"].map(lat_map)
+    out.drop(columns=["_OID_TMP_"], inplace=True, errors="ignore")
+    return out
+
+
+def _kml_color_from_code(code):
+    """
+    Accepts: 'red', '#RRGGBB', 'RRGGBB' and returns KML ABGR 'aabbggrr'
+    """
+    if code is None or (isinstance(code, float) and pd.isna(code)) or str(code).strip() == "":
         return "ff0000ff"  # opaque red
 
     c = str(code).strip().lower()
-
     named = {
         "red": "ff0000ff",
         "blue": "ffff0000",
@@ -559,102 +403,178 @@ def _kml_color_from_code(code: str) -> str:
         return named[c]
 
     c = c.lstrip("#")
-    if len(c) == 6:
+    if re.fullmatch(r"[0-9a-fA-F]{6}", c):
         rr, gg, bb = c[0:2], c[2:4], c[4:6]
-        return f"ff{bb}{gg}{rr}"  # aabbggrr
+        return f"ff{bb}{gg}{rr}"
 
     return "ff0000ff"
 
 
+def _icon_href_from_code(code):
+    """
+    Use a *different icon image* per color so Google My Maps / other viewers show color reliably.
+    """
+    ICON_BY_NAME = {
+        "red":   "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+        "blue":  "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png",
+        "green": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
+        "yellow":"http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png",
+        "purple":"http://maps.google.com/mapfiles/kml/paddle/purple-circle.png",
+        "orange":"http://maps.google.com/mapfiles/kml/paddle/orange-circle.png",
+        "white": "http://maps.google.com/mapfiles/kml/paddle/wht-circle.png",
+        "black": "http://maps.google.com/mapfiles/kml/paddle/blk-circle.png",
+        "gray":  "http://maps.google.com/mapfiles/kml/paddle/wht-circle.png",
+        "grey":  "http://maps.google.com/mapfiles/kml/paddle/wht-circle.png",
+    }
+
+    if code is None or (isinstance(code, float) and pd.isna(code)) or str(code).strip() == "":
+        return ICON_BY_NAME["red"]
+
+    c = str(code).strip().lower()
+    if c in ICON_BY_NAME:
+        return ICON_BY_NAME[c]
+
+    # If hex, map roughly by dominant channel
+    c2 = c.lstrip("#")
+    if re.fullmatch(r"[0-9a-fA-F]{6}", c2):
+        r = int(c2[0:2], 16); g = int(c2[2:4], 16); b = int(c2[4:6], 16)
+        if r >= g and r >= b:
+            return ICON_BY_NAME["red"]
+        if g >= r and g >= b:
+            return ICON_BY_NAME["green"]
+        return ICON_BY_NAME["blue"]
+
+    return ICON_BY_NAME["red"]
+
+
 def df_to_kml(
     df: pd.DataFrame,
+    out_path: str,
     *,
-    name_field: str | None = None,
-    fields_in_balloon: list[str] | None = None,
-    color_field: str | None = None,
-    title: str = "Export",
-    icon_href: str = "http://maps.google.com/mapfiles/kml/paddle/wht-blank.png",
+    lon_field: str = "LON",
+    lat_field: str = "LAT",
+    name_field: str = "Billboard ID",
+    color_field: str = "Pin Color Code",
+    balloon_fields: list[str] | None = None,
+    fixed_color: str | None = None,
+    document_name: str = "Export"
 ) -> str:
-    """Build a KML document from df with LAT/LON columns (WGS84)."""
+    """
+    Export a DataFrame (with lon/lat) to KML using icon-per-color styles.
+
+    - name_field defaults to "Billboard ID" for unique placemark names
+    - if fixed_color is provided, all pins use that color (ignores color_field)
+    - balloon_fields controls the popup table
+    """
     if df is None or df.empty:
-        raise ValueError("No rows to export to KML.")
+        raise ValueError("No rows to export.")
 
-    if "LAT" not in df.columns or "LON" not in df.columns:
-        raise ValueError("DataFrame must contain LAT and LON columns for KML export.")
+    if lon_field not in df.columns or lat_field not in df.columns:
+        raise ValueError(f"Missing {lon_field}/{lat_field} columns. Ensure lat/lon were added before KML export.")
 
-    if fields_in_balloon is None:
-        fields_in_balloon = []
+    d = df.copy()
+    d[lon_field] = pd.to_numeric(d[lon_field], errors="coerce")
+    d[lat_field] = pd.to_numeric(d[lat_field], errors="coerce")
+    d = d.dropna(subset=[lon_field, lat_field])
 
-    # Build style map for distinct colors
-    styles: dict[str, str] = {}
-    if color_field and color_field in df.columns:
-        for v in df[color_field].fillna("").astype(str).tolist():
-            kmlc = _kml_color_from_code(v)
-            styles.setdefault(kmlc, f"style_{kmlc}")
+    if d.empty:
+        raise ValueError("No valid rows with coordinates (lon/lat).")
 
-    def pick_name(row: pd.Series) -> str:
-        if name_field and name_field in row and str(row[name_field]).strip():
+    # Determine balloon fields
+    if balloon_fields is None:
+        balloon_fields = [c for c in [
+            name_field,
+            "STREET_NUM", "STREET_DIR", "STREET_NAM",
+            "PARCEL", "APPLICANT", "APPLY_DATE",
+            color_field
+        ] if c in d.columns]
+
+    import xml.sax.saxutils as saxutils
+
+    def esc(x):
+        if x is None or (isinstance(x, float) and pd.isna(x)):
+            return ""
+        return saxutils.escape(str(x))
+
+    def placemark_name(row):
+        if name_field in row.index and str(row[name_field]).strip() not in ("", "nan", "None"):
             return str(row[name_field]).strip()
-
-        for cand in ["Pin Title", "Billboard ID", "OBJECTID", "LVBOARDS_", "TAG_NUM"]:
-            if cand in row and str(row[cand]).strip():
-                return str(row[cand]).strip()
-
+        # fallback
+        if "LVBOARDS_" in row.index and str(row["LVBOARDS_"]).strip() not in ("", "nan", "None"):
+            return f"Billboard {row['LVBOARDS_']}"
+        if "OBJECTID" in row.index:
+            return f"ID {row['OBJECTID']}"
         return "Placemark"
 
-    def balloon_html(row: pd.Series) -> str:
+    def balloon_html(row):
         rows = []
-        for col in fields_in_balloon:
-            if col in row:
-                val = "" if pd.isna(row[col]) else str(row[col])
-                rows.append(
-                    f"<tr><td><b>{saxutils.escape(col)}</b></td>"
-                    f"<td>{saxutils.escape(val)}</td></tr>"
-                )
+        for col in balloon_fields:
+            if col in row.index:
+                val = row[col]
+                if val is None or (isinstance(val, float) and pd.isna(val)):
+                    val = ""
+                rows.append(f"<tr><td><b>{esc(col)}</b></td><td>{esc(val)}</td></tr>")
         return "<table border='1' cellpadding='4' cellspacing='0'>" + "".join(rows) + "</table>"
 
-    parts: list[str] = []
-    parts.append('<?xml version="1.0" encoding="UTF-8"?>')
-    parts.append('<kml xmlns="http://www.opengis.net/kml/2.2">')
-    parts.append("<Document>")
-    parts.append(f"<name>{saxutils.escape(title)}</name>")
+    # Build styles keyed by (kml_color, icon_href)
+    styles = {}
+    if fixed_color:
+        codes = [fixed_color]
+    else:
+        codes = d[color_field].fillna("").astype(str).tolist() if color_field in d.columns else [""]
 
-    # styles
-    for kml_color, style_id in styles.items():
-        parts.append(f'<Style id="{style_id}">')
-        parts.append("<IconStyle>")
-        parts.append(f"<color>{kml_color}</color>")
-        parts.append("<scale>1.1</scale>")
-        parts.append(f"<Icon><href>{saxutils.escape(icon_href)}</href></Icon>")
-        parts.append("</IconStyle>")
-        parts.append("</Style>")
+    for v in codes:
+        kmlc = _kml_color_from_code(v)
+        href = _icon_href_from_code(v)
+        key = (kmlc, href)
+        if key not in styles:
+            styles[key] = f"style_{kmlc}_{abs(hash(href)) % 10_000_000}"
 
-    # placemarks
-    for _, row in df.iterrows():
-        lat = row.get("LAT", "")
-        lon = row.get("LON", "")
-        if pd.isna(lat) or pd.isna(lon) or str(lat).strip() == "" or str(lon).strip() == "":
-            continue
+    kml_parts = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<kml xmlns="http://www.opengis.net/kml/2.2">',
+        "<Document>",
+        f"<name>{esc(document_name)}</name>",
+    ]
 
-        name = pick_name(row)
+    for (kmlc, href), sid in styles.items():
+        kml_parts += [
+            f'<Style id="{sid}">',
+            "<IconStyle>",
+            f"<color>{kmlc}</color>",
+            "<scale>1.1</scale>",
+            f"<Icon><href>{esc(href)}</href></Icon>",
+            "</IconStyle>",
+            "</Style>",
+        ]
+
+    for _, row in d.iterrows():
+        lon = row[lon_field]; lat = row[lat_field]
+        nm = placemark_name(row)
         desc = balloon_html(row)
 
-        style_url = ""
-        if color_field and color_field in df.columns:
-            kmlc = _kml_color_from_code(row.get(color_field, ""))
-            style_id = styles.get(kmlc)
-            if style_id:
-                style_url = f"<styleUrl>#{style_id}</styleUrl>"
+        if fixed_color:
+            v = fixed_color
+        else:
+            v = row[color_field] if color_field in row.index else ""
+        kmlc = _kml_color_from_code(v)
+        href = _icon_href_from_code(v)
+        sid = styles.get((kmlc, href))
 
-        parts.append("<Placemark>")
-        parts.append(f"<name>{saxutils.escape(name)}</name>")
-        if style_url:
-            parts.append(style_url)
-        parts.append(f"<description><![CDATA[{desc}]]></description>")
-        parts.append("<Point>")
-        parts.append(f"<coordinates>{lon},{lat},0</coordinates>")
-        parts.append("</Point>")
-        parts.append("</Placemark>")
+        kml_parts += [
+            "<Placemark>",
+            f"<name>{esc(nm)}</name>",
+            (f"<styleUrl>#{sid}</styleUrl>" if sid else ""),
+            f"<description><![CDATA[{desc}]]></description>",
+            "<Point>",
+            f"<coordinates>{lon},{lat},0</coordinates>",
+            "</Point>",
+            "</Placemark>",
+        ]
 
-    parts.append("</Document></kml>")
-    return "\n".join(parts)
+    kml_parts += ["</Document>", "</kml>"]
+
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write("\n".join([p for p in kml_parts if p != ""]))
+
+    return out_path

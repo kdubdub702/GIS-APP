@@ -5,6 +5,7 @@
 
 DATASETS = {
     "Las Vegas – Billboards": {
+        # Note: layer does not expose LON/LAT attributes consistently; app derives from geometry.
         "layer_url": "https://services1.arcgis.com/F1v0ufATbBQScMtY/ArcGIS/rest/services/CLV_Billboards/FeatureServer/3",
         "oid_field": "OBJECTID",
         "mode_support": ["address", "apn", "oid_exact", "oid_range", "all"],
@@ -16,7 +17,6 @@ DATASETS = {
             "type": "field",
             "left_field": "PARCEL",   # in city layer
         },
-        "join_owner_strategy": "tiered",  # APN -> spatial -> address fallback
     },
 
     # NDOT statewide billboard inventory (separate from City of Las Vegas layer)

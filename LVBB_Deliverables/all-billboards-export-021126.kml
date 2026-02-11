@@ -1,0 +1,2399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Las Vegas – Billboards Export</name>
+<Placemark>
+<name>1</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>1</td></tr><tr><td><b>STREET_NUM</b></td><td>5501</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Drexel</td></tr><tr><td><b>PARCEL</b></td><td>12534501003</td></tr><tr><td><b>APPLICANT</b></td><td>Fletcher Jones</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.25180079289345,36.262649061872246,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>2</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>2</td></tr><tr><td><b>STREET_NUM</b></td><td>4950</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>RANCHO</td></tr><tr><td><b>PARCEL</b></td><td>12535401001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>6/14/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24194943722554,36.25063566373091,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>4</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>4</td></tr><tr><td><b>STREET_NUM</b></td><td>3901</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13812110004</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.22328021217717,36.228945660462394,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>5</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>5</td></tr><tr><td><b>STREET_NUM</b></td><td>3901</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13812110005</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.22265551396453,36.22819434414714,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>6</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>6</td></tr><tr><td><b>STREET_NUM</b></td><td>3340</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13812810004</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.21392336346344,36.21960970314395,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>7</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>7</td></tr><tr><td><b>STREET_NUM</b></td><td>3282</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>RANCHO</td></tr><tr><td><b>PARCEL</b></td><td>13812810042</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>2/3/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.2129763279711,36.218440837194834,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>8</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>8</td></tr><tr><td><b>STREET_NUM</b></td><td>3201</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>RANCHO</td></tr><tr><td><b>PARCEL</b></td><td>13812801011</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>2/1/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.21295117271086,36.21754137202783,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>9</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>9</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13813505001</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20859062397312,36.21384865551859,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>10</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>10</td></tr><tr><td><b>STREET_NUM</b></td><td>2951</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>RANCHO</td></tr><tr><td><b>PARCEL</b></td><td>13813601019</td></tr><tr><td><b>APPLICANT</b></td><td>Rancho Oasis</td></tr><tr><td><b>APPLY_DATE</b></td><td>6/2/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20862998620505,36.212871024985155,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>11</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>11</td></tr><tr><td><b>STREET_NUM</b></td><td>2901</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>RANCHO</td></tr><tr><td><b>PARCEL</b></td><td>13813601019</td></tr><tr><td><b>APPLICANT</b></td><td>Rancho Oasis</td></tr><tr><td><b>APPLY_DATE</b></td><td>6/2/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20801256637981,36.212191134720726,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>12</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>12</td></tr><tr><td><b>STREET_NUM</b></td><td>2750</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Decatur</td></tr><tr><td><b>PARCEL</b></td><td>13918302002</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>03/20/91</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20473639544936,36.20873471373469,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>13</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>13</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13918403002</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.19958238489771,36.20304985323829,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>14</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>14</td></tr><tr><td><b>STREET_NUM</b></td><td>2151</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>RANCHO</td></tr><tr><td><b>PARCEL</b></td><td>13919103002</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.19655052346677,36.19966258234122,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>15</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>15</td></tr><tr><td><b>STREET_NUM</b></td><td>1998</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>RANCHO</td></tr><tr><td><b>PARCEL</b></td><td>13919705001</td></tr><tr><td><b>APPLICANT</b></td><td>Rancho Allen</td></tr><tr><td><b>APPLY_DATE</b></td><td>10-3-96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.19141945534493,36.194969268178305,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>16</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>16</td></tr><tr><td><b>STREET_NUM</b></td><td>1999</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13919703005</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.19268691633057,36.19545456050423,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>17</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>17</td></tr><tr><td><b>STREET_NUM</b></td><td>1852</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>RANCHO</td></tr><tr><td><b>PARCEL</b></td><td>13919705001</td></tr><tr><td><b>APPLICANT</b></td><td>Rancho Allen</td></tr><tr><td><b>APPLY_DATE</b></td><td>10-3-96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.19007594830158,36.19346953796312,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>18</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>18</td></tr><tr><td><b>STREET_NUM</b></td><td>1767</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>RANCHO</td></tr><tr><td><b>PARCEL</b></td><td>13919812018</td></tr><tr><td><b>APPLICANT</b></td><td>?</td></tr><tr><td><b>APPLY_DATE</b></td><td>7/19/94</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.18927375640756,36.191755442181986,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>19</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>19</td></tr><tr><td><b>STREET_NUM</b></td><td>1600</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>RANCHO</td></tr><tr><td><b>PARCEL</b></td><td>13920411005</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>4/18/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.18574553633376,36.18880789122421,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>20</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>20</td></tr><tr><td><b>STREET_NUM</b></td><td>840</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13929702002</td></tr><tr><td><b>APPLICANT</b></td><td>VIACOM</td></tr><tr><td><b>APPLY_DATE</b></td><td>3/16/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17802594796026,36.18018806558238,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>21</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>21</td></tr><tr><td><b>STREET_NUM</b></td><td>816</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13929704001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>12/6/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17701268439204,36.17925128825309,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>22</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>22</td></tr><tr><td><b>STREET_NUM</b></td><td>601</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13929703003</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17660306996044,36.17759945565127,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>23</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>23</td></tr><tr><td><b>STREET_NUM</b></td><td>2401</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13929801004</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17302622590556,36.17608775663644,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>24</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>24</td></tr><tr><td><b>STREET_NUM</b></td><td>2220</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>13932804010</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>11-10-83</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17256777024807,36.15940571153706,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>26</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>26</td></tr><tr><td><b>STREET_NUM</b></td><td>6704</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Cheyene</td></tr><tr><td><b>PARCEL</b></td><td>13810816007</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24538271423744,36.21964137404821,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>27</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>27</td></tr><tr><td><b>STREET_NUM</b></td><td>1701</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>RAINBOW</td></tr><tr><td><b>PARCEL</b></td><td>13822812001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>7/26/94</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24396222203627,36.18996922355065,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>28</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>28</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13827501001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24502372554277,36.18829342474012,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>29</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>29</td></tr><tr><td><b>STREET_NUM</b></td><td>1399</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Rainbow</td></tr><tr><td><b>PARCEL</b></td><td>13827502007</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>4/22/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24392657891643,36.18671933466476,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>30</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>30</td></tr><tr><td><b>STREET_NUM</b></td><td>192</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Wallace</td></tr><tr><td><b>PARCEL</b></td><td>13826801009</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.2262092902601,36.17465611322832,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>31</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>31</td></tr><tr><td><b>STREET_NUM</b></td><td>2017</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13928401001</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>5/20/04</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16885222324741,36.17661105434822,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>32</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>32</td></tr><tr><td><b>STREET_NUM</b></td><td>1915</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13928412001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16695329175157,36.17652211149712,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>33</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>33</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13928801003</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1594353024526,36.17560730900197,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>34</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>34</td></tr><tr><td><b>STREET_NUM</b></td><td>720</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Mesquite</td></tr><tr><td><b>PARCEL</b></td><td>13928802001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1525814426174,36.174621949777844,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>35</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>35</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13927401006</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14945055958542,36.17540724559924,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>36</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>36</td></tr><tr><td><b>STREET_NUM</b></td><td>420</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Mesquite</td></tr><tr><td><b>PARCEL</b></td><td>13927401022</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14771485702892,36.175918127900864,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>37</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>37</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13927401031</td></tr><tr><td><b>APPLICANT</b></td><td>VIACOM</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14587125965681,36.17579062831658,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>38</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>38</td></tr><tr><td><b>STREET_NUM</b></td><td>429</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13927403002</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>10-3-83</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1431682834683,36.17562171840167,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>39</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>39</td></tr><tr><td><b>STREET_NUM</b></td><td>650</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13927804003</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.13553098689061,36.173938298022016,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>40</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>40</td></tr><tr><td><b>STREET_NUM</b></td><td>369</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>13TH</td></tr><tr><td><b>PARCEL</b></td><td>13935101001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>6/26/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.12939830628825,36.17019123823444,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>41</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>41</td></tr><tr><td><b>STREET_NUM</b></td><td>3300</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13936502003</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.10468733511179,36.1681099799496,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>42</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>42</td></tr><tr><td><b>STREET_NUM</b></td><td>3300</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13936502003</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.10282053857517,36.16799596933011,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>43</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>43</td></tr><tr><td><b>STREET_NUM</b></td><td>3300</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13936502003</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.10089624279603,36.1678557904009,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>44</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>44</td></tr><tr><td><b>STREET_NUM</b></td><td>3300</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13936502003</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.09897900293043,36.167389983341614,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>45</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>45</td></tr><tr><td><b>STREET_NUM</b></td><td>2800</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Marlin</td></tr><tr><td><b>PARCEL</b></td><td>13936213001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>9/25/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1114913531298,36.167233285495136,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>46</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>46</td></tr><tr><td><b>STREET_NUM</b></td><td>2421</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Stewart</td></tr><tr><td><b>PARCEL</b></td><td>13935612044</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.11632385438844,36.166926026258466,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>47</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>47</td></tr><tr><td><b>STREET_NUM</b></td><td>2015</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Stewart</td></tr><tr><td><b>PARCEL</b></td><td>13935611087</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.12107515127127,36.16685858549427,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>48</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>48</td></tr><tr><td><b>STREET_NUM</b></td><td>339</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>13th</td></tr><tr><td><b>PARCEL</b></td><td>13935201003</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.12940070840129,36.16947362961888,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>49</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>49</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13927401031</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14618098815782,36.17520023792622,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>50</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>50</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13927410005</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14965134343953,36.173888654459965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>51</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>51</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13927410005</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15132411280888,36.17344676277354,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>52</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>52</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13933511004</td></tr><tr><td><b>APPLICANT</b></td><td>VIACOM</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.154954007921,36.17214643556873,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>53</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>53</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13933710003</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15929421569862,36.16528956177029,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>54</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>54</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13933710003</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15967159932765,36.16229713082343,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>55</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>55</td></tr><tr><td><b>STREET_NUM</b></td><td>1500</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Western</td></tr><tr><td><b>PARCEL</b></td><td>16204602011</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16113986378998,36.15442029987873,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>56</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>56</td></tr><tr><td><b>STREET_NUM</b></td><td>1508</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Western</td></tr><tr><td><b>PARCEL</b></td><td>16204602010</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1621847852937,36.15305371414366,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>57</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>57</td></tr><tr><td><b>STREET_NUM</b></td><td>1604</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Oakey</td></tr><tr><td><b>PARCEL</b></td><td>16204602009</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1628190001645,36.15235282936895,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>60</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>60</td></tr><tr><td><b>STREET_NUM</b></td><td>2002</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Highland</td></tr><tr><td><b>PARCEL</b></td><td>16204301008</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16635562975641,36.14893567419091,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>61</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>61</td></tr><tr><td><b>STREET_NUM</b></td><td>2801</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Westwood</td></tr><tr><td><b>PARCEL</b></td><td>16208604001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17423597013898,36.140013241490706,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>62</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>62</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>16208604002</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17517443669786,36.13886899261493,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>63</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>63</td></tr><tr><td><b>STREET_NUM</b></td><td>3260</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>16208418002</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>11/30/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.18128139948597,36.13046024928758,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>64</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>64</td></tr><tr><td><b>STREET_NUM</b></td><td>2900</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Sirus</td></tr><tr><td><b>PARCEL</b></td><td>16208702002</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>06/15/94</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.18045381609855,36.133601728880684,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>65</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>65</td></tr><tr><td><b>STREET_NUM</b></td><td>2900</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Sirus</td></tr><tr><td><b>PARCEL</b></td><td>16208702002</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>8/11/94</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17962559428366,36.135142880753996,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>66</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>66</td></tr><tr><td><b>STREET_NUM</b></td><td>2800</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>16208610104</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17791599296882,36.1374248628189,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>67</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>67</td></tr><tr><td><b>STREET_NUM</b></td><td>2800</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>16208610104</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>12/04/86</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17678143354485,36.13866125750686,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>68</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>68</td></tr><tr><td><b>STREET_NUM</b></td><td>2800</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>16208610104</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>12/07/86</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17600046941605,36.13985223185314,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>69</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>69</td></tr><tr><td><b>STREET_NUM</b></td><td>2320</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>RANCHO</td></tr><tr><td><b>PARCEL</b></td><td>16204412005</td></tr><tr><td><b>APPLICANT</b></td><td>VIACOM</td></tr><tr><td><b>APPLY_DATE</b></td><td>1/19/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17164804566174,36.14499737739729,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>70</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>70</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13933701005</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16065671813251,36.16448518879474,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>71</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>71</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13933701005</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1606121816381,36.16516966623629,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>72</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>72</td></tr><tr><td><b>STREET_NUM</b></td><td>351</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Martin L King</td></tr><tr><td><b>PARCEL</b></td><td>13933601003</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>5-31-83</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15992117770752,36.167592543981904,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>73</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>73</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13933501012</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.159613973886,36.169872878106425,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>74</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>74</td></tr><tr><td><b>STREET_NUM</b></td><td>275</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Martin L. King</td></tr><tr><td><b>PARCEL</b></td><td>13933510007</td></tr><tr><td><b>APPLICANT</b></td><td>DONREY</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15792861612108,36.172306189029875,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>75</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>75</td></tr><tr><td><b>STREET_NUM</b></td><td>81</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Martin L. King</td></tr><tr><td><b>PARCEL</b></td><td>13933510002</td></tr><tr><td><b>APPLICANT</b></td><td>DONREY</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1579940607996,36.173644371741965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>76</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>76</td></tr><tr><td><b>STREET_NUM</b></td><td>720</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Mesquite</td></tr><tr><td><b>PARCEL</b></td><td>13928802001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15186406318129,36.17606737962347,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>78</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>78</td></tr><tr><td><b>STREET_NUM</b></td><td>1405</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>A St.</td></tr><tr><td><b>PARCEL</b></td><td>13927501003</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>1/31/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14292881070149,36.18619704404504,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>79</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>79</td></tr><tr><td><b>STREET_NUM</b></td><td>616</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>H St.</td></tr><tr><td><b>PARCEL</b></td><td>13927310069</td></tr><tr><td><b>APPLICANT</b></td><td>Eagle</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15133824234972,36.177760553956844,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>80</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>80</td></tr><tr><td><b>STREET_NUM</b></td><td>831</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13928801010</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15270280972318,36.176808424098404,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>81</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>81</td></tr><tr><td><b>STREET_NUM</b></td><td>901</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>BUFFALO</td></tr><tr><td><b>PARCEL</b></td><td>13828620003</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>06/19/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.2601937077582,36.18199970624559,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>82</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>82</td></tr><tr><td><b>STREET_NUM</b></td><td>2401</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>DECATUR</td></tr><tr><td><b>PARCEL</b></td><td>13813801083</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>7/21/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20609712290292,36.203369615812754,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>83</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>83</td></tr><tr><td><b>STREET_NUM</b></td><td>2390</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>DECATUR</td></tr><tr><td><b>PARCEL</b></td><td>13919101001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>9/21/94</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.2050809895876,36.20247390978753,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>84</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>84</td></tr><tr><td><b>STREET_NUM</b></td><td>5910</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Lake Mead</td></tr><tr><td><b>PARCEL</b></td><td>13824215006</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>12/28/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.22309999188826,36.19591710955913,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>85</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>85</td></tr><tr><td><b>STREET_NUM</b></td><td>1060</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>RAINBOW</td></tr><tr><td><b>PARCEL</b></td><td>13834819014</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24325429534707,36.159679188425386,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>86</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>86</td></tr><tr><td><b>STREET_NUM</b></td><td>6611</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>16302104001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>8/21/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.23906904934813,36.158910362850044,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>87</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>87</td></tr><tr><td><b>STREET_NUM</b></td><td>1000</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Torrey Pines</td></tr><tr><td><b>PARCEL</b></td><td>13835402011</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.23477850384413,36.159806798476936,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>88</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>88</td></tr><tr><td><b>STREET_NUM</b></td><td>6151</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>16301101001</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>10-24-84</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.22481834345253,36.15903723874172,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>89</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>89</td></tr><tr><td><b>STREET_NUM</b></td><td>5636</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>13836408002</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>9-22-86</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.21836547370704,36.15933992079524,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>90</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>90</td></tr><tr><td><b>STREET_NUM</b></td><td>5600</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>13836408008</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>11-14-83</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.21732795224084,36.15939838995722,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>91</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>91</td></tr><tr><td><b>STREET_NUM</b></td><td>5301</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>16301501011</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>06/07/89</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.21511580017983,36.158911273941726,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>92</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>92</td></tr><tr><td><b>STREET_NUM</b></td><td>5300</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>13836803015</td></tr><tr><td><b>APPLICANT</b></td><td>DONREY</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.21406238200264,36.15933613400026,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>93</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>93</td></tr><tr><td><b>STREET_NUM</b></td><td>5200</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>16301502014</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.21205989382943,36.15892888040091,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>94</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>94</td></tr><tr><td><b>STREET_NUM</b></td><td>4820</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>CHARLESTON</td></tr><tr><td><b>PARCEL</b></td><td>13836804008</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>1/13/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20699669455132,36.159321757472995,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>95</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>95</td></tr><tr><td><b>STREET_NUM</b></td><td>4717</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>16206102001</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>2/11/85</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20551963969592,36.158592065619025,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>96</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>96</td></tr><tr><td><b>STREET_NUM</b></td><td>4100</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>13931801009</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1954272852132,36.1592379515499,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>97</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>97</td></tr><tr><td><b>STREET_NUM</b></td><td>3920</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>CHARLESTON</td></tr><tr><td><b>PARCEL</b></td><td>13931801018</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>6/2/94</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.19406374055885,36.159189753512436,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>98</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>98</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>16204504011</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15679008799594,36.15864302702181,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>99</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>99</td></tr><tr><td><b>STREET_NUM</b></td><td>1001</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Iron Hourse</td></tr><tr><td><b>PARCEL</b></td><td>13933810004</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15650045063138,36.159111513317605,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>100</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>100</td></tr><tr><td><b>STREET_NUM</b></td><td>1022</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Commerce</td></tr><tr><td><b>PARCEL</b></td><td>13933801018</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1559300888646,36.15913202741148,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>101</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>101</td></tr><tr><td><b>STREET_NUM</b></td><td>1292</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>16202110014</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>1/7/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.13578844772121,36.15866661776559,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>102</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>102</td></tr><tr><td><b>STREET_NUM</b></td><td>1524</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>16202111001</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.13235826619368,36.15869632444194,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>103</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>103</td></tr><tr><td><b>STREET_NUM</b></td><td>1548</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>16202111039</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1315544059115,36.15868637146662,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>104</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>104</td></tr><tr><td><b>STREET_NUM</b></td><td>1647</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>13935413031</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.12941922730124,36.159063233750075,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>105</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>105</td></tr><tr><td><b>STREET_NUM</b></td><td>1636</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>16202113005</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.12910245279849,36.158672317738066,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>106</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>106</td></tr><tr><td><b>STREET_NUM</b></td><td>1707</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>13935413159</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.12857807860445,36.15903095396918,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>107</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>107</td></tr><tr><td><b>STREET_NUM</b></td><td>1800</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Lewis</td></tr><tr><td><b>PARCEL</b></td><td>13935814001</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.12484520690957,36.15971579951311,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>108</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>108</td></tr><tr><td><b>STREET_NUM</b></td><td>1813</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>13935814016</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.12412590357647,36.15905765582619,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>109</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>109</td></tr><tr><td><b>STREET_NUM</b></td><td>1924</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>16202512005</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.12233522552414,36.15863934945429,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>110</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>110</td></tr><tr><td><b>STREET_NUM</b></td><td>2028</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>16202512012</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.11975676774622,36.158657545936585,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>111</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>111</td></tr><tr><td><b>STREET_NUM</b></td><td>2550</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Femont</td></tr><tr><td><b>PARCEL</b></td><td>16201111014</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.11477351908424,36.1570349743046,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>112</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>112</td></tr><tr><td><b>STREET_NUM</b></td><td>2217</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Fremont</td></tr><tr><td><b>PARCEL</b></td><td>13935804009</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1187078652832,36.16007595113599,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>113</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>113</td></tr><tr><td><b>STREET_NUM</b></td><td>2217</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Fremont</td></tr><tr><td><b>PARCEL</b></td><td>13935804009</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.11837713517444,36.16026207998075,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>114</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>114</td></tr><tr><td><b>STREET_NUM</b></td><td>145</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Bruce</td></tr><tr><td><b>PARCEL</b></td><td>13935312059</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.12528978159399,36.164414659786004,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>115</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>115</td></tr><tr><td><b>STREET_NUM</b></td><td>500</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Fremont</td></tr><tr><td><b>PARCEL</b></td><td>13934611004</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14041309134208,36.16928343748013,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>116</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>116</td></tr><tr><td><b>STREET_NUM</b></td><td>6070</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>SAHARA</td></tr><tr><td><b>PARCEL</b></td><td>16301401010</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>3/10/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.22473061139264,36.14468367320473,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>117</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>117</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>16207101019</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20038237843846,36.14419959428174,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>118</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>118</td></tr><tr><td><b>STREET_NUM</b></td><td>3920</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16206801005</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>12/6/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.19343712957266,36.14474083213131,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>119</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>119</td></tr><tr><td><b>STREET_NUM</b></td><td>3810</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16206801008</td></tr><tr><td><b>APPLICANT</b></td><td>CLEAR CHANNEL OUTDOOR</td></tr><tr><td><b>APPLY_DATE</b></td><td>06/21/89</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1913761553741,36.144695782583725,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>120</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>120</td></tr><tr><td><b>STREET_NUM</b></td><td>3641</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16208101007</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.18974233224439,36.14410428016174,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>121</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>121</td></tr><tr><td><b>STREET_NUM</b></td><td>3209</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>SAHARA</td></tr><tr><td><b>PARCEL</b></td><td>16208104001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>11-18-93</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.18513753364203,36.14405768709289,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>122</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>122</td></tr><tr><td><b>STREET_NUM</b></td><td>3101</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>SAHARA</td></tr><tr><td><b>PARCEL</b></td><td>16208104004</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>3/24/94</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.18396460688962,36.14410097249766,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>123</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>123</td></tr><tr><td><b>STREET_NUM</b></td><td>2921</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16208501001</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.18185926653115,36.14395848226474,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>124</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>124</td></tr><tr><td><b>STREET_NUM</b></td><td>2625</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>SAHARA</td></tr><tr><td><b>PARCEL</b></td><td>16208502013</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>10/13/94</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17697641838592,36.14403500016427,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>125</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>125</td></tr><tr><td><b>STREET_NUM</b></td><td>2560</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Highland</td></tr><tr><td><b>PARCEL</b></td><td>16209110020</td></tr><tr><td><b>APPLICANT</b></td><td>NEVADA</td></tr><tr><td><b>APPLY_DATE</b></td><td>8/1/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16909093389263,36.142984733174664,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>126</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>126</td></tr><tr><td><b>STREET_NUM</b></td><td>2550</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>HIGHLAND</td></tr><tr><td><b>PARCEL</b></td><td>16209110019</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>1/12/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16806572458243,36.1433454818149,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>127</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>127</td></tr><tr><td><b>STREET_NUM</b></td><td>1516</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>SCOTLAND</td></tr><tr><td><b>PARCEL</b></td><td>16204404016</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16783701407665,36.14475348031133,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>128</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>128</td></tr><tr><td><b>STREET_NUM</b></td><td>2441</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Western</td></tr><tr><td><b>PARCEL</b></td><td>16204406012</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>02/26/81</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1661990245482,36.14428720848073,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>129</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>129</td></tr><tr><td><b>STREET_NUM</b></td><td>2466</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Industrial</td></tr><tr><td><b>PARCEL</b></td><td>16204407001</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16507784578158,36.14424192514962,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>130</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>130</td></tr><tr><td><b>STREET_NUM</b></td><td>336</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>SAHARA</td></tr><tr><td><b>PARCEL</b></td><td>16204807002</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>7/20/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1625236295339,36.14419412110156,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>132</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>132</td></tr><tr><td><b>STREET_NUM</b></td><td>2400</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Las Vegas</td></tr><tr><td><b>PARCEL</b></td><td>16204812003</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15748339781933,36.14395118898997,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>133</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>133</td></tr><tr><td><b>STREET_NUM</b></td><td>208</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16203413023</td></tr><tr><td><b>APPLICANT</b></td><td>Orion Outdoor Media</td></tr><tr><td><b>APPLY_DATE</b></td><td>08/06/03</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15395526592484,36.1439334121589,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>134</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>134</td></tr><tr><td><b>STREET_NUM</b></td><td>308</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16203414025</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15295934944477,36.14398945448528,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>135</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>135</td></tr><tr><td><b>STREET_NUM</b></td><td>410</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16203414025</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15202816513096,36.14399160343503,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>136</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>136</td></tr><tr><td><b>STREET_NUM</b></td><td>438</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16203416024</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15094494393914,36.1439708523456,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>137</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>137</td></tr><tr><td><b>STREET_NUM</b></td><td>536</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16203421019</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14738389773015,36.14416422565493,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>138</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>138</td></tr><tr><td><b>STREET_NUM</b></td><td>750</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16203801104</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1447343124291,36.14421049316987,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>139</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>139</td></tr><tr><td><b>STREET_NUM</b></td><td>946</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16203801113</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14208922943264,36.144329736079165,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>140</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>140</td></tr><tr><td><b>STREET_NUM</b></td><td>1140</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16203802007</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.13825939820697,36.14452970843149,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>141</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>141</td></tr><tr><td><b>STREET_NUM</b></td><td>1300</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16202410095</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.13518283022805,36.144537794486965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>142</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>142</td></tr><tr><td><b>STREET_NUM</b></td><td>1380</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16202410117</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.13404798182388,36.14455808566528,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>143</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>143</td></tr><tr><td><b>STREET_NUM</b></td><td>1500</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16202410140</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.13265673505792,36.144618807849426,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>144</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>144</td></tr><tr><td><b>STREET_NUM</b></td><td>1550</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16202411022</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1311628930983,36.14466212995955,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>145</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>145</td></tr><tr><td><b>STREET_NUM</b></td><td>1914</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16202811026</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.12274118281738,36.14464527545145,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>146</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>146</td></tr><tr><td><b>STREET_NUM</b></td><td>1920</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16202811067</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.12211035083618,36.14460136927614,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>147</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>147</td></tr><tr><td><b>STREET_NUM</b></td><td>1942</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16202811116</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.12070243629327,36.14466438223714,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>148</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>148</td></tr><tr><td><b>STREET_NUM</b></td><td>2333</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16201401005</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1165227633224,36.14468761687307,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>149</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>149</td></tr><tr><td><b>STREET_NUM</b></td><td>2329</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Eastern</td></tr><tr><td><b>PARCEL</b></td><td>16201401003</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>05/03/72</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.11852709257484,36.14566799697755,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>150</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>150</td></tr><tr><td><b>STREET_NUM</b></td><td>3200</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>16208418002</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>11/30/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.18223422095465,36.13017980531881,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>151</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>151</td></tr><tr><td><b>STREET_NUM</b></td><td>3720</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>DESERT INN</td></tr><tr><td><b>PARCEL</b></td><td>16208410033</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>2/1/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.18873215828077,36.13039206819089,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>152</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>152</td></tr><tr><td><b>STREET_NUM</b></td><td>3180</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>VALLEY VIEW</td></tr><tr><td><b>PARCEL</b></td><td>16208410018</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>4/14/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.19005220294429,36.1320523557525,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>153</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>153</td></tr><tr><td><b>STREET_NUM</b></td><td>3052</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Valley View</td></tr><tr><td><b>PARCEL</b></td><td>16208302010</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>6/13/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.19018770069707,36.13469140728299,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>154</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>154</td></tr><tr><td><b>STREET_NUM</b></td><td>3001</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>VALLEY VIEW</td></tr><tr><td><b>PARCEL</b></td><td>16207702004</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>4/18/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.19070285381959,36.13678301568702,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>155</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>155</td></tr><tr><td><b>STREET_NUM</b></td><td>2562</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Valley View</td></tr><tr><td><b>PARCEL</b></td><td>16208101005</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.19044012781318,36.14305955125949,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>156</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>156</td></tr><tr><td><b>STREET_NUM</b></td><td>3900</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>CHARLESTON</td></tr><tr><td><b>PARCEL</b></td><td>13931801018</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>6/2/94</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1926773311558,36.159886419634496,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>157</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>157</td></tr><tr><td><b>STREET_NUM</b></td><td>820</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>VALLEY VIEW</td></tr><tr><td><b>PARCEL</b></td><td>13931801002</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>1/27/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.19269399739795,36.162117966341846,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>158</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>158</td></tr><tr><td><b>STREET_NUM</b></td><td>4800</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Alpine</td></tr><tr><td><b>PARCEL</b></td><td>13836802009</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20619572370718,36.16042891958069,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>159</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>159</td></tr><tr><td><b>STREET_NUM</b></td><td>1351</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>DECATUR</td></tr><tr><td><b>PARCEL</b></td><td>16206211001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>3/30/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20757831726087,36.15551465909953,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>160</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>160</td></tr><tr><td><b>STREET_NUM</b></td><td>1611</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Decatur</td></tr><tr><td><b>PARCEL</b></td><td>16206211003</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20771187540143,36.15376445541827,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>161</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>161</td></tr><tr><td><b>STREET_NUM</b></td><td>1617</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Decarut</td></tr><tr><td><b>PARCEL</b></td><td>16206211004</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20775110257617,36.15245803688189,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>162</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>162</td></tr><tr><td><b>STREET_NUM</b></td><td>1624</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Decatur</td></tr><tr><td><b>PARCEL</b></td><td>16301602006</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20855515499481,36.15194964775756,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>163</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>163</td></tr><tr><td><b>STREET_NUM</b></td><td>1701</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Decatur</td></tr><tr><td><b>PARCEL</b></td><td>16206301001</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>1/16/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20765050896377,36.151297119029785,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>164</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>164</td></tr><tr><td><b>STREET_NUM</b></td><td>2003</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Decatur</td></tr><tr><td><b>PARCEL</b></td><td>16206301004</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20769697006376,36.14989890228834,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>165</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>165</td></tr><tr><td><b>STREET_NUM</b></td><td>1300</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Jones</td></tr><tr><td><b>PARCEL</b></td><td>16301102022</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>04/17/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.22487578570181,36.156583640950295,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>166</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>166</td></tr><tr><td><b>STREET_NUM</b></td><td>1201</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Jones</td></tr><tr><td><b>PARCEL</b></td><td>16301101009</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>06/20/01</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.22465635510328,36.15757759710237,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>167</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>167</td></tr><tr><td><b>STREET_NUM</b></td><td>1131</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Jones</td></tr><tr><td><b>PARCEL</b></td><td>16301101005</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>11-13-84</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.22414621724643,36.15862880191076,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>168</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>168</td></tr><tr><td><b>STREET_NUM</b></td><td>3227</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Meade</td></tr><tr><td><b>PARCEL</b></td><td>16208303007</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>6/16/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.18471850152413,36.13620698384324,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>169</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>169</td></tr><tr><td><b>STREET_NUM</b></td><td>2221</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Paradise</td></tr><tr><td><b>PARCEL</b></td><td>16203413021</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15430609768757,36.144334983923336,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>170</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>170</td></tr><tr><td><b>STREET_NUM</b></td><td>2011</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Las Vegas</td></tr><tr><td><b>PARCEL</b></td><td>16203310017</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15431798423445,36.147726767132376,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>171</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>171</td></tr><tr><td><b>STREET_NUM</b></td><td>1830</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Las Vegas</td></tr><tr><td><b>PARCEL</b></td><td>16203302005</td></tr><tr><td><b>APPLICANT</b></td><td>?</td></tr><tr><td><b>APPLY_DATE</b></td><td>03/22/84</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15406878326458,36.14922515939991,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>172</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>172</td></tr><tr><td><b>STREET_NUM</b></td><td>1510</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Las Vegas</td></tr><tr><td><b>PARCEL</b></td><td>16203210062</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1520434112402,36.15219388765505,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>173</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>173</td></tr><tr><td><b>STREET_NUM</b></td><td>1147</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Las Vegas</td></tr><tr><td><b>PARCEL</b></td><td>16203112021</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14813839017806,36.1574716434572,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>174</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>174</td></tr><tr><td><b>STREET_NUM</b></td><td>1120</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Las Vegas</td></tr><tr><td><b>PARCEL</b></td><td>16203112018</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14847572308204,36.157712507258566,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>175</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>175</td></tr><tr><td><b>STREET_NUM</b></td><td>735</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Las Vegas</td></tr><tr><td><b>PARCEL</b></td><td>13934410175</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14539822948271,36.160987678860884,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>176</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>176</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13934310056</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>11/20/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1443934350182,36.16321794805077,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>177</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>177</td></tr><tr><td><b>STREET_NUM</b></td><td>500</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Las Vegas</td></tr><tr><td><b>PARCEL</b></td><td>13934311152</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>12/4/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14411969331104,36.16434237668322,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>178</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>178</td></tr><tr><td><b>STREET_NUM</b></td><td>1300</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>LV Blvd. N</td></tr><tr><td><b>PARCEL</b></td><td>13927603028</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.13425017619214,36.18486967767548,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>179</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>179</td></tr><tr><td><b>STREET_NUM</b></td><td>1535</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Eastern</td></tr><tr><td><b>PARCEL</b></td><td>13926505004</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.11632801698123,36.18736556260287,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>180</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>180</td></tr><tr><td><b>STREET_NUM</b></td><td>2700</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13936110030</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1128893134366,36.173637414849026,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>181</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>181</td></tr><tr><td><b>STREET_NUM</b></td><td>3551</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>14031121006</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>09/27/90</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.09709156812148,36.173283020668784,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>182</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>182</td></tr><tr><td><b>STREET_NUM</b></td><td>4851</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>14032502001</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>02/21/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.06776948945418,36.17357938580556,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>183</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>183</td></tr><tr><td><b>STREET_NUM</b></td><td>3700</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>14031401036</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>EXPIRED</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.09686255356519,36.15914275928516,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>184</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>184</td></tr><tr><td><b>STREET_NUM</b></td><td>251</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Nellis</td></tr><tr><td><b>PARCEL</b></td><td>14032701005</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>7/3/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.0624288686879,36.165945601706056,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>185</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>185</td></tr><tr><td><b>STREET_NUM</b></td><td>1527</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Nellis</td></tr><tr><td><b>PARCEL</b></td><td>14029510025</td></tr><tr><td><b>APPLICANT</b></td><td>DONREY</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.06241696392074,36.187316805655875,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>186</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>186</td></tr><tr><td><b>STREET_NUM</b></td><td>1559</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Nellis</td></tr><tr><td><b>PARCEL</b></td><td>14029510023</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.06237291316435,36.18799926113976,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>187</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>187</td></tr><tr><td><b>STREET_NUM</b></td><td>2440</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Maryland Pkwy</td></tr><tr><td><b>PARCEL</b></td><td>16203802009</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1372873974529,36.14484166316503,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>188</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>188</td></tr><tr><td><b>STREET_NUM</b></td><td>2211</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Maryland Pkwy</td></tr><tr><td><b>PARCEL</b></td><td>16202410089</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.13674329957192,36.14590821741221,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>189</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>189</td></tr><tr><td><b>STREET_NUM</b></td><td>211</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Maryland</td></tr><tr><td><b>PARCEL</b></td><td>13935211063</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1317193655229,36.16750346777134,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>190</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>190</td></tr><tr><td><b>STREET_NUM</b></td><td>1200</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Stewart</td></tr><tr><td><b>PARCEL</b></td><td>13935211075</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.13106323552717,36.16794263413408,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>193</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>193</td></tr><tr><td><b>STREET_NUM</b></td><td>1401</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Main</td></tr><tr><td><b>PARCEL</b></td><td>16203210022</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15369326215371,36.15443857269172,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>194</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>194</td></tr><tr><td><b>STREET_NUM</b></td><td>1323</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Main</td></tr><tr><td><b>PARCEL</b></td><td>16203110088</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15362952636319,36.155298777695855,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>195</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>195</td></tr><tr><td><b>STREET_NUM</b></td><td>1238</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Main</td></tr><tr><td><b>PARCEL</b></td><td>16203110096</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15389550357182,36.156283227009084,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>196</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>196</td></tr><tr><td><b>STREET_NUM</b></td><td>1215</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Commerce</td></tr><tr><td><b>PARCEL</b></td><td>16203110120</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15480351679707,36.156768296528156,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>197</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>197</td></tr><tr><td><b>STREET_NUM</b></td><td>1117</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Main</td></tr><tr><td><b>PARCEL</b></td><td>16203110077</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1534104005483,36.158130540290465,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>198</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>198</td></tr><tr><td><b>STREET_NUM</b></td><td>9</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>16203110109</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15416113756227,36.15865984674669,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>199</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>199</td></tr><tr><td><b>STREET_NUM</b></td><td>1111</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Main</td></tr><tr><td><b>PARCEL</b></td><td>16203110076</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15333023739993,36.1586446443414,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>200</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>200</td></tr><tr><td><b>STREET_NUM</b></td><td>1065</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Main</td></tr><tr><td><b>PARCEL</b></td><td>13933811015</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15395917153326,36.15902632002448,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>201</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>201</td></tr><tr><td><b>STREET_NUM</b></td><td>1065</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Main</td></tr><tr><td><b>PARCEL</b></td><td>13933811015</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15369260920968,36.15931211724176,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>202</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>202</td></tr><tr><td><b>STREET_NUM</b></td><td>1018</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Main</td></tr><tr><td><b>PARCEL</b></td><td>13933811008</td></tr><tr><td><b>APPLICANT</b></td><td>?</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15333451575994,36.16042382311525,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>203</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>203</td></tr><tr><td><b>STREET_NUM</b></td><td>900</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Main</td></tr><tr><td><b>PARCEL</b></td><td>13933811002</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15235578767549,36.16189866385359,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>204</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>204</td></tr><tr><td><b>STREET_NUM</b></td><td>807</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Main</td></tr><tr><td><b>PARCEL</b></td><td>13934310008</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15134157592672,36.16275000599367,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>205</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>205</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13934302007</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15059814568835,36.16559627122638,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>206</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>206</td></tr><tr><td><b>STREET_NUM</b></td><td>2330</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Industrial</td></tr><tr><td><b>PARCEL</b></td><td>16204802007</td></tr><tr><td><b>APPLICANT</b></td><td>?</td></tr><tr><td><b>APPLY_DATE</b></td><td>8/15/94</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.164369988327,36.1451477037912,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>207</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>207</td></tr><tr><td><b>STREET_NUM</b></td><td>2111</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Western</td></tr><tr><td><b>PARCEL</b></td><td>16204801001</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16497876870882,36.147615560304594,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>208</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>208</td></tr><tr><td><b>STREET_NUM</b></td><td>1900</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Industrial</td></tr><tr><td><b>PARCEL</b></td><td>16204704006</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>11/7/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16194724559243,36.14871047112208,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>209</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>209</td></tr><tr><td><b>STREET_NUM</b></td><td>1719</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Industrial</td></tr><tr><td><b>PARCEL</b></td><td>16204705001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>4/8/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16032230170993,36.15040502179064,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>210</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>210</td></tr><tr><td><b>STREET_NUM</b></td><td>1607</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Industrial</td></tr><tr><td><b>PARCEL</b></td><td>16204609010</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15942323006892,36.15185624671899,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>211</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>211</td></tr><tr><td><b>STREET_NUM</b></td><td>1600</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Industrial</td></tr><tr><td><b>PARCEL</b></td><td>16204609001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>2/1/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16037142010634,36.152342218686606,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>212</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>212</td></tr><tr><td><b>STREET_NUM</b></td><td>1422</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Western</td></tr><tr><td><b>PARCEL</b></td><td>16204602006</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16022246462914,36.15431139615265,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>213</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>213</td></tr><tr><td><b>STREET_NUM</b></td><td>236</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Wyoming</td></tr><tr><td><b>PARCEL</b></td><td>16204608011</td></tr><tr><td><b>APPLICANT</b></td><td>?</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15871166912952,36.15256592249001,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>214</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>214</td></tr><tr><td><b>STREET_NUM</b></td><td>236</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Wyoming</td></tr><tr><td><b>PARCEL</b></td><td>16204608011</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15897438415287,36.15260268286061,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>215</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>215</td></tr><tr><td><b>STREET_NUM</b></td><td>1530</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Commerce</td></tr><tr><td><b>PARCEL</b></td><td>16204608017</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15611894879349,36.15243324824417,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>216</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>216</td></tr><tr><td><b>STREET_NUM</b></td><td>101</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Martin L King</td></tr><tr><td><b>PARCEL</b></td><td>13933501002</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16057774650542,36.17329701826387,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>217</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>217</td></tr><tr><td><b>STREET_NUM</b></td><td>73</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Martin L. King</td></tr><tr><td><b>PARCEL</b></td><td>13933510002</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16045133896529,36.174442412847654,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>218</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>218</td></tr><tr><td><b>STREET_NUM</b></td><td>525</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Martin L King</td></tr><tr><td><b>PARCEL</b></td><td>13928401033</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16105551191235,36.17670608581327,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>219</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>219</td></tr><tr><td><b>STREET_NUM</b></td><td>1601</td></tr><tr><td><b>STREET_DIR</b></td><td>n</td></tr><tr><td><b>STREET_NAM</b></td><td>Dst</td></tr><tr><td><b>PARCEL</b></td><td>13922404002</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1470739645262,36.188583059746755,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>220</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>220</td></tr><tr><td><b>STREET_NUM</b></td><td>300</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Owens</td></tr><tr><td><b>PARCEL</b></td><td>13922404004</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14470029239934,36.18862563449531,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>221</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>221</td></tr><tr><td><b>STREET_NUM</b></td><td>525</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Martin L King</td></tr><tr><td><b>PARCEL</b></td><td>13928401033</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16162054583164,36.176978297689395,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>222</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>222</td></tr><tr><td><b>STREET_NUM</b></td><td>1001</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13928801003</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15727997897184,36.176932901186674,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>223</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>223</td></tr><tr><td><b>STREET_NUM</b></td><td>919</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13928801018</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15631828841013,36.17693256815137,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>224</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>224</td></tr><tr><td><b>STREET_NUM</b></td><td>410</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13927301003</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14738505532142,36.17741061003561,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>225</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>225</td></tr><tr><td><b>STREET_NUM</b></td><td>601</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Main</td></tr><tr><td><b>PARCEL</b></td><td>13927310094</td></tr><tr><td><b>APPLICANT</b></td><td>DONREY</td></tr><tr><td><b>APPLY_DATE</b></td><td>07/20/88</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14386144244176,36.17750280588392,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>226</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>226</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13927705003</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14274890190703,36.17763636703524,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>227</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>227</td></tr><tr><td><b>STREET_NUM</b></td><td>845</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>BONANZA</td></tr><tr><td><b>PARCEL</b></td><td>13928801008</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15403293693419,36.176955246170195,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>228</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>228</td></tr><tr><td><b>STREET_NUM</b></td><td>1111</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>BONANZA</td></tr><tr><td><b>PARCEL</b></td><td>13928801016</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15590882267145,36.17525120643761,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>229</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>229</td></tr><tr><td><b>STREET_NUM</b></td><td>2310</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>LAS VEGAS</td></tr><tr><td><b>PARCEL</b></td><td>16204813072</td></tr><tr><td><b>APPLICANT</b></td><td>SHEPCO</td></tr><tr><td><b>APPLY_DATE</b></td><td>12/12/94</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15674940629637,36.14499388118314,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>230</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>230</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13802102014</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.23832395951985,36.24629477650917,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>232</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>232</td></tr><tr><td><b>STREET_NUM</b></td><td>4500</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13802202015</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.23657490866928,36.24349818033682,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>233</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>233</td></tr><tr><td><b>STREET_NUM</b></td><td>4401</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13802602001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>2/1/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.23356662247527,36.240139232637965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>234</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>234</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13802803001</td></tr><tr><td><b>APPLICANT</b></td><td>VIACOM</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.2262470612309,36.23230181801667,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>235</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>235</td></tr><tr><td><b>STREET_NUM</b></td><td>6900</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Craig</td></tr><tr><td><b>PARCEL</b></td><td>13803602011</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>09/18/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24519457094502,36.241482616666815,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>236</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>236</td></tr><tr><td><b>STREET_NUM</b></td><td>6900</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Craig</td></tr><tr><td><b>PARCEL</b></td><td>13803602015</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>01/18/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.2445501892955,36.24078413534693,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>237</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>237</td></tr><tr><td><b>STREET_NUM</b></td><td>3941</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13811502003</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>08/21/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.22569572457456,36.23156010561705,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>238</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>238</td></tr><tr><td><b>STREET_NUM</b></td><td>3500</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>RANCHO</td></tr><tr><td><b>PARCEL</b></td><td>13812710044</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>7/21/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.21637068209988,36.22227353110997,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>239</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>239</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13813512006</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.21111420465257,36.21558510739764,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>240</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>240</td></tr><tr><td><b>STREET_NUM</b></td><td>2400</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rainbow</td></tr><tr><td><b>PARCEL</b></td><td>13814401004</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>1/21-97</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24155714153446,36.203547900811934,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>241</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>241</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13822503001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>07/17/91</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24401370368683,36.20308234408616,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>242</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>242</td></tr><tr><td><b>STREET_NUM</b></td><td>2021</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rainbow</td></tr><tr><td><b>PARCEL</b></td><td>13822603001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24381247399887,36.199485826497366,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>243</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>243</td></tr><tr><td><b>STREET_NUM</b></td><td>1981</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>RAINBOW</td></tr><tr><td><b>PARCEL</b></td><td>13822713002</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>06/23/97</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24285386931575,36.195063682135405,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>244</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>244</td></tr><tr><td><b>STREET_NUM</b></td><td>1841</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>RAINBOW</td></tr><tr><td><b>PARCEL</b></td><td>13822812001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>07/16/03</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24374234504025,36.19214217800399,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>245</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>245</td></tr><tr><td><b>STREET_NUM</b></td><td>1910</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Rock Springs</td></tr><tr><td><b>PARCEL</b></td><td>13822711005</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24582445419955,36.1942270357942,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>246</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>246</td></tr><tr><td><b>STREET_NUM</b></td><td>7200</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Lake Mead</td></tr><tr><td><b>PARCEL</b></td><td>13822610002</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>6/20/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24900423556456,36.196266034755666,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>247</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>247</td></tr><tr><td><b>STREET_NUM</b></td><td>2350</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>RAINBOW</td></tr><tr><td><b>PARCEL</b></td><td>13823110001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>6/7/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24187399076523,36.20280000388129,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>248</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>248</td></tr><tr><td><b>STREET_NUM</b></td><td>101</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>DECATUR</td></tr><tr><td><b>PARCEL</b></td><td>13825812205</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20631454044096,36.17517567883644,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>249</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>249</td></tr><tr><td><b>STREET_NUM</b></td><td>1735</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13919812016</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.18862979126679,36.1910850050663,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>250</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>250</td></tr><tr><td><b>STREET_NUM</b></td><td>1660</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13920411015</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.18683067902046,36.18983935728969,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>251</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>251</td></tr><tr><td><b>STREET_NUM</b></td><td>100</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>City</td></tr><tr><td><b>PARCEL</b></td><td>13927410013</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>05/18/05</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14781717936602,36.17451202055583,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>252</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>252</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13927310089</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14724888551365,36.17856666824493,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>253</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>253</td></tr><tr><td><b>STREET_NUM</b></td><td>600</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13927310073</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1495383767585,36.17762311189217,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>254</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>254</td></tr><tr><td><b>STREET_NUM</b></td><td>601</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13927401002</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15037589942996,36.17703807124565,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>255</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>255</td></tr><tr><td><b>STREET_NUM</b></td><td>1300</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>LV Blvd. N</td></tr><tr><td><b>PARCEL</b></td><td>13927603028</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.13423587744546,36.18540933490626,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>257</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>257</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13933511004</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15279993397722,36.173034553595215,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>258</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>258</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13933511007</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15649140205272,36.17108943384262,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>259</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>259</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13933610014</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15895829387067,36.16668292996129,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>260</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>260</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13933710003</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15955801313477,36.16385206756045,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>261</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>261</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13934310003</td></tr><tr><td><b>APPLICANT</b></td><td>?</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15103230845548,36.16378005478783,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>263</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>263</td></tr><tr><td><b>STREET_NUM</b></td><td>125</td></tr><tr><td><b>STREET_DIR</b></td><td>M</td></tr><tr><td><b>STREET_NAM</b></td><td>Bruce</td></tr><tr><td><b>PARCEL</b></td><td>13935312062</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.12528840548431,36.16366003375254,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>264</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>264</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13935814011</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.12287268686197,36.15909571770695,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>265</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>265</td></tr><tr><td><b>STREET_NUM</b></td><td>2329</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Eastern</td></tr><tr><td><b>PARCEL</b></td><td>16201401003</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>05/03/72</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1185282854097,36.14504597423724,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>266</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>266</td></tr><tr><td><b>STREET_NUM</b></td><td>2033</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Paradise</td></tr><tr><td><b>PARCEL</b></td><td>16203413012</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15348937770541,36.14572189370252,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>267</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>267</td></tr><tr><td><b>STREET_NUM</b></td><td>105</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>16204506008</td></tr><tr><td><b>APPLICANT</b></td><td>?</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15509286270994,36.1586767974062,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>268</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>268</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>16204513015</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15927398031347,36.15726002888434,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>269</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>269</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>16204503004</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16030469530273,36.15567663021408,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>270</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>270</td></tr><tr><td><b>STREET_NUM</b></td><td>1716</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Highland</td></tr><tr><td><b>PARCEL</b></td><td>16204301002</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16480363644624,36.15043388834347,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>271</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>271</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>16204803014</td></tr><tr><td><b>APPLICANT</b></td><td>?</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1633610655531,36.14452911928921,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>272</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>272</td></tr><tr><td><b>STREET_NUM</b></td><td>1900</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16204402007</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>01/06/93</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16929994948248,36.14522152395314,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>273</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>273</td></tr><tr><td><b>STREET_NUM</b></td><td>4039</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16207511007</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.19579950569988,36.14413570137637,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>274</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>274</td></tr><tr><td><b>STREET_NUM</b></td><td>390</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Earstern</td></tr><tr><td><b>PARCEL</b></td><td>13936210003</td></tr><tr><td><b>APPLICANT</b></td><td>EASTERN 95 LLC</td></tr><tr><td><b>APPLY_DATE</b></td><td>1/22/14</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.11505419432761,36.169024816683134,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>275</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>275</td></tr><tr><td><b>STREET_NUM</b></td><td>4204</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Tenaya</td></tr><tr><td><b>PARCEL</b></td><td>13803715003</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24772154302919,36.2377189895184,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>276</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>276</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>US 95</td></tr><tr><td><b>PARCEL</b></td><td>12517801002</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.2830907624122,36.29386992411877,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>277</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>277</td></tr><tr><td><b>STREET_NUM</b></td><td>7211</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Oso Blanca Rd.</td></tr><tr><td><b>PARCEL</b></td><td>12517801003</td></tr><tr><td><b>APPLICANT</b></td><td>VIACOM</td></tr><tr><td><b>APPLY_DATE</b></td><td>7/7/04</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.2816175607883,36.292066069150394,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>278</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>278</td></tr><tr><td><b>STREET_NUM</b></td><td>7215</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Tule Springs</td></tr><tr><td><b>PARCEL</b></td><td>12517802011</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.27916275460649,36.29222877316268,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>279</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>279</td></tr><tr><td><b>STREET_NUM</b></td><td>7275</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Tule Springs</td></tr><tr><td><b>PARCEL</b></td><td>12517802009</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.280244908403,36.29306432453445,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>280</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>280</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>US 95</td></tr><tr><td><b>PARCEL</b></td><td>12517802001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.28135273707157,36.29420051631514,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>281</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>281</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>US 95</td></tr><tr><td><b>PARCEL</b></td><td>12517802001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.28239831567592,36.295341157359935,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>282</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>282</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13813505001</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.21130382208322,36.21681293531933,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>283</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>283</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13813505001</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20962138149835,36.2149762716535,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>284</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>284</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Ranco</td></tr><tr><td><b>PARCEL</b></td><td>13918410012</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20389158120929,36.207763269609124,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>285</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>285</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Decatur</td></tr><tr><td><b>PARCEL</b></td><td>13918410012</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20535084077784,36.20769994193354,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>286</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>286</td></tr><tr><td><b>STREET_NUM</b></td><td>2395</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Rancho</td></tr><tr><td><b>PARCEL</b></td><td>13919102001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>3/30/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.19898965461006,36.202309296803854,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>287</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>287</td></tr><tr><td><b>STREET_NUM</b></td><td>2901</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Highland</td></tr><tr><td><b>PARCEL</b></td><td>16208611002</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17442495067453,36.13934763177655,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>288</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>288</td></tr><tr><td><b>STREET_NUM</b></td><td>2401</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Westwood</td></tr><tr><td><b>PARCEL</b></td><td>16209102004</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17309282348364,36.14122643662868,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>289</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>289</td></tr><tr><td><b>STREET_NUM</b></td><td>1400</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Sutter</td></tr><tr><td><b>PARCEL</b></td><td>16209198001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16643521155478,36.1437973154193,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>290</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>290</td></tr><tr><td><b>STREET_NUM</b></td><td>4400</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>14032401004</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.08000827163092,36.159444873616486,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>291</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>291</td></tr><tr><td><b>STREET_NUM</b></td><td>333</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>11th</td></tr><tr><td><b>PARCEL</b></td><td>13935211041</td></tr><tr><td><b>APPLICANT</b></td><td>VIACOM</td></tr><tr><td><b>APPLY_DATE</b></td><td>4/25/95</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.13161484827387,36.17013690965433,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>292</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>292</td></tr><tr><td><b>STREET_NUM</b></td><td>517</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Main</td></tr><tr><td><b>PARCEL</b></td><td>13934311001</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14959115614762,36.166419012421834,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>293</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>293</td></tr><tr><td><b>STREET_NUM</b></td><td>906</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>6th</td></tr><tr><td><b>PARCEL</b></td><td>13934410202</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14643620259046,36.1590484610613,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>294</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>294</td></tr><tr><td><b>STREET_NUM</b></td><td>2130</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Highland</td></tr><tr><td><b>PARCEL</b></td><td>16204402001</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16775463276463,36.1472047927834,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>295</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>295</td></tr><tr><td><b>STREET_NUM</b></td><td>1109</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Western</td></tr><tr><td><b>PARCEL</b></td><td>16204504001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>10/21/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15944159674046,36.15861330399435,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>296</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>296</td></tr><tr><td><b>STREET_NUM</b></td><td>3441</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16208110001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>02/13/03</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.18761691228228,36.14405116966793,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>297</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>297</td></tr><tr><td><b>STREET_NUM</b></td><td>928</td></tr><tr><td><b>STREET_DIR</b></td><td>SO</td></tr><tr><td><b>STREET_NAM</b></td><td>Las Vegas</td></tr><tr><td><b>PARCEL</b></td><td>13934410165</td></tr><tr><td><b>APPLICANT</b></td><td>Reagan National Advertising</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14801681576867,36.15903333470474,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>298</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>298</td></tr><tr><td><b>STREET_NUM</b></td><td>6695</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Osa Blanca</td></tr><tr><td><b>PARCEL</b></td><td>12521301003</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.27301886442227,36.282807920838714,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>299</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>299</td></tr><tr><td><b>STREET_NUM</b></td><td>1110</td></tr><tr><td><b>STREET_DIR</b></td><td>So</td></tr><tr><td><b>STREET_NAM</b></td><td>Rainbow</td></tr><tr><td><b>PARCEL</b></td><td>16302101002</td></tr><tr><td><b>APPLICANT</b></td><td>COG III, Limited</td></tr><tr><td><b>APPLY_DATE</b></td><td>10/01/03</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24265768558472,36.15892339422364,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>300</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>300</td></tr><tr><td><b>STREET_NUM</b></td><td>3500</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16205402007</td></tr><tr><td><b>APPLICANT</b></td><td>Show Media</td></tr><tr><td><b>APPLY_DATE</b></td><td>10/25/03</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1887188800619,36.144749448656796,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>301</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>301</td></tr><tr><td><b>STREET_NUM</b></td><td>1571</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Decatur</td></tr><tr><td><b>PARCEL</b></td><td>13825503003</td></tr><tr><td><b>APPLICANT</b></td><td>Las Vegas Billboards</td></tr><tr><td><b>APPLY_DATE</b></td><td>12/03/03</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20740454789542,36.18801345102257,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>302</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>302</td></tr><tr><td><b>STREET_NUM</b></td><td>6118</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16302802004</td></tr><tr><td><b>APPLICANT</b></td><td>Show Media</td></tr><tr><td><b>APPLY_DATE</b></td><td>12/03/03</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.22592343034393,36.14456791257739,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>303</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>303</td></tr><tr><td><b>STREET_NUM</b></td><td>793</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Nellis</td></tr><tr><td><b>PARCEL</b></td><td>14029802004</td></tr><tr><td><b>APPLICANT</b></td><td>Reagan National Advertising</td></tr><tr><td><b>APPLY_DATE</b></td><td>12/17/03</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.06246809565272,36.177092504929185,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>304</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>304</td></tr><tr><td><b>STREET_NUM</b></td><td>2601</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Westwood Dr.</td></tr><tr><td><b>PARCEL</b></td><td>16209102005</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>12/17/03</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17113729609086,36.14300203863554,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>305</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>305</td></tr><tr><td><b>STREET_NUM</b></td><td>4545</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara Ave.</td></tr><tr><td><b>PARCEL</b></td><td>16207101005</td></tr><tr><td><b>APPLICANT</b></td><td>Show Media</td></tr><tr><td><b>APPLY_DATE</b></td><td>01/21/04</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20325087416516,36.14422884810677,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>306</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>306</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>SE Highland/Western</td></tr><tr><td><b>PARCEL</b></td><td>16204703001</td></tr><tr><td><b>APPLICANT</b></td><td>Las Vegas Billboards</td></tr><tr><td><b>APPLY_DATE</b></td><td>02/04/04</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16271189378509,36.15109442656469,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>307</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>307</td></tr><tr><td><b>STREET_NUM</b></td><td>2234</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Mesquite Ave</td></tr><tr><td><b>PARCEL</b></td><td>13929801009</td></tr><tr><td><b>APPLICANT</b></td><td>Ad America Inc.</td></tr><tr><td><b>APPLY_DATE</b></td><td>10/28/03</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17188879393535,36.17469365306339,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>308</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>308</td></tr><tr><td><b>STREET_NUM</b></td><td>2901</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Highland</td></tr><tr><td><b>PARCEL</b></td><td>16208611011</td></tr><tr><td><b>APPLICANT</b></td><td>Reagan National Advertising</td></tr><tr><td><b>APPLY_DATE</b></td><td>08/12/03</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1732065201391,36.13753389216269,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>309</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>309</td></tr><tr><td><b>STREET_NUM</b></td><td>2903</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Highland Dr.</td></tr><tr><td><b>PARCEL</b></td><td>16209210002</td></tr><tr><td><b>APPLICANT</b></td><td>Reagan National Advertising</td></tr><tr><td><b>APPLY_DATE</b></td><td>8/12/03</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17251604147185,36.13848450315127,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>310</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>310</td></tr><tr><td><b>STREET_NUM</b></td><td>210</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>16203110039</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15171232430075,36.15864883233346,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>311</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>311</td></tr><tr><td><b>STREET_NUM</b></td><td>2101</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Decatur</td></tr><tr><td><b>PARCEL</b></td><td>16301708004</td></tr><tr><td><b>APPLICANT</b></td><td>Las Vegas Billboards</td></tr><tr><td><b>APPLY_DATE</b></td><td>03/05/03</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20853345766042,36.14897404403171,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>312</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>312</td></tr><tr><td><b>STREET_NUM</b></td><td>2252</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Paradise</td></tr><tr><td><b>PARCEL</b></td><td>16203411011</td></tr><tr><td><b>APPLICANT</b></td><td>Chetak Development Corporation</td></tr><tr><td><b>APPLY_DATE</b></td><td>01/22/03</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.15549318377573,36.14405401134844,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>313</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>313</td></tr><tr><td><b>STREET_NUM</b></td><td>1002</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16203801116</td></tr><tr><td><b>APPLICANT</b></td><td>Reagan National Advertising</td></tr><tr><td><b>APPLY_DATE</b></td><td>05/05/04</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14091949589769,36.144451040375465,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>314</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>314</td></tr><tr><td><b>STREET_NUM</b></td><td>310</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Main</td></tr><tr><td><b>PARCEL</b></td><td>13934201003</td></tr><tr><td><b>APPLICANT</b></td><td>Barrick-Breo II, LLC</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14839295279026,36.16889100110975,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>315</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>315</td></tr><tr><td><b>STREET_NUM</b></td><td>1633</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13928412001</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>5/17/04</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16381131693107,36.176278250301145,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>316</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>316</td></tr><tr><td><b>STREET_NUM</b></td><td>1615</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Decatur</td></tr><tr><td><b>PARCEL</b></td><td>13824804013</td></tr><tr><td><b>APPLICANT</b></td><td>Las Vegas Billboards</td></tr><tr><td><b>APPLY_DATE</b></td><td>07/07/04</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20661379852066,36.18864377862976,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>317</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>317</td></tr><tr><td><b>STREET_NUM</b></td><td>1205</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16202401001</td></tr><tr><td><b>APPLICANT</b></td><td>Reagan National Advertising</td></tr><tr><td><b>APPLY_DATE</b></td><td>08/06/04</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.13624305378923,36.144616580733185,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>318</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>318</td></tr><tr><td><b>STREET_NUM</b></td><td>1509</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Western</td></tr><tr><td><b>PARCEL</b></td><td>16204605005</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>7/22/02</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16076235956427,36.15351174724591,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>319</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>319</td></tr><tr><td><b>STREET_NUM</b></td><td>2744</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Highland</td></tr><tr><td><b>PARCEL</b></td><td>16209202001</td></tr><tr><td><b>APPLICANT</b></td><td>Mountain View Estates</td></tr><tr><td><b>APPLY_DATE</b></td><td>10/06/04</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.17101539041084,36.14001611994167,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>320</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>320</td></tr><tr><td><b>STREET_NUM</b></td><td>3542</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Sirius</td></tr><tr><td><b>PARCEL</b></td><td>16208303027</td></tr><tr><td><b>APPLICANT</b></td><td>Las Vegas Billboards</td></tr><tr><td><b>APPLY_DATE</b></td><td>10/06/04</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.18731173741565,36.13387470502519,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>321</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>321</td></tr><tr><td><b>STREET_NUM</b></td><td>3319</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Meade</td></tr><tr><td><b>PARCEL</b></td><td>16208303004</td></tr><tr><td><b>APPLICANT</b></td><td>Las Vegas Billboards</td></tr><tr><td><b>APPLY_DATE</b></td><td>10/06/04</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.18658635236329,36.136211497440804,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>322</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>322</td></tr><tr><td><b>STREET_NUM</b></td><td>4490</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Meadows</td></tr><tr><td><b>PARCEL</b></td><td>13931510019</td></tr><tr><td><b>APPLICANT</b></td><td>Orion Outdoor Media</td></tr><tr><td><b>APPLY_DATE</b></td><td>11/03/04</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20065938442697,36.1732320830033,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>323</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>323</td></tr><tr><td><b>STREET_NUM</b></td><td>7075</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Craig</td></tr><tr><td><b>PARCEL</b></td><td>13803701003</td></tr><tr><td><b>APPLICANT</b></td><td>Orion Outdoor Media</td></tr><tr><td><b>APPLY_DATE</b></td><td>11/17/04</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24849363158738,36.23983408635893,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>325</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>325</td></tr><tr><td><b>STREET_NUM</b></td><td>4190</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Meadows</td></tr><tr><td><b>PARCEL</b></td><td>13931510019</td></tr><tr><td><b>APPLICANT</b></td><td>Orion Outdoor Media</td></tr><tr><td><b>APPLY_DATE</b></td><td>12/01/04</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.19822772289476,36.17396716670548,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>326</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>326</td></tr><tr><td><b>STREET_NUM</b></td><td>4120</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Meadows</td></tr><tr><td><b>PARCEL</b></td><td>13930812005</td></tr><tr><td><b>APPLICANT</b></td><td>Orion Outdoor Media</td></tr><tr><td><b>APPLY_DATE</b></td><td>12/01/04</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.19483477223622,36.17495599209963,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>327</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>327</td></tr><tr><td><b>STREET_NUM</b></td><td>1985</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Western</td></tr><tr><td><b>PARCEL</b></td><td>16204703010</td></tr><tr><td><b>APPLICANT</b></td><td>Las Vegas Billboards</td></tr><tr><td><b>APPLY_DATE</b></td><td>12/15/04</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16433686752676,36.14853197397564,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>328</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>328</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Decatur</td></tr><tr><td><b>PARCEL</b></td><td>13813505001</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20776331710307,36.21639544322989,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>329</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>329</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Cheyenne</td></tr><tr><td><b>PARCEL</b></td><td>13813505001</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.2083267764779,36.21706833446125,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>330</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>330</td></tr><tr><td><b>STREET_NUM</b></td><td>6431</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>16302114003</td></tr><tr><td><b>APPLICANT</b></td><td>Orion Outdoor Media</td></tr><tr><td><b>APPLY_DATE</b></td><td>03/16/05</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.23569278127493,36.15894576431685,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>331</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>331</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>I 15</td></tr><tr><td><b>PARCEL</b></td><td>13922803001</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14148444514767,36.1901276024438,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>332</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>332</td></tr><tr><td><b>STREET_NUM</b></td><td>4510</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>14032401006</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>08/16/03</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.07697845112196,36.15933663794388,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>333</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>333</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>12534712009</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td>07/17/91</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24383576993534,36.253114864296855,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>334</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>334</td></tr><tr><td><b>STREET_NUM</b></td><td>1111</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Bonanza</td></tr><tr><td><b>PARCEL</b></td><td>13928801003</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td>03/16/88</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1585652806565,36.17690937963562,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>335</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>335</td></tr><tr><td><b>STREET_NUM</b></td><td>330</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>Charleston</td></tr><tr><td><b>PARCEL</b></td><td>16203115001</td></tr><tr><td><b>APPLICANT</b></td><td>VIACOM</td></tr><tr><td><b>APPLY_DATE</b></td><td>08/01/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14953074677155,36.15864602861792,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>336</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>336</td></tr><tr><td><b>STREET_NUM</b></td><td>4600</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>Meadows</td></tr><tr><td><b>PARCEL</b></td><td>13931110002</td></tr><tr><td><b>APPLICANT</b></td><td>American Outdoor Advertising</td></tr><tr><td><b>APPLY_DATE</b></td><td>12/06/06</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20318526828096,36.172524447186575,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>337</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>337</td></tr><tr><td><b>STREET_NUM</b></td><td>4510</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Tenaya</td></tr><tr><td><b>PARCEL</b></td><td>13803601003</td></tr><tr><td><b>APPLICANT</b></td><td>Outdoor Solutions</td></tr><tr><td><b>APPLY_DATE</b></td><td>04/16/08</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24816128394882,36.2423013858859,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>338</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>338</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>13928401033</td></tr><tr><td><b>APPLICANT</b></td><td>DFA, LLC</td></tr><tr><td><b>APPLY_DATE</b></td><td>05/07/08</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.16109768692333,36.176049078829415,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>340</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>340</td></tr><tr><td><b>STREET_NUM</b></td><td>3204</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> Fremont</td></tr><tr><td><b>PARCEL</b></td><td>16201801003</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.10480688213059,36.14784519794556,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>341</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>341</td></tr><tr><td><b>STREET_NUM</b></td><td>1553</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>Eastern</td></tr><tr><td><b>PARCEL</b></td><td>13926505002</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.11703105108144,36.18832646282016,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>342</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>342</td></tr><tr><td><b>STREET_NUM</b></td><td>120</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>JONES</td></tr><tr><td><b>PARCEL</b></td><td>13825404004</td></tr><tr><td><b>APPLICANT</b></td><td>LAMAR</td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.22324449052009,36.17473869957446,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>343</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>343</td></tr><tr><td><b>STREET_NUM</b></td><td>0</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td> </td></tr><tr><td><b>PARCEL</b></td><td>16304805006</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.26651844754397,36.14412453787866,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>345</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>345</td></tr><tr><td><b>STREET_NUM</b></td><td>2500</td></tr><tr><td><b>STREET_DIR</b></td><td>W</td></tr><tr><td><b>STREET_NAM</b></td><td>Sahara</td></tr><tr><td><b>PARCEL</b></td><td>16205802009</td></tr><tr><td><b>APPLICANT</b></td><td>NEVADA DEVELOPMENT AND REALTY CO</td></tr><tr><td><b>APPLY_DATE</b></td><td>6/13/12</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.1753318223609,36.14456837164067,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>346</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>346</td></tr><tr><td><b>STREET_NUM</b></td><td>431</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>BONANZA</td></tr><tr><td><b>PARCEL</b></td><td>13927803008</td></tr><tr><td><b>APPLICANT</b></td><td></td></tr><tr><td><b>APPLY_DATE</b></td><td>7/09/13</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14034288990263,36.1745312687569,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>347</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>347</td></tr><tr><td><b>STREET_NUM</b></td><td>3100</td></tr><tr><td><b>STREET_DIR</b></td><td></td></tr><tr><td><b>STREET_NAM</b></td><td>STEWART</td></tr><tr><td><b>PARCEL</b></td><td>13936604001</td></tr><tr><td><b>APPLICANT</b></td><td></td></tr><tr><td><b>APPLY_DATE</b></td><td>7/09/13</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.09936680331707,36.16635876169121,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>348</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>348</td></tr><tr><td><b>STREET_NUM</b></td><td>5550</td></tr><tr><td><b>STREET_DIR</b></td><td></td></tr><tr><td><b>STREET_NAM</b></td><td>Painted Mirage</td></tr><tr><td><b>PARCEL</b></td><td>12534116004</td></tr><tr><td><b>APPLICANT</b></td><td>Khaneh Holdings LLC</td></tr><tr><td><b>APPLY_DATE</b></td><td>7/24/13</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.25463136603719,36.2619856684514,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>349</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>349</td></tr><tr><td><b>STREET_NUM</b></td><td>3961</td></tr><tr><td><b>STREET_DIR</b></td><td>E</td></tr><tr><td><b>STREET_NAM</b></td><td>BONANZA</td></tr><tr><td><b>PARCEL</b></td><td>14031102002</td></tr><tr><td><b>APPLICANT</b></td><td></td></tr><tr><td><b>APPLY_DATE</b></td><td>7/09/13</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.0914026643351,36.173234526021865,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>350</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>350</td></tr><tr><td><b>STREET_NUM</b></td><td>650</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>MOJAVE</td></tr><tr><td><b>PARCEL</b></td><td>13925802006</td></tr><tr><td><b>APPLICANT</b></td><td>ELITE MEDIA</td></tr><tr><td><b>APPLY_DATE</b></td><td>7/09/13</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.10553754157809,36.17394399497967,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>351</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>351</td></tr><tr><td><b>STREET_NUM</b></td><td>1400</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>DECATUR</td></tr><tr><td><b>PARCEL</b></td><td>13930101006</td></tr><tr><td><b>APPLICANT</b></td><td>1</td></tr><tr><td><b>APPLY_DATE</b></td><td>7/09/13</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20578652970417,36.18623505755607,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>352</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>352</td></tr><tr><td><b>STREET_NUM</b></td><td>3100</td></tr><tr><td><b>STREET_DIR</b></td><td></td></tr><tr><td><b>STREET_NAM</b></td><td>STEWART</td></tr><tr><td><b>PARCEL</b></td><td>13936604001</td></tr><tr><td><b>APPLICANT</b></td><td></td></tr><tr><td><b>APPLY_DATE</b></td><td>08/12/14</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.10519465185422,36.16708207590335,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>354</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>354</td></tr><tr><td><b>STREET_NUM</b></td><td>100</td></tr><tr><td><b>STREET_DIR</b></td><td> </td></tr><tr><td><b>STREET_NAM</b></td><td>City</td></tr><tr><td><b>PARCEL</b></td><td>13927410013</td></tr><tr><td><b>APPLICANT</b></td><td>Clear Channel Outdoor</td></tr><tr><td><b>APPLY_DATE</b></td><td>05/18/05</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14733633346181,36.17452039100995,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>355</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>355</td></tr><tr><td><b>STREET_NUM</b></td><td>2070</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>RAINBOW</td></tr><tr><td><b>PARCEL</b></td><td>13823215012</td></tr><tr><td><b>APPLICANT</b></td><td> JA TIBERTI CONSTRUCTION COMPANY</td></tr><tr><td><b>APPLY_DATE</b></td><td>05/15/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.24178516034608,36.196972237467335,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>356</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>356</td></tr><tr><td><b>STREET_NUM</b></td><td>1405</td></tr><tr><td><b>STREET_DIR</b></td><td>N</td></tr><tr><td><b>STREET_NAM</b></td><td>A St.</td></tr><tr><td><b>PARCEL</b></td><td>13927501003</td></tr><tr><td><b>APPLICANT</b></td><td>EWING REX C JR</td></tr><tr><td><b>APPLY_DATE</b></td><td>1/31/96</td></tr></table>]]></description>
+<Point>
+<coordinates>-115.14297969522548,36.184635663369086,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>357</name>
+<description><![CDATA[<table border='1' cellpadding='4' cellspacing='0'><tr><td><b>Billboard ID</b></td><td>357</td></tr><tr><td><b>STREET_NUM</b></td><td>400</td></tr><tr><td><b>STREET_DIR</b></td><td>S</td></tr><tr><td><b>STREET_NAM</b></td><td>Decatur</td></tr><tr><td><b>PARCEL</b></td><td>13836601009</td></tr><tr><td><b>APPLICANT</b></td><td> </td></tr><tr><td><b>APPLY_DATE</b></td><td> </td></tr></table>]]></description>
+<Point>
+<coordinates>-115.20850988073477,36.16620141690895,0</coordinates>
+</Point>
+</Placemark>
+</Document></kml>
