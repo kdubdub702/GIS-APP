@@ -8,7 +8,8 @@ from engine import (
     apn_partial,
     address_partial_split, address_partial_single,
     join_to_parcels, spatial_join_signplans_to_parcels,
-    enrich_billboards_with_owner
+    enrich_billboards_with_owner,
+    add_lat_lon_from_geoms, df_to_kml
 )
 
 # ---------- Grid helpers ----------
@@ -102,6 +103,39 @@ def _ensure_geometry_for_df(layer_url: str, df):
 
     aligned_geoms = [oid_to_geom.get(oid) for oid in obj_ids]
     return df, aligned_geoms
+
+
+def _ensure_wgs84_latlon(layer_url: str, df):
+    """
+    Returns a copy of df with LAT/LON columns (WGS84) when possible.
+    Uses a geometry re-fetch (outSR=4326) keyed by OBJECTID so it aligns with df.
+    """
+    if df is None or df.empty or "OBJECTID" not in df.columns:
+        return df
+
+    obj_ids = []
+    for v in df["OBJECTID"].tolist():
+        try:
+            obj_ids.append(int(str(v)))
+        except:
+            pass
+    if not obj_ids:
+        return df
+
+    df_geom, geoms = fetch_with_geometry_by_ids(layer_url, obj_ids, out_sr=4326)
+    if df_geom is None or df_geom.empty or geoms is None:
+        return df
+
+    oid_to_geom = {}
+    for row, geom in zip(df_geom.itertuples(index=False), geoms):
+        try:
+            oid_to_geom[int(getattr(row, "OBJECTID"))] = geom
+        except:
+            continue
+
+    aligned = [oid_to_geom.get(oid) for oid in obj_ids]
+    out = add_lat_lon_from_geoms(df, aligned)
+    return out
 
 
 def _update_join_options_for_dataset(ds: dict):
@@ -265,10 +299,81 @@ def on_export_csv():
         messagebox.showwarning("Nothing to export", "Run a search first.")
         return
 
+    ds = DATASETS.get(source_var.get()) or {}
+    layer_url = ds.get("layer_url")
+
+    df_out = joined
+    # For LV billboards, add back LAT/LON (WGS84) by re-fetching point geometry.
+    if source_var.get() == "Las Vegas – Billboards" and layer_url:
+        try:
+            df_out = _ensure_wgs84_latlon(layer_url, joined)
+        except Exception:
+            # Keep CSV export working even if lat/lon enrichment fails
+            df_out = joined
+
     path = filedialog.asksaveasfilename(defaultextension=".csv", filetypes=[("CSV files", "*.csv")])
     if not path:
         return
-    joined.to_csv(path, index=False)
+    df_out.to_csv(path, index=False)
+    messagebox.showinfo("Saved", f"Saved:\n{path}")
+
+
+def on_export_kml():
+    joined = getattr(app, "joined", None)
+    if joined is None or joined.empty:
+        messagebox.showwarning("Nothing to export", "Run a search first.")
+        return
+
+    ds = DATASETS.get(source_var.get()) or {}
+    layer_url = ds.get("layer_url")
+
+    # Need LAT/LON (WGS84) for KML. We'll try to re-fetch WGS84 geometry when possible.
+    df_out = joined
+    if layer_url and "OBJECTID" in joined.columns:
+        df_out = _ensure_wgs84_latlon(layer_url, joined)
+
+    if "LAT" not in df_out.columns or "LON" not in df_out.columns:
+        messagebox.showerror("KML export", "LAT/LON not available for these results.")
+        return
+
+    # Your desired popup fields for billboards
+    balloon_fields = [
+        "Billboard ID",
+        "STREET_NUM",
+        "STREET_DIR",
+        "STREET_NAM",
+        "PARCEL",
+        "APPLICANT",
+        "APPLY_DATE",
+    ]
+
+    # Ensure "Billboard ID" exists (use OBJECTID if needed)
+    if "Billboard ID" not in df_out.columns and "OBJECTID" in df_out.columns:
+        df_out = df_out.copy()
+        df_out["Billboard ID"] = df_out["OBJECTID"]
+
+    name_field = "Pin Title" if "Pin Title" in df_out.columns else "Billboard ID"
+    color_field = "Pin Color Code" if "Pin Color Code" in df_out.columns else None
+
+    try:
+        kml_text = df_to_kml(
+            df_out,
+            name_field=name_field,
+            fields_in_balloon=balloon_fields,
+            color_field=color_field,
+            title=f"{source_var.get()} Export"
+        )
+    except Exception as e:
+        messagebox.showerror("KML export", str(e))
+        return
+
+    path = filedialog.asksaveasfilename(defaultextension=".kml", filetypes=[("KML files", "*.kml")])
+    if not path:
+        return
+
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(kml_text)
+
     messagebox.showinfo("Saved", f"Saved:\n{path}")
 
 
@@ -370,6 +475,7 @@ btns = ttk.Frame(main)
 btns.grid(row=6, column=0, columnspan=2, sticky="ew", pady=(10, 6))
 ttk.Button(btns, text="Search / Load", command=on_search).pack(side="left")
 ttk.Button(btns, text="Export CSV", command=on_export_csv).pack(side="left", padx=8)
+ttk.Button(btns, text="Export KML", command=on_export_kml).pack(side="left", padx=8)
 ttk.Label(btns, textvariable=results_var).pack(side="right")
 
 # Treeview + scrollbars

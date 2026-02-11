@@ -2,6 +2,7 @@ import re
 import json
 import requests
 import pandas as pd
+import xml.sax.saxutils as saxutils
 
 UA = {"User-Agent": "Mozilla/5.0"}
 
@@ -48,6 +49,7 @@ def layer_query_url(layer_url: str) -> str:
     if base.lower().endswith("/query"):
         return base
     return base + "/query"
+
 
 def arcgis_get_json(query_url: str, params: dict) -> dict:
     """
@@ -98,6 +100,7 @@ def fetch_ids_where(query_url: str, where: str) -> list[int]:
     })
     return j.get("objectIds") or []
 
+
 def fetch_by_objectids(
     query_url: str,
     object_ids: list[int],
@@ -130,6 +133,7 @@ def fetch_by_objectids(
     df = pd.DataFrame(rows)
     return (df, geoms) if return_geometry else df
 
+
 def fetch_with_geometry_by_ids(layer_url: str, object_ids: list[int], out_sr: int | None = None):
     """
     Re-fetch a known set of records by OBJECTID and include geometry.
@@ -158,6 +162,7 @@ def objectid_exact(layer_url: str, object_id: str):
     q = layer_query_url(layer_url)
     return fetch_by_objectids(q, [int(oid)], out_fields="*", chunk_size=200)
 
+
 def objectid_range(layer_url: str, start_id: str, end_id: str, oid_field: str = "OBJECTID"):
     s = digits_only(start_id)
     e = digits_only(end_id)
@@ -175,6 +180,7 @@ def objectid_range(layer_url: str, start_id: str, end_id: str, oid_field: str = 
         return pd.DataFrame()
     return fetch_by_objectids(q, ids, out_fields="*", chunk_size=200)
 
+
 def fetch_all(layer_url: str, where: str = "1=1"):
     q = layer_query_url(layer_url)
     ids = fetch_ids_where(q, where)
@@ -182,12 +188,14 @@ def fetch_all(layer_url: str, where: str = "1=1"):
         return pd.DataFrame()
     return fetch_by_objectids(q, ids, out_fields="*", chunk_size=200)
 
+
 def fetch_all_with_geometry(layer_url: str, where: str = "1=1", out_sr: int | None = None):
     q = layer_query_url(layer_url)
     ids = fetch_ids_where(q, where)
     if not ids:
         return pd.DataFrame(), []
     return fetch_by_objectids(q, ids, out_fields="*", chunk_size=200, return_geometry=True, out_sr=out_sr)
+
 
 def apn_partial(layer_url: str, apn_field: str, apn_prefix: str):
     apn = digits_only(apn_prefix)
@@ -198,6 +206,7 @@ def apn_partial(layer_url: str, apn_field: str, apn_prefix: str):
     if not ids:
         return pd.DataFrame()
     return fetch_by_objectids(q, ids, out_fields="*", chunk_size=200)
+
 
 def address_partial_split(
     layer_url: str,
@@ -230,6 +239,7 @@ def address_partial_split(
         return pd.DataFrame()
     return fetch_by_objectids(q, ids, out_fields="*", chunk_size=200)
 
+
 def address_partial_single(layer_url: str, address_field: str, address_text: str):
     txt = safe_sql(address_text)
     if not txt:
@@ -259,6 +269,7 @@ def parcels_by_parcel_ids(parcel_ids: list[str]) -> pd.DataFrame:
         if ids:
             dfs.append(fetch_by_objectids(PARCELS_QUERY, ids, out_fields="*", chunk_size=200))
     return pd.concat(dfs, ignore_index=True) if dfs else pd.DataFrame()
+
 
 def join_to_parcels(df: pd.DataFrame, left_field: str) -> pd.DataFrame:
     if df is None or df.empty or left_field not in df.columns:
@@ -292,6 +303,7 @@ def _parcel_intersect_first(sign_geom: dict, in_sr: int) -> dict:
         return {}
     return (feats[0].get("attributes") or {})
 
+
 def spatial_join_signplans_to_parcels(signplans_df: pd.DataFrame, signplans_geoms: list[dict], in_sr: int) -> pd.DataFrame:
     if signplans_df is None or signplans_df.empty or not signplans_geoms:
         return signplans_df
@@ -315,16 +327,19 @@ def spatial_join_signplans_to_parcels(signplans_df: pd.DataFrame, signplans_geom
 
 OWNER_OUTFIELDS = "PARCEL,OWNER,ADDRESS,STRNO,STRNAME,STRTYPE,STRDIR,ZIP,SALEDATE,SALEPRICE,TAXDIST,LANDUSE,LANDVAL1,IMPVAL"
 
+
 def _is_blank(v) -> bool:
     if v is None:
         return True
     s = str(v).strip()
     return (s == "" or s.lower() == "nan" or s.lower() == "none")
 
+
 def _init_owner_meta(df: pd.DataFrame) -> None:
     for c in ("OWNER_MATCH_TYPE", "OWNER_MATCH_CONFIDENCE", "OWNER_MATCH_NOTES"):
         if c not in df.columns:
             df[c] = ""
+
 
 def _mark_owner_meta(df: pd.DataFrame, mask, match_type: str, confidence: str, notes: str):
     if mask is None:
@@ -332,6 +347,7 @@ def _mark_owner_meta(df: pd.DataFrame, mask, match_type: str, confidence: str, n
     df.loc[mask, "OWNER_MATCH_TYPE"] = match_type
     df.loc[mask, "OWNER_MATCH_CONFIDENCE"] = confidence
     df.loc[mask, "OWNER_MATCH_NOTES"] = notes
+
 
 def _parcel_intersect_point(point_geom: dict, in_sr: int, distance_ft: int = 15) -> dict:
     """Intersect a point against Clark County parcels with a small buffer distance."""
@@ -355,6 +371,7 @@ def _parcel_intersect_point(point_geom: dict, in_sr: int, distance_ft: int = 15)
         return {}
     return (feats[0].get("attributes") or {})
 
+
 def _parcel_intersect_polygon(poly_geom: dict, in_sr: int) -> dict:
     """Intersect a polygon against Clark County parcels."""
     if not poly_geom:
@@ -373,6 +390,7 @@ def _parcel_intersect_polygon(poly_geom: dict, in_sr: int) -> dict:
     if not feats:
         return {}
     return (feats[0].get("attributes") or {})
+
 
 def _parcel_by_address(street_num: str, street_dir: str, street_name: str) -> dict:
     """Best-effort address lookup in Clark County parcels."""
@@ -397,6 +415,7 @@ def _parcel_by_address(street_num: str, street_dir: str, street_name: str) -> di
     if df is None or df.empty:
         return {}
     return (df.iloc[0].to_dict() if hasattr(df, "iloc") else {})
+
 
 def enrich_billboards_with_owner(
     billboards_df: pd.DataFrame,
@@ -489,3 +508,153 @@ def enrich_billboards_with_owner(
     _mark_owner_meta(df, final_missing, "NONE", "NONE", "No parcel match (ROW/easement/geometry mismatch or missing APN/address)")
 
     return df
+
+
+# ----------------------
+# Export helpers (LAT/LON + KML)
+# ----------------------
+
+def add_lat_lon_from_geoms(df: pd.DataFrame, geoms: list[dict] | None) -> pd.DataFrame:
+    """Add LON/LAT columns from ESRI point geometries (expects outSR=4326)."""
+    if df is None or df.empty:
+        return df
+
+    out = df.copy()
+    if "LON" not in out.columns:
+        out["LON"] = ""
+    if "LAT" not in out.columns:
+        out["LAT"] = ""
+
+    if not geoms:
+        return out
+
+    for i in range(min(len(out), len(geoms))):
+        g = geoms[i]
+        if isinstance(g, dict) and ("x" in g and "y" in g):
+            out.at[i, "LON"] = g.get("x", "")
+            out.at[i, "LAT"] = g.get("y", "")
+    return out
+
+
+def _kml_color_from_code(code: str) -> str:
+    """Convert #RRGGBB (or color name) -> KML aabbggrr."""
+    if not code:
+        return "ff0000ff"  # opaque red
+
+    c = str(code).strip().lower()
+
+    named = {
+        "red": "ff0000ff",
+        "blue": "ffff0000",
+        "green": "ff00ff00",
+        "yellow": "ff00ffff",
+        "purple": "ffff00ff",
+        "orange": "ff00a5ff",
+        "black": "ff000000",
+        "white": "ffffffff",
+        "gray": "ff808080",
+        "grey": "ff808080",
+    }
+    if c in named:
+        return named[c]
+
+    c = c.lstrip("#")
+    if len(c) == 6:
+        rr, gg, bb = c[0:2], c[2:4], c[4:6]
+        return f"ff{bb}{gg}{rr}"  # aabbggrr
+
+    return "ff0000ff"
+
+
+def df_to_kml(
+    df: pd.DataFrame,
+    *,
+    name_field: str | None = None,
+    fields_in_balloon: list[str] | None = None,
+    color_field: str | None = None,
+    title: str = "Export",
+    icon_href: str = "http://maps.google.com/mapfiles/kml/paddle/wht-blank.png",
+) -> str:
+    """Build a KML document from df with LAT/LON columns (WGS84)."""
+    if df is None or df.empty:
+        raise ValueError("No rows to export to KML.")
+
+    if "LAT" not in df.columns or "LON" not in df.columns:
+        raise ValueError("DataFrame must contain LAT and LON columns for KML export.")
+
+    if fields_in_balloon is None:
+        fields_in_balloon = []
+
+    # Build style map for distinct colors
+    styles: dict[str, str] = {}
+    if color_field and color_field in df.columns:
+        for v in df[color_field].fillna("").astype(str).tolist():
+            kmlc = _kml_color_from_code(v)
+            styles.setdefault(kmlc, f"style_{kmlc}")
+
+    def pick_name(row: pd.Series) -> str:
+        if name_field and name_field in row and str(row[name_field]).strip():
+            return str(row[name_field]).strip()
+
+        for cand in ["Pin Title", "Billboard ID", "OBJECTID", "LVBOARDS_", "TAG_NUM"]:
+            if cand in row and str(row[cand]).strip():
+                return str(row[cand]).strip()
+
+        return "Placemark"
+
+    def balloon_html(row: pd.Series) -> str:
+        rows = []
+        for col in fields_in_balloon:
+            if col in row:
+                val = "" if pd.isna(row[col]) else str(row[col])
+                rows.append(
+                    f"<tr><td><b>{saxutils.escape(col)}</b></td>"
+                    f"<td>{saxutils.escape(val)}</td></tr>"
+                )
+        return "<table border='1' cellpadding='4' cellspacing='0'>" + "".join(rows) + "</table>"
+
+    parts: list[str] = []
+    parts.append('<?xml version="1.0" encoding="UTF-8"?>')
+    parts.append('<kml xmlns="http://www.opengis.net/kml/2.2">')
+    parts.append("<Document>")
+    parts.append(f"<name>{saxutils.escape(title)}</name>")
+
+    # styles
+    for kml_color, style_id in styles.items():
+        parts.append(f'<Style id="{style_id}">')
+        parts.append("<IconStyle>")
+        parts.append(f"<color>{kml_color}</color>")
+        parts.append("<scale>1.1</scale>")
+        parts.append(f"<Icon><href>{saxutils.escape(icon_href)}</href></Icon>")
+        parts.append("</IconStyle>")
+        parts.append("</Style>")
+
+    # placemarks
+    for _, row in df.iterrows():
+        lat = row.get("LAT", "")
+        lon = row.get("LON", "")
+        if pd.isna(lat) or pd.isna(lon) or str(lat).strip() == "" or str(lon).strip() == "":
+            continue
+
+        name = pick_name(row)
+        desc = balloon_html(row)
+
+        style_url = ""
+        if color_field and color_field in df.columns:
+            kmlc = _kml_color_from_code(row.get(color_field, ""))
+            style_id = styles.get(kmlc)
+            if style_id:
+                style_url = f"<styleUrl>#{style_id}</styleUrl>"
+
+        parts.append("<Placemark>")
+        parts.append(f"<name>{saxutils.escape(name)}</name>")
+        if style_url:
+            parts.append(style_url)
+        parts.append(f"<description><![CDATA[{desc}]]></description>")
+        parts.append("<Point>")
+        parts.append(f"<coordinates>{lon},{lat},0</coordinates>")
+        parts.append("</Point>")
+        parts.append("</Placemark>")
+
+    parts.append("</Document></kml>")
+    return "\n".join(parts)
