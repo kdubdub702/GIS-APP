@@ -404,18 +404,49 @@ ttk.Entry(oid_range_frame, textvariable=oid_end_var, width=10).grid(row=0, colum
 # Buttons row
 btns = ttk.Frame(main)
 btns.grid(row=6, column=0, columnspan=2, sticky="ew", pady=(10, 0))
+
+# Left-side main actions
 ttk.Button(btns, text="Search / Load", command=on_search).pack(side="left")
 ttk.Button(btns, text="Export CSV", command=on_export_csv).pack(side="left", padx=8)
 ttk.Button(btns, text="Export KML", command=on_export_kml).pack(side="left")
+
+# ---- KML pin styling controls (to the RIGHT of Export KML) ----
+ttk.Separator(btns, orient="vertical").pack(side="left", fill="y", padx=10)
+
+ttk.Checkbutton(
+    btns,
+    text="Fixed KML color",
+    variable=fixed_color_mode_var
+).pack(side="left")
+
+ttk.Label(btns, text="Color").pack(side="left", padx=(10, 4))
+ttk.Entry(btns, textvariable=fixed_color_var, width=10).pack(side="left")
+
+ttk.Button(
+    btns,
+    text="Apply to all rows",
+    command=on_apply_pin_color
+).pack(side="left", padx=(10, 0))
+
+# Right-side status
 ttk.Label(btns, textvariable=results_var).pack(side="right")
 
-# KML pin styling (optional)
-kml_opts = ttk.Frame(main)
-kml_opts.grid(row=6, column=0, columnspan=2, sticky="w", pady=(4, 0))
-ttk.Checkbutton(kml_opts, text="KML: use fixed pin color", variable=fixed_color_mode_var).pack(side="left")
-ttk.Label(kml_opts, text="Color").pack(side="left", padx=(10, 4))
-ttk.Entry(kml_opts, textvariable=fixed_color_var, width=12).pack(side="left")
-ttk.Button(kml_opts, text="Apply color to all rows", command=on_apply_pin_color).pack(side="left", padx=(10, 0))
+### THIS IS AN OLD VERSION OF THE EXPORT BUTTONS / KML OPTIONS LAYOUT, KEEPING FOR REFERENCE (see git history for context) ###
+# # Buttons row
+# btns = ttk.Frame(main)
+# btns.grid(row=6, column=0, columnspan=2, sticky="ew", pady=(10, 0))
+# ttk.Button(btns, text="Search / Load", command=on_search).pack(side="left")
+# ttk.Button(btns, text="Export CSV", command=on_export_csv).pack(side="left", padx=8)
+# ttk.Button(btns, text="Export KML", command=on_export_kml).pack(side="left")
+# ttk.Label(btns, textvariable=results_var).pack(side="right")
+#
+# # KML pin styling (optional)
+# kml_opts = ttk.Frame(main)
+# kml_opts.grid(row=6, column=0, columnspan=2, sticky="w", pady=(4, 0))
+# ttk.Checkbutton(kml_opts, text="KML: use fixed pin color", variable=fixed_color_mode_var).pack(side="left")
+# ttk.Label(kml_opts, text="Color").pack(side="left", padx=(10, 4))
+# ttk.Entry(kml_opts, textvariable=fixed_color_var, width=12).pack(side="left")
+# ttk.Button(kml_opts, text="Apply color to all rows", command=on_apply_pin_color).pack(side="left", padx=(10, 0))
 
 # Treeview + scrollbars
 grid_frame = ttk.Frame(main)
