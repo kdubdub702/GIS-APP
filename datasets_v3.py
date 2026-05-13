@@ -82,13 +82,20 @@ DATASETS = {
         "join": {"enabled_default": False, "type": "tbd", "left_field": None},
     },
 
-    "Clark County – (coming next)": {
-        "layer_url": None,
-        "oid_field": "OBJECTID",
-        "mode_support": [],
-        "apn_field": None,
-        "addr_fields": None,
-        "addr_single_field": None,
-        "join": {"enabled_default": False, "type": "tbd", "left_field": None},
+    
+    "Clark County – Billboards": {
+    "layer_url": "https://services1.arcgis.com/F1v0ufATbBQScMtY/ArcGIS/rest/services/Clark_County_Billboards/FeatureServer/12",
+    "oid_field": "OBJECTID",
+    "mode_support": ["oid_exact", "oid_range", "all"],
+    "apn_field": None,
+    "addr_fields": None,
+    "addr_single_field": None,
+    "join": {
+        "enabled_default": True,
+        "type": "spatial",
+        "left_field": None,
+        "spatial_in_sr": 4326,
+    },
+    "default_where": "1=1",
     },
 }

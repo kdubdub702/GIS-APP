@@ -255,20 +255,35 @@ def _parcel_intersect_first(sign_geom: dict, in_sr: int) -> dict:
     if not sign_geom:
         return {}
 
-    j = arcgis_get_json(PARCELS_QUERY, {
+    if "x" in sign_geom and "y" in sign_geom:
+        geometry_type = "esriGeometryPoint"
+    elif "rings" in sign_geom:
+        geometry_type = "esriGeometryPolygon"
+    else:
+        return {}
+
+    params = {
         "f": "pjson",
         "geometry": json.dumps(sign_geom),
-        "geometryType": "esriGeometryPolygon",
+        "geometryType": geometry_type,
         "inSR": str(in_sr),
         "spatialRel": "esriSpatialRelIntersects",
         "outFields": "PARCEL,OWNER,ADDRESS,STRNO,STRNAME,STRTYPE,STRDIR,ZIP,SALEDATE,SALEPRICE,TAXDIST,LANDUSE,LANDVAL1,IMPVAL",
         "returnGeometry": "false",
         "resultRecordCount": "1",
-    })
+    }
+
+    # For point billboard layers, add a small search tolerance.
+    # This helps if the point sits just outside the parcel boundary.
+    if geometry_type == "esriGeometryPoint":
+        params["distance"] = "25"
+        params["units"] = "esriSRUnit_Foot"
+
+    j = arcgis_get_json(PARCELS_QUERY, params)
     feats = j.get("features") or []
     if not feats:
         return {}
-    return (feats[0].get("attributes") or {})
+    return feats[0].get("attributes") or {}
 
 def spatial_join_signplans_to_parcels(signplans_df: pd.DataFrame, signplans_geoms: list[dict], in_sr: int) -> pd.DataFrame:
     if signplans_df is None or signplans_df.empty or not signplans_geoms:

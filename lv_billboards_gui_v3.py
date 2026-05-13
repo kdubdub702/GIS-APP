@@ -206,17 +206,17 @@ def on_search():
                 df = join_to_parcels(df, left_field)
 
             elif join_type == "spatial":
-                # Henderson SignPlans: spatial intersect polygons against parcels
                 in_sr = int(jcfg.get("spatial_in_sr", 102707))
 
-                # Ensure we have geometry even for Address/ObjectID searches
+                # Spatial joins need geometry. For All exports we may already have it.
+                # For ObjectID searches, re-fetch geometry by OBJECTID.
                 if geoms is None:
                     df, geoms = _ensure_geometry_for_df(layer_url, df)
 
                 if geoms is None:
                     messagebox.showwarning(
                         "Spatial join skipped",
-                        "Could not fetch geometry for these results (missing OBJECTID or geometry fetch failed)."
+                        "Could not fetch geometry for these results."
                     )
                 else:
                     df = spatial_join_signplans_to_parcels(df, geoms, in_sr=in_sr)
